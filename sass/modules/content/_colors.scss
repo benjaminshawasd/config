@@ -1,0 +1,120 @@
+$neutral-palette: (
+    "10": #000,
+    "9": #231f20,
+    "8": #505050,
+    "6": #737373,
+    "4": #D2D2D2,
+    "2": #E6E6E6,
+    "1": #F2F2F2,
+    "0": #FFF
+);
+
+$link-colors: (
+    "color": #0078D7,
+    "action": #005DA6
+);
+
+$accent-palette: (
+	"crimson": #E74856,
+	"blue": #0078D7,
+	"cyan": #0099BC,
+	"dimgrey": #7A7574,
+	"grey": #767676,
+	"amber": #FF8C00,
+	"red": #E81123,
+	"darkblue": #0063B1,
+	"steelblue": #2D7D9A,
+	"darkdimgrey": #5D5A58,
+	"darkgrey": #4C4A48,
+	"orange": #F7630C,
+	"pink": #EA005E,
+	"lightviolet": #8E8CD8,
+	"turquoise": #00B7C3,
+	"bluegrey": #68768A,
+	"steel": #69797E,
+	"chocolate": #CA5010,
+	"midviolet": #C30052,
+	"slateblue": #6B69D6,
+	"teal": #038387,
+	"darkbluegrey": #515C6B,
+	"darksteel": #4A5459,
+	"deeporange": #DA3B01,
+	"megent": #E3008C,
+	"lightpurple": #8764B8,
+	"lightsea": #00B294,
+	"slategrey": #567C73,
+	"olive": #647C64,
+	"salmon": #EF6950,
+	"darkpink": #BF0077,
+	"darkpurple": #744DA9,
+	"darkcyan": #018574,
+	"greengrey": #486860,
+	"darkolive": #525E54,
+	"darkcoral": #D13438,
+	"orchid": #C239B3,
+	"midorchid": #B146C2,
+	"green": #00CC6A,
+	"grassgreen": #498205,
+	"sandy": #847545,
+	"coral": #FF4343,
+	"purple": #9A0089,
+	"darkorchid": #881798,
+	"forestgreen": #10893E,
+	"darkgreen": #107C10,
+	"earth": #7E735F
+);
+
+@each $key, $val in $accent-palette {
+	.bg-#{$key} {
+		background-color: $val !important;
+	}
+}
+
+$colors-palette: (
+	"primary": (
+		"bg": #005293,
+		"txt": map-get($neutral-palette, "0"),
+		"link": map-get($neutral-palette, "0")
+	),
+	"secondary": (
+		"bg": #270B4A,
+		"txt": map-get($neutral-palette, "0"),
+		"link": map-get($neutral-palette, "0")
+	),
+	"default": (
+		"bg": #C2C2C2,
+		"txt": map-get($neutral-palette, "10"),
+		"link": #005293
+	),
+	"warning": (
+		"bg": #FF8C00,
+		"txt": map-get($neutral-palette, "10"),
+		"link": #005293
+	),
+	"danger": (
+		"bg": #D02E00,
+		"txt": map-get($neutral-palette, "0"),
+		"link": map-get($neutral-palette, "0")
+	),
+	"success": (
+		"bg": #107C10,
+		"txt": map-get($neutral-palette, "0"),
+		"link": map-get($neutral-palette, "0")
+	),
+	"info": (
+		"bg": #00B7C3,
+		"txt": map-get($neutral-palette, "0"),
+		"link": map-get($neutral-palette, "0")
+	)
+);
+
+@each $key, $val in $colors-palette {
+	.bg-#{$key} {
+		background-color: map-get($val, "bg")!important;
+        color: map-get($val, "txt");
+        a[href] { color: map-get($val, "link"); }
+	}
+    .text-#{$key} {
+        color: map-get($val, "bg")!important;
+    }
+}

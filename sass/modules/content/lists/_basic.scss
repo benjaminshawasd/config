@@ -1,0 +1,50 @@
+.list-title {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    padding: .3rem 0;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid map-get($neutral-palette, "4");
+    .mi {
+        font-size: 1.2rem;
+    }
+}
+ul, ol {
+    padding-left: 0;
+    margin-left: 1rem;
+}
+ul {
+    
+    &.clear {
+        list-style-type: none;
+        margin-left: 0;
+    }
+
+    font-size: 0; 
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+
+    li {
+        font-size: 1rem;
+        clear:both;
+        .lead, .follow {
+            display: block;
+        }
+        .lead {
+            font-weight: 500;
+            .mi {
+                font-size: .8rem;
+            }
+        }
+        .follow {
+            color: map-get($neutral-palette, "6");
+        }
+    }
+
+    &.list-disc li {
+        list-style-type: disc;
+    }
+    &.list-circle li {
+        list-style-type: circle;
+    }
+}

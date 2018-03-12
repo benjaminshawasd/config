@@ -1,0 +1,56 @@
+.table {
+
+    border-spacing: 0;
+	border-collapse: collapse;
+    border: none;
+	font-size: 1rem;
+
+	td, th {
+	    font-weight: 400;
+	    padding: 10px 12px;
+	    text-align: left;
+	    border: none;
+	    &:first-child {
+	    	padding-left: 19px;
+	    }
+	}
+
+	caption {
+		caption-side: top;
+		font-size: 18px;
+	    line-height: 24px;
+	    padding: 37px 0 3px;
+	    font-weight: 400;
+	    text-align: left;
+	    color: map-get($neutral-palette, "10");
+	}
+
+	thead {
+
+		border-bottom: 1px solid map-get($neutral-palette, "4");
+
+		th {
+			font-size: 11px;
+		    line-height: 16px;
+		    color: map-get($neutral-palette, "8");
+		}
+
+	}
+
+	tbody {
+		border-bottom: 1px solid map-get($neutral-palette, "4");
+	}
+
+	&.table-striped tbody {
+		tr:nth-child(odd) { background: map-get($neutral-palette, "2"); };
+	}
+
+	&.table-bordered {
+		td, th { border: 1px solid map-get($neutral-palette, "4"); }
+	}
+
+	&.table-hover {
+		tr:hover{ background: map-get($neutral-palette, "2"); }
+	}
+
+}

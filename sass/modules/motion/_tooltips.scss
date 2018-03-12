@@ -1,0 +1,38 @@
+.tooltip {
+
+    .tooltip-inner {
+
+        border: 1px solid map-get($neutral-palette, "6");
+        color: map-get($neutral-palette, "10");
+        background: map-get($neutral-palette, "1");
+        padding: .5rem;
+        z-index: 700;
+        border-radius: 0;
+        text-align: left;
+        
+        font-size: .8125rem;
+        line-height: 16px;
+        
+        min-width: 100px;
+        max-width: 340px;
+        
+    }
+
+    &.bs-tooltip-right .arrow::before {
+        border-right-color: map-get($neutral-palette, "6");
+    }
+
+    &.bs-tooltip-left .arrow::before {
+        border-left-color: map-get($neutral-palette, "6");
+    }
+
+    &.bs-tooltip-top .arrow::before {
+        border-top-color: map-get($neutral-palette, "6");
+    }
+
+    &.bs-tooltip-bottom .arrow::before {
+        border-bottom-color: map-get($neutral-palette, "6");
+    }
+
+}
+

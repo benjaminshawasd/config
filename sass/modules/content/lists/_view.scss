@@ -1,0 +1,18 @@
+ul.list-view {
+
+    list-style-type: none;
+    margin-left: 0;
+
+    li.group-name {
+        font-size: 1.8rem;
+        line-height: 2rem;
+        padding: .3rem 0;
+        margin-bottom: .7rem;
+        border-bottom: 1px solid map-get($neutral-palette, "4");
+    }
+
+    & > li {
+        margin: .9rem 0;
+    }
+
+}

@@ -1,0 +1,90 @@
+.btn {
+    margin-top: .8rem;
+    &:not(.mi) { min-width: 8rem; }
+    max-width: 25rem;
+    display: inline-block;
+    padding: .6rem .8rem .67rem;
+    overflow: hidden;
+    line-height: 1;
+    font-size: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: bottom;
+    transition: scale .2s ease-in-out, background-color .3s ease-in-out, outline .3s .1s ease-in-out;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    cursor: pointer;
+    color: map-get($neutral-palette, "0");
+    box-shadow: none!important;
+
+    &:active, &:hover, &:focus {
+        color: map-get($neutral-palette, "0");
+        border-color: transparent;
+        box-shadow: none!important;
+    }
+
+    &:focus {
+        &:not(.mi) {
+            text-decoration: underline;
+        }
+
+        box-shadow: none!important; 
+    }
+
+    &:active {
+        transform: scale(.98);
+    }
+
+    &:disabled {
+       
+        cursor: not-allowed;
+        border: none;
+    }
+
+    &.btn-block {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    &.btn-sm {
+        min-width: 3rem;
+        max-width: 20rem;
+        display: inline-block;
+        padding: .3rem .4rem .33rem;
+    }
+
+    &.btn-md {
+        min-width: 8rem;
+        max-width: 25rem;
+        display: inline-block;
+        padding: .6rem .8rem .67rem;
+    }
+
+    &.btn-lg {
+        max-width: 35rem;
+        display: inline-block;
+        padding: 1.2rem 1.6rem 1.34rem;
+    }
+
+}
+
+@each $name, $value in $colors-palette {
+    
+    .btn-#{$name} {
+        background-color: map-get($value, 'bg');
+        color: map-get($value, 'txt')!important;
+        &:hover,
+        &:focus {
+            background-color: darken(map-get($value, 'bg'), 5%) !important;
+            color: map-get($value, 'txt');
+        }
+        &:disabled {
+            background-color: lighten(map-get($value, 'bg'), 5%) !important;
+        }
+        &.active { background-color: darken(map-get($value, 'bg'), 15%) !important; }
+    }
+
+}

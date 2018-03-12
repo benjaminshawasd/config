@@ -1,0 +1,16 @@
+body {
+	font-family: Open Sans, Helvetica Neue, Helvetica, sans-serif; 
+	font-size: 100%;
+	line-height: 160%;
+    font-weight: 300;
+}
+
+.page-title { text-transform: uppercase; }
+.meta-text { color: map-get($neutral-palette, "6");; }
+
+a {
+	color: map-get($link-colors, "color");
+    &:active, &:hover { outline: none; };
+    &:focus, &:active, &:hover { color: map-get($link-colors, "action");}
+    .mi { font-size: .8rem; }
+}

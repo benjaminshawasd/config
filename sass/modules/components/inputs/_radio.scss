@@ -1,0 +1,33 @@
+input[type=radio] {
+    @extend %hide-radio-checkbox;
+    + label {
+        @extend %base-radio-checkbox-label;
+        &:before, &:after {
+            z-index: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%; 
+            border-color: map-get(map-get($colors-palette, "primary"), "bg");
+            transition: all .3s ease;
+        }
+        &:after {
+            border: none;
+        }
+        
+    }
+
+    &:checked {
+        + label:after {
+            background-color: black;
+            transform: (scale(.5));
+        }
+        &:disabled + label:after {
+            background-color: map-get($neutral-palette, "6");
+        }
+    }
+    &:disabled {
+        + label:before {
+            border-color: map-get($neutral-palette, "6");
+        }
+    }
+}

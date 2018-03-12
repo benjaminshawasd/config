@@ -1,0 +1,37 @@
+.nav-tabs {
+	border-bottom:0;
+	.nav-link {
+		font-size: 20px;
+	    box-sizing: border-box;
+	    height: 36px;
+	    line-height: 36px;
+	    display: inline-block;
+	    font-weight: 400;
+	    white-space: nowrap;
+	    margin: 0 12px;
+	    color: map-get($neutral-palette, "8");
+	    cursor: pointer;
+	    padding:0;
+	    &:hover {
+	    	border-color:transparent;
+	    	color: rgba(0,0,0,.8);
+	    }
+	    &:focus {
+	    	border-color:transparent;
+	    	outline:0;
+	    }
+	    &:first-child {
+	    	margin-left:0;
+	    }
+	    &.active {
+		    color: map-get($neutral-palette, "10");
+		    border-width:0;
+		    border-bottom: 2px solid map-get(map-get($colors-palette, "primary"), "bg");
+	    }
+	    &.disabled {
+	    	cursor: not-allowed;
+	    	color: map-get($neutral-palette, "4");
+	    	&:hover { color: map-get($neutral-palette, "4"); }
+	    }
+	}
+}
