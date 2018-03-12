@@ -1,0 +1,38 @@
+{
+  "name": "Fluent-Kit",
+  "version": "1.0.0",
+  "homepage": "https://nespero.com/fluent/jquery/",
+  "url": "https://nespero.com/contact/",
+  "description": "A library introducing Fluent Design to the Web, built on top of the most popular frameworks to keep the development process as simple as possible.",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^3.19.0",
+    "gulp": "^3.9.1",
+    "gulp-add-src": "^0.2.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscss": "^0.1.2",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-csso": "^3.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "index.html"
+  },
+  "author": "Nespero",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nespero/fluent-kit.git"
+  }
+}

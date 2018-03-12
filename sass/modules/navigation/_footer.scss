@@ -1,0 +1,21 @@
+.page-footer {
+    padding: 30px 5%;
+    background: map-get($neutral-palette, "1");
+    ul {
+        padding:0;
+        list-style-type:none;
+        li {
+            a {
+                font-size: .6875rem;
+                line-height: 1rem;
+                color: map-get($neutral-palette, "8");
+                padding: 8px 0;
+            }
+        }
+    }
+    .footer-copyright {
+        text-align: center;
+        font-size: .875rem;
+        padding: 30px 5% 20px;
+    }
+}

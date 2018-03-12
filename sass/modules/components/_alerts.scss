@@ -1,0 +1,36 @@
+.alert {
+    
+    background-color: map-get($neutral-palette, "1");
+    color: map-get($neutral-palette, "9");
+    padding: 13px 48px 13px 20px;
+    border: none;
+    border-radius: 0;
+    font-size: .9rem;
+
+    .alert-link {
+        float: right;
+        font-weight: 300;
+    }
+
+    .alert-heading {
+        font-weight: 700;
+    }
+    
+    .mi {
+        font-size: 1.2rem;
+    }
+
+    @each $key, $val in $colors-palette {
+        &.alert-#{$key} {
+            color: map-get($val, "txt");
+            background-color: map-get($val, "bg");
+            .alert-link {
+                color: map-get($val, "link");
+            }
+            hr {
+                border-top-color: map-get($val, "txt");
+            }
+        }
+    }
+
+}
