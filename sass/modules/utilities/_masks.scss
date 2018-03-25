@@ -12,11 +12,11 @@
 }
 
 [class*='mask-dark-']::after {
-    background: radial-gradient(circle at center center,map-get($neutral-palette, "10"), map-get($neutral-palette, "0") 80%);
+    background: radial-gradient(circle at center center,map-get($neutral-palette, "10"), rgba(255,255,255,0) 80%);
 }
 
 [class*='mask-light-']::after {
-    background: radial-gradient(circle at center center,map-get($neutral-palette, "0"), map-get($neutral-palette, "10") 80%);
+    background: radial-gradient(circle at center center,map-get($neutral-palette, "0"), rgba(0,0,0,0) 80%);
 }
 
 $masks: ( 
