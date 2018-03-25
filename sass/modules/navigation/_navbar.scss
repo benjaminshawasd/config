@@ -20,6 +20,14 @@
     }
 }
 
+@media (min-width: 768px) {
+    %-menu-item {
+        min-width: 160px;
+        padding: 6px 24px;
+        line-height: 45px;
+    }
+}
+
 nav.navbar {
 
     padding: 0;
