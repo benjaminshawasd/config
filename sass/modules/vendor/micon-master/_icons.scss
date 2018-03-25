@@ -1,9 +1,6 @@
 /* Micon uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
-.#{$mi-css-prefix}-Accept:before,
-.#{$mi-css-prefix}-AcceptLegacy:before,
-.#{$mi-css-prefix}-CheckmarkListviewLegacy:before,
-.#{$mi-css-prefix}-CheckmarkMenuLegacy:before {
+.#{$mi-css-prefix}-Accept:before {
      content: mi-get-icon($mi-var-Accept);
 }
 
@@ -15,8 +12,7 @@
      content: mi-get-icon($mi-var-AccidentSolid);
 }
 
-.#{$mi-css-prefix}-Accounts:before,
-.#{$mi-css-prefix}-AccountsLegacy:before {
+.#{$mi-css-prefix}-Accounts:before {
      content: mi-get-icon($mi-var-Accounts);
 }
 
@@ -48,13 +44,11 @@
      content: mi-get-icon($mi-var-ActionCenterQuietNotification);
 }
 
-.#{$mi-css-prefix}-Add:before,
-.#{$mi-css-prefix}-AddLegacy:before {
+.#{$mi-css-prefix}-Add:before {
      content: mi-get-icon($mi-var-Add);
 }
 
-.#{$mi-css-prefix}-AddFriend:before,
-.#{$mi-css-prefix}-AddFriendLegacy:before {
+.#{$mi-css-prefix}-AddFriend:before {
      content: mi-get-icon($mi-var-AddFriend);
 }
 
@@ -74,8 +68,7 @@
      content: mi-get-icon($mi-var-AdjustHologram);
 }
 
-.#{$mi-css-prefix}-Admin:before,
-.#{$mi-css-prefix}-AdminLegacy:before {
+.#{$mi-css-prefix}-Admin:before {
      content: mi-get-icon($mi-var-Admin);
 }
 
@@ -87,27 +80,22 @@
      content: mi-get-icon($mi-var-AirplaneSolid);
 }
 
-.#{$mi-css-prefix}-AlignCenter:before,
-.#{$mi-css-prefix}-AlignCenterLegacy:before {
+.#{$mi-css-prefix}-AlignCenter:before {
      content: mi-get-icon($mi-var-AlignCenter);
 }
 
-.#{$mi-css-prefix}-AlignLeft:before,
-.#{$mi-css-prefix}-AlignLeftLegacy:before {
+.#{$mi-css-prefix}-AlignLeft:before {
      content: mi-get-icon($mi-var-AlignLeft);
 }
 
-.#{$mi-css-prefix}-AlignRight:before,
-.#{$mi-css-prefix}-AlignRightLegacy:before {
+.#{$mi-css-prefix}-AlignRight:before {
      content: mi-get-icon($mi-var-AlignRight);
 }
 
-.#{$mi-css-prefix}-AllApps:before,
-.#{$mi-css-prefix}-AllAppsLegacy:before {
+.#{$mi-css-prefix}-AllApps:before {
      content: mi-get-icon($mi-var-AllApps);
 }
 
-.#{$mi-css-prefix}-AllAppsLegacyMirrored:before,
 .#{$mi-css-prefix}-AllAppsMirrored:before {
      content: mi-get-icon($mi-var-AllAppsMirrored);
 }
@@ -132,26 +120,19 @@
      content: mi-get-icon($mi-var-AsteriskBadge12);
 }
 
-.#{$mi-css-prefix}-Attach:before,
-.#{$mi-css-prefix}-AttachLegacy:before {
+.#{$mi-css-prefix}-Attach:before {
      content: mi-get-icon($mi-var-Attach);
 }
 
-.#{$mi-css-prefix}-AttachCamera:before,
-.#{$mi-css-prefix}-AttachCameraLegacy:before {
+.#{$mi-css-prefix}-AttachCamera:before {
      content: mi-get-icon($mi-var-AttachCamera);
 }
 
-.#{$mi-css-prefix}-Audio:before,
-.#{$mi-css-prefix}-AudioLegacy:before {
+.#{$mi-css-prefix}-Audio:before {
      content: mi-get-icon($mi-var-Audio);
 }
 
-.#{$mi-css-prefix}-ArrowHTMLLegacy:before,
-.#{$mi-css-prefix}-Back:before,
-.#{$mi-css-prefix}-BackBttnArrow20Legacy:before,
-.#{$mi-css-prefix}-BackBttnArrow42Legacy:before,
-.#{$mi-css-prefix}-BackLegacy:before {
+.#{$mi-css-prefix}-Back:before {
      content: mi-get-icon($mi-var-Back);
 }
 
@@ -167,8 +148,7 @@
      content: mi-get-icon($mi-var-BackSpaceQWERTYSm);
 }
 
-.#{$mi-css-prefix}-BackToWindow:before,
-.#{$mi-css-prefix}-BackToWindowLegacy:before {
+.#{$mi-css-prefix}-BackToWindow:before {
      content: mi-get-icon($mi-var-BackToWindow);
 }
 
@@ -336,13 +316,12 @@
      content: mi-get-icon($mi-var-BidiRtl);
 }
 
-.#{$mi-css-prefix}-BlockContact:before,
-.#{$mi-css-prefix}-BlockContactLegacy:before {
+.#{$mi-css-prefix}-BlockContact:before {
      content: mi-get-icon($mi-var-BlockContact);
 }
 
-.#{$mi-css-prefix}-BlockedLegacy:before {
-     content: mi-get-icon($mi-var-BlockedLegacy);
+.#{$mi-css-prefix}-Blocked:before {
+     content: mi-get-icon($mi-var-Blocked);
 }
 
 .#{$mi-css-prefix}-Bluetooth:before {
@@ -353,37 +332,34 @@
      content: mi-get-icon($mi-var-BodyCam);
 }
 
-.#{$mi-css-prefix}-Bold:before,
-.#{$mi-css-prefix}-BoldLegacy:before {
+.#{$mi-css-prefix}-Bold:before {
      content: mi-get-icon($mi-var-Bold);
 }
 
-.#{$mi-css-prefix}-BoldFLegacy:before {
-     content: mi-get-icon($mi-var-BoldFLegacy);
+.#{$mi-css-prefix}-BoldF:before {
+     content: mi-get-icon($mi-var-BoldF);
 }
 
-.#{$mi-css-prefix}-BoldGLegacy:before {
-     content: mi-get-icon($mi-var-BoldGLegacy);
+.#{$mi-css-prefix}-BoldG:before {
+     content: mi-get-icon($mi-var-BoldG);
 }
 
-.#{$mi-css-prefix}-BoldKoreanLegacy:before {
-     content: mi-get-icon($mi-var-BoldKoreanLegacy);
+.#{$mi-css-prefix}-BoldKorean:before {
+     content: mi-get-icon($mi-var-BoldKorean);
 }
 
-.#{$mi-css-prefix}-BoldNLegacy:before {
-     content: mi-get-icon($mi-var-BoldNLegacy);
+.#{$mi-css-prefix}-BoldN:before {
+     content: mi-get-icon($mi-var-BoldN);
 }
 
-.#{$mi-css-prefix}-BoldRussionLegacy:before {
-     content: mi-get-icon($mi-var-BoldRussionLegacy);
+.#{$mi-css-prefix}-BoldRussion:before {
+     content: mi-get-icon($mi-var-BoldRussion);
 }
 
-.#{$mi-css-prefix}-Bookmarks:before,
-.#{$mi-css-prefix}-BookmarksLegacy:before {
+.#{$mi-css-prefix}-Bookmarks:before {
      content: mi-get-icon($mi-var-Bookmarks);
 }
 
-.#{$mi-css-prefix}-BookmarksLegacyMirrored:before,
 .#{$mi-css-prefix}-BookmarksMirrored:before {
      content: mi-get-icon($mi-var-BookmarksMirrored);
 }
@@ -396,8 +372,7 @@
      content: mi-get-icon($mi-var-Broom);
 }
 
-.#{$mi-css-prefix}-BrowsePhotos:before,
-.#{$mi-css-prefix}-BrowsePhotosLegacy:before {
+.#{$mi-css-prefix}-BrowsePhotos:before {
      content: mi-get-icon($mi-var-BrowsePhotos);
 }
 
@@ -409,16 +384,12 @@
      content: mi-get-icon($mi-var-BuildingEnergy);
 }
 
-.#{$mi-css-prefix}-BulletedList:before,
-.#{$mi-css-prefix}-BulletedListLegacy:before,
-.#{$mi-css-prefix}-ListLegacy:before {
-     content: mi-get-icon($mi-var-BulletedList);
+.#{$mi-css-prefix}-List {
+     content: mi-get-icon($mi-var-List);
 }
 
-.#{$mi-css-prefix}-BulletedListLegacyMirrored:before,
-.#{$mi-css-prefix}-BulletedListMirrored:before,
-.#{$mi-css-prefix}-ListLegacyMirrored:before {
-     content: mi-get-icon($mi-var-BulletedListMirrored);
+.#{$mi-css-prefix}-ListMirrored:before {
+     content: mi-get-icon($mi-var-ListMirrored);
 }
 
 .#{$mi-css-prefix}-Bus:before {
@@ -429,21 +400,19 @@
      content: mi-get-icon($mi-var-BusSolid);
 }
 
-.#{$mi-css-prefix}-CC:before,
-.#{$mi-css-prefix}-CCLegacy:before {
+.#{$mi-css-prefix}-CC:before {
      content: mi-get-icon($mi-var-CC);
 }
 
-.#{$mi-css-prefix}-CCEuroLegacy:before {
-     content: mi-get-icon($mi-var-CCEuroLegacy);
+.#{$mi-css-prefix}-CCEuro:before {
+     content: mi-get-icon($mi-var-CCEuro);
 }
 
-.#{$mi-css-prefix}-CCJapanLegacy:before {
-     content: mi-get-icon($mi-var-CCJapanLegacy);
+.#{$mi-css-prefix}-CCJapan:before {
+     content: mi-get-icon($mi-var-CCJapan);
 }
 
-.#{$mi-css-prefix}-Calculator:before,
-.#{$mi-css-prefix}-CalculatorLegacy:before {
+.#{$mi-css-prefix}-Calculator:before {
      content: mi-get-icon($mi-var-Calculator);
 }
 
@@ -451,7 +420,6 @@
      content: mi-get-icon($mi-var-CalculatorAddition);
 }
 
-.#{$mi-css-prefix}-BackSpaceQWERTY:before,
 .#{$mi-css-prefix}-CalculatorBackspace:before {
      content: mi-get-icon($mi-var-CalculatorBackspace);
 }
@@ -484,23 +452,19 @@
      content: mi-get-icon($mi-var-CalculatorSubtract);
 }
 
-.#{$mi-css-prefix}-Calendar:before,
-.#{$mi-css-prefix}-CalendarLegacy:before {
+.#{$mi-css-prefix}-Calendar:before {
      content: mi-get-icon($mi-var-Calendar);
 }
 
-.#{$mi-css-prefix}-CalendarDay:before,
-.#{$mi-css-prefix}-CalendarDayLegacy:before {
+.#{$mi-css-prefix}-CalendarDay:before {
      content: mi-get-icon($mi-var-CalendarDay);
 }
 
-.#{$mi-css-prefix}-CalendarLegacyMirrored:before,
 .#{$mi-css-prefix}-CalendarMirrored:before {
      content: mi-get-icon($mi-var-CalendarMirrored);
 }
 
-.#{$mi-css-prefix}-CalendarReply:before,
-.#{$mi-css-prefix}-CalendarReplyLegacy:before {
+.#{$mi-css-prefix}-CalendarReply:before {
      content: mi-get-icon($mi-var-CalendarReply);
 }
 
@@ -508,8 +472,7 @@
      content: mi-get-icon($mi-var-CalendarSolid);
 }
 
-.#{$mi-css-prefix}-CalendarWeek:before,
-.#{$mi-css-prefix}-CalendarWeekLegacy:before {
+.#{$mi-css-prefix}-CalendarWeek:before {
      content: mi-get-icon($mi-var-CalendarWeek);
 }
 
@@ -541,23 +504,19 @@
      content: mi-get-icon($mi-var-CallForwardingMirrored);
 }
 
-.#{$mi-css-prefix}-Camera:before,
-.#{$mi-css-prefix}-CameraLegacy:before {
+.#{$mi-css-prefix}-Camera:before {
      content: mi-get-icon($mi-var-Camera);
 }
 
-.#{$mi-css-prefix}-Cancel:before,
-.#{$mi-css-prefix}-CancelLegacy:before {
+.#{$mi-css-prefix}-Cancel:before {
      content: mi-get-icon($mi-var-Cancel);
 }
 
-.#{$mi-css-prefix}-Caption:before,
-.#{$mi-css-prefix}-CaptionLegacy:before {
+.#{$mi-css-prefix}-Caption:before {
      content: mi-get-icon($mi-var-Caption);
 }
 
-.#{$mi-css-prefix}-Car:before,
-.#{$mi-css-prefix}-DrivingMode:before {
+.#{$mi-css-prefix}-Car:before {
      content: mi-get-icon($mi-var-Car);
 }
 
@@ -565,9 +524,7 @@
      content: mi-get-icon($mi-var-CashDrawer);
 }
 
-.#{$mi-css-prefix}-CellPhone:before,
-.#{$mi-css-prefix}-CellPhoneLegacy:before,
-.#{$mi-css-prefix}-MobileContactLegacy:before {
+.#{$mi-css-prefix}-CellPhone:before {
      content: mi-get-icon($mi-var-CellPhone);
 }
 
@@ -575,8 +532,7 @@
      content: mi-get-icon($mi-var-Certificate);
 }
 
-.#{$mi-css-prefix}-Characters:before,
-.#{$mi-css-prefix}-CharactersLegacy:before {
+.#{$mi-css-prefix}-Characters:before {
      content: mi-get-icon($mi-var-Characters);
 }
 
@@ -584,49 +540,31 @@
      content: mi-get-icon($mi-var-ChatBubbles);
 }
 
-.#{$mi-css-prefix}-CheckMark:before,
-.#{$mi-css-prefix}-CheckMarkLegacy:before,
-.#{$mi-css-prefix}-CheckMarkZeroWidthLegacy:before {
+.#{$mi-css-prefix}-CheckMark:before {
      content: mi-get-icon($mi-var-CheckMark);
 }
 
-.#{$mi-css-prefix}-Checkbox:before,
-.#{$mi-css-prefix}-CheckboxLegacy:before {
+.#{$mi-css-prefix}-Checkbox:before {
      content: mi-get-icon($mi-var-Checkbox);
 }
 
-.#{$mi-css-prefix}-CheckboxComposite:before,
-.#{$mi-css-prefix}-CheckboxCompositeLegacy:before {
+.#{$mi-css-prefix}-CheckboxComposite:before {
      content: mi-get-icon($mi-var-CheckboxComposite);
 }
 
-.#{$mi-css-prefix}-CheckboxCompositeReversed:before,
-.#{$mi-css-prefix}-CheckboxCompositeReversedLegacy:before {
+.#{$mi-css-prefix}-CheckboxCompositeReversed:before {
      content: mi-get-icon($mi-var-CheckboxCompositeReversed);
 }
 
-.#{$mi-css-prefix}-CheckboxFill:before,
-.#{$mi-css-prefix}-CheckboxFillLegacy:before,
-.#{$mi-css-prefix}-CheckboxFillZeroWidthLegacy:before,
-.#{$mi-css-prefix}-PresenceChicklet:before,
-.#{$mi-css-prefix}-PresenceChickletLegacy:before,
-.#{$mi-css-prefix}-ResizeMouseLarge:before {
+.#{$mi-css-prefix}-CheckboxFill:before {
      content: mi-get-icon($mi-var-CheckboxFill);
 }
 
-.#{$mi-css-prefix}-CheckboxIndeterminate:before,
-.#{$mi-css-prefix}-CheckboxIndeterminateLegacy:before {
+.#{$mi-css-prefix}-CheckboxIndeterminate:before {
      content: mi-get-icon($mi-var-CheckboxIndeterminate);
 }
 
-.#{$mi-css-prefix}-ChevronDown:before,
-.#{$mi-css-prefix}-ChevronDown1Legacy:before,
-.#{$mi-css-prefix}-ChevronDown2Legacy:before,
-.#{$mi-css-prefix}-ChevronDown3Legacy:before,
-.#{$mi-css-prefix}-ChevronDown4Legacy:before,
-.#{$mi-css-prefix}-ChevronFlipDownLegacy:before,
-.#{$mi-css-prefix}-ScrollChevronDownBoldLegacy:before,
-.#{$mi-css-prefix}-ScrollChevronDownLegacy:before {
+.#{$mi-css-prefix}-ChevronDown:before {
      content: mi-get-icon($mi-var-ChevronDown);
 }
 
@@ -634,19 +572,11 @@
      content: mi-get-icon($mi-var-ChevronDownMed);
 }
 
-.#{$mi-css-prefix}-ChevronDownSmLegacy:before,
 .#{$mi-css-prefix}-ChevronDownSmall:before {
      content: mi-get-icon($mi-var-ChevronDownSmall);
 }
 
-.#{$mi-css-prefix}-ChevronFlipLeftLegacy:before,
-.#{$mi-css-prefix}-ChevronLeft:before,
-.#{$mi-css-prefix}-ChevronLeft1Legacy:before,
-.#{$mi-css-prefix}-ChevronLeft2Legacy:before,
-.#{$mi-css-prefix}-ChevronLeft3Legacy:before,
-.#{$mi-css-prefix}-ChevronLeft4Legacy:before,
-.#{$mi-css-prefix}-ScrollChevronLeftBoldLegacy:before,
-.#{$mi-css-prefix}-ScrollChevronLeftLegacy:before {
+.#{$mi-css-prefix}-ChevronLeft:before {
      content: mi-get-icon($mi-var-ChevronLeft);
 }
 
@@ -654,19 +584,11 @@
      content: mi-get-icon($mi-var-ChevronLeftMed);
 }
 
-.#{$mi-css-prefix}-ChevronLeftSmLegacy:before,
 .#{$mi-css-prefix}-ChevronLeftSmall:before {
      content: mi-get-icon($mi-var-ChevronLeftSmall);
 }
 
-.#{$mi-css-prefix}-ChevronFlipRightLegacy:before,
-.#{$mi-css-prefix}-ChevronRight:before,
-.#{$mi-css-prefix}-ChevronRight1Legacy:before,
-.#{$mi-css-prefix}-ChevronRight2Legacy:before,
-.#{$mi-css-prefix}-ChevronRight3Legacy:before,
-.#{$mi-css-prefix}-ChevronRight4Legacy:before,
-.#{$mi-css-prefix}-ScrollChevronRightBoldLegacy:before,
-.#{$mi-css-prefix}-ScrollChevronRightLegacy:before {
+.#{$mi-css-prefix}-ChevronRight:before {
      content: mi-get-icon($mi-var-ChevronRight);
 }
 
@@ -674,19 +596,11 @@
      content: mi-get-icon($mi-var-ChevronRightMed);
 }
 
-.#{$mi-css-prefix}-ChevronRightSmLegacy:before,
 .#{$mi-css-prefix}-ChevronRightSmall:before {
      content: mi-get-icon($mi-var-ChevronRightSmall);
 }
 
-.#{$mi-css-prefix}-ChevronFlipUpLegacy:before,
-.#{$mi-css-prefix}-ChevronUp:before,
-.#{$mi-css-prefix}-ChevronUp1Legacy:before,
-.#{$mi-css-prefix}-ChevronUp2Legacy:before,
-.#{$mi-css-prefix}-ChevronUp3Legacy:before,
-.#{$mi-css-prefix}-ChevronUp4Legacy:before,
-.#{$mi-css-prefix}-ScrollChevronUpBoldLegacy:before,
-.#{$mi-css-prefix}-ScrollChevronUpLegacy:before {
+.#{$mi-css-prefix}-ChevronUp:before {
      content: mi-get-icon($mi-var-ChevronUp);
 }
 
@@ -774,8 +688,7 @@
      content: mi-get-icon($mi-var-CityNext2);
 }
 
-.#{$mi-css-prefix}-Clear:before,
-.#{$mi-css-prefix}-ClearLegacy:before {
+.#{$mi-css-prefix}-Clear:before {
      content: mi-get-icon($mi-var-Clear);
 }
 
@@ -787,12 +700,10 @@
      content: mi-get-icon($mi-var-ClearAllInkMirrored);
 }
 
-.#{$mi-css-prefix}-ClearSelection:before,
-.#{$mi-css-prefix}-ClearSelectionLegacy:before {
+.#{$mi-css-prefix}-ClearSelection:before {
      content: mi-get-icon($mi-var-ClearSelection);
 }
 
-.#{$mi-css-prefix}-ClearSelectionLegacyMirrored:before,
 .#{$mi-css-prefix}-ClearSelectionMirrored:before {
      content: mi-get-icon($mi-var-ClearSelectionMirrored);
 }
@@ -801,16 +712,14 @@
      content: mi-get-icon($mi-var-Click);
 }
 
-.#{$mi-css-prefix}-ClockLegacy:before {
-     content: mi-get-icon($mi-var-ClockLegacy);
+.#{$mi-css-prefix}-Clock:before {
+     content: mi-get-icon($mi-var-Clock);
 }
 
-.#{$mi-css-prefix}-ClosePane:before,
-.#{$mi-css-prefix}-ClosePaneLegacy:before {
+.#{$mi-css-prefix}-ClosePane:before {
      content: mi-get-icon($mi-var-ClosePane);
 }
 
-.#{$mi-css-prefix}-ClosePaneLegacyMirrored:before,
 .#{$mi-css-prefix}-ClosePaneMirrored:before {
      content: mi-get-icon($mi-var-ClosePaneMirrored);
 }
@@ -827,8 +736,7 @@
      content: mi-get-icon($mi-var-Code);
 }
 
-.#{$mi-css-prefix}-Color:before,
-.#{$mi-css-prefix}-ColorLegacy:before {
+.#{$mi-css-prefix}-Color:before {
      content: mi-get-icon($mi-var-Color);
 }
 
@@ -840,8 +748,7 @@
      content: mi-get-icon($mi-var-CommandPrompt);
 }
 
-.#{$mi-css-prefix}-Comment:before,
-.#{$mi-css-prefix}-CommentLegacy:before {
+.#{$mi-css-prefix}-Comment:before {
      content: mi-get-icon($mi-var-Comment);
 }
 
@@ -890,19 +797,15 @@
      content: mi-get-icon($mi-var-ConstructionSolid);
 }
 
-.#{$mi-css-prefix}-Contact:before,
-.#{$mi-css-prefix}-Contact3Legacy:before,
-.#{$mi-css-prefix}-ContactLegacy:before {
+.#{$mi-css-prefix}-Contact:before {
      content: mi-get-icon($mi-var-Contact);
 }
 
-.#{$mi-css-prefix}-Contact2:before,
-.#{$mi-css-prefix}-Contact2Legacy:before {
+.#{$mi-css-prefix}-Contact2:before {
      content: mi-get-icon($mi-var-Contact2);
 }
 
-.#{$mi-css-prefix}-ContactInfo:before,
-.#{$mi-css-prefix}-ContactInfoLegacy:before {
+.#{$mi-css-prefix}-ContactInfo:before {
      content: mi-get-icon($mi-var-ContactInfo);
 }
 
@@ -910,8 +813,7 @@
      content: mi-get-icon($mi-var-ContactInfoMirrored);
 }
 
-.#{$mi-css-prefix}-ContactPresence:before,
-.#{$mi-css-prefix}-ContactPresenceLegacy:before {
+.#{$mi-css-prefix}-ContactPresence:before {
      content: mi-get-icon($mi-var-ContactPresence);
 }
 
@@ -919,8 +821,7 @@
      content: mi-get-icon($mi-var-ContactSolid);
 }
 
-.#{$mi-css-prefix}-Copy:before,
-.#{$mi-css-prefix}-CopyLegacy:before {
+.#{$mi-css-prefix}-Copy:before {
      content: mi-get-icon($mi-var-Copy);
 }
 
@@ -928,13 +829,11 @@
      content: mi-get-icon($mi-var-Courthouse);
 }
 
-.#{$mi-css-prefix}-Crop:before,
-.#{$mi-css-prefix}-CropLegacy:before {
+.#{$mi-css-prefix}-Crop:before {
      content: mi-get-icon($mi-var-Crop);
 }
 
-.#{$mi-css-prefix}-Cut:before,
-.#{$mi-css-prefix}-CutLegacy:before {
+.#{$mi-css-prefix}-Cut:before {
      content: mi-get-icon($mi-var-Cut);
 }
 
@@ -962,20 +861,19 @@
      content: mi-get-icon($mi-var-DateTimeMirrored);
 }
 
-.#{$mi-css-prefix}-DecreaseIndentLegacy:before {
-     content: mi-get-icon($mi-var-DecreaseIndentLegacy);
+.#{$mi-css-prefix}-DecreaseIndent:before {
+     content: mi-get-icon($mi-var-DecreaseIndent);
 }
 
-.#{$mi-css-prefix}-DecreaseIndentLegacyMirrored:before {
-     content: mi-get-icon($mi-var-DecreaseIndentLegacyMirrored);
+.#{$mi-css-prefix}-DecreaseIndentMirrored:before {
+     content: mi-get-icon($mi-var-DecreaseIndentMirrored);
 }
 
 .#{$mi-css-prefix}-DefenderApp:before {
      content: mi-get-icon($mi-var-DefenderApp);
 }
 
-.#{$mi-css-prefix}-Delete:before,
-.#{$mi-css-prefix}-DeleteLegacy:before {
+.#{$mi-css-prefix}-Delete:before {
      content: mi-get-icon($mi-var-Delete);
 }
 
@@ -1023,9 +921,8 @@
      content: mi-get-icon($mi-var-Devices4);
 }
 
-.#{$mi-css-prefix}-Devices2:before,
-.#{$mi-css-prefix}-DevicesLegacy:before {
-     content: mi-get-icon($mi-var-DevicesLegacy);
+.#{$mi-css-prefix}-Devices2:before{
+     content: mi-get-icon($mi-var-Devices);
 }
 
 .#{$mi-css-prefix}-Diagnostic:before {
@@ -1056,13 +953,11 @@
      content: mi-get-icon($mi-var-DirectAccess);
 }
 
-.#{$mi-css-prefix}-Directions:before,
-.#{$mi-css-prefix}-DirectionsLegacy:before {
+.#{$mi-css-prefix}-Directions:before {
      content: mi-get-icon($mi-var-Directions);
 }
 
-.#{$mi-css-prefix}-DisableUpdates:before,
-.#{$mi-css-prefix}-DisableUpdatesLegacy:before {
+.#{$mi-css-prefix}-DisableUpdates:before {
      content: mi-get-icon($mi-var-DisableUpdates);
 }
 
@@ -1070,13 +965,11 @@
      content: mi-get-icon($mi-var-DisconnectDisplay);
 }
 
-.#{$mi-css-prefix}-DisconnectDrive:before,
-.#{$mi-css-prefix}-DisconnectDriveLegacy:before {
+.#{$mi-css-prefix}-DisconnectDrive:before {
      content: mi-get-icon($mi-var-DisconnectDrive);
 }
 
-.#{$mi-css-prefix}-Dislike:before,
-.#{$mi-css-prefix}-DislikeLegacy:before {
+.#{$mi-css-prefix}-Dislike:before {
      content: mi-get-icon($mi-var-Dislike);
 }
 
@@ -1084,38 +977,31 @@
      content: mi-get-icon($mi-var-Dock);
 }
 
-.#{$mi-css-prefix}-DockBottom:before,
-.#{$mi-css-prefix}-DockBottomLegacy:before {
+.#{$mi-css-prefix}-DockBottom:before {
      content: mi-get-icon($mi-var-DockBottom);
 }
 
-.#{$mi-css-prefix}-DockLeft:before,
-.#{$mi-css-prefix}-DockLeftLegacy:before {
+.#{$mi-css-prefix}-DockLeft:before {
      content: mi-get-icon($mi-var-DockLeft);
 }
 
-.#{$mi-css-prefix}-DockLeftLegacyMirrored:before,
 .#{$mi-css-prefix}-DockLeftMirrored:before {
      content: mi-get-icon($mi-var-DockLeftMirrored);
 }
 
-.#{$mi-css-prefix}-DockRight:before,
-.#{$mi-css-prefix}-DockRightLegacy:before {
+.#{$mi-css-prefix}-DockRight:before {
      content: mi-get-icon($mi-var-DockRight);
 }
 
-.#{$mi-css-prefix}-DockRightLegacyMirrored:before,
 .#{$mi-css-prefix}-DockRightMirrored:before {
      content: mi-get-icon($mi-var-DockRightMirrored);
 }
 
-.#{$mi-css-prefix}-Document:before,
-.#{$mi-css-prefix}-DocumentLegacy:before {
+.#{$mi-css-prefix}-Document:before {
      content: mi-get-icon($mi-var-Document);
 }
 
-.#{$mi-css-prefix}-Down:before,
-.#{$mi-css-prefix}-DownLegacy:before {
+.#{$mi-css-prefix}-Down:before {
      content: mi-get-icon($mi-var-Down);
 }
 
@@ -1123,8 +1009,7 @@
      content: mi-get-icon($mi-var-DownShiftKey);
 }
 
-.#{$mi-css-prefix}-Download:before,
-.#{$mi-css-prefix}-DownloadLegacy:before {
+.#{$mi-css-prefix}-Download:before {
      content: mi-get-icon($mi-var-Download);
 }
 
@@ -1152,17 +1037,14 @@
      content: mi-get-icon($mi-var-DullSoundKey);
 }
 
-.#{$mi-css-prefix}-EaseOfAccess:before,
-.#{$mi-css-prefix}-EaseOfAccessLegacy:before {
+.#{$mi-css-prefix}-EaseOfAccess:before {
      content: mi-get-icon($mi-var-EaseOfAccess);
 }
 
-.#{$mi-css-prefix}-Edit:before,
-.#{$mi-css-prefix}-EditLegacy:before {
+.#{$mi-css-prefix}-Edit:before {
      content: mi-get-icon($mi-var-Edit);
 }
 
-.#{$mi-css-prefix}-EditLegacyMirrored:before,
 .#{$mi-css-prefix}-EditMirrored:before {
      content: mi-get-icon($mi-var-EditMirrored);
 }
@@ -1171,13 +1053,11 @@
      content: mi-get-icon($mi-var-Education);
 }
 
-.#{$mi-css-prefix}-Emoji:before,
-.#{$mi-css-prefix}-EmojiLegacy:before {
+.#{$mi-css-prefix}-Emoji:before {
      content: mi-get-icon($mi-var-Emoji);
 }
 
-.#{$mi-css-prefix}-Emoji2:before,
-.#{$mi-css-prefix}-Emoji2Legacy:before {
+.#{$mi-css-prefix}-Emoji2:before {
      content: mi-get-icon($mi-var-Emoji2);
 }
 
@@ -1257,12 +1137,10 @@
      content: mi-get-icon($mi-var-EthernetWarning);
 }
 
-.#{$mi-css-prefix}-ExpandTile:before,
-.#{$mi-css-prefix}-ExpandTileLegacy:before {
+.#{$mi-css-prefix}-ExpandTile:before {
      content: mi-get-icon($mi-var-ExpandTile);
 }
 
-.#{$mi-css-prefix}-ExpandTileLegacyMirrored:before,
 .#{$mi-css-prefix}-ExpandTileMirrored:before {
      content: mi-get-icon($mi-var-ExpandTileMirrored);
 }
@@ -1271,9 +1149,7 @@
      content: mi-get-icon($mi-var-ExploreContent);
 }
 
-.#{$mi-css-prefix}-Export:before,
-.#{$mi-css-prefix}-ImportLegacyMirrored:before,
-.#{$mi-css-prefix}-ImportMirrored:before {
+.#{$mi-css-prefix}-Export:before {
      content: mi-get-icon($mi-var-Export);
 }
 
@@ -1281,26 +1157,15 @@
      content: mi-get-icon($mi-var-FastForward);
 }
 
-.#{$mi-css-prefix}-Favorite2Legacy:before,
-.#{$mi-css-prefix}-FavoriteLegacy:before,
-.#{$mi-css-prefix}-FavoriteStarFill:before,
-.#{$mi-css-prefix}-RatingStarFillLegacy:before,
-.#{$mi-css-prefix}-RatingStarFillReducedPaddingHTMLLegacy:before,
-.#{$mi-css-prefix}-RatingStarFillSmallLegacy:before,
-.#{$mi-css-prefix}-RatingStarFillZeroWidthLegacy:before,
-.#{$mi-css-prefix}-SolidStarLegacy:before {
-     content: mi-get-icon($mi-var-FavoriteLegacy);
+.#{$mi-css-prefix}-FavoriteStarFill:before {
+     content: mi-get-icon($mi-var-FavoriteStarFill);
 }
 
 .#{$mi-css-prefix}-FavoriteList:before {
      content: mi-get-icon($mi-var-FavoriteList);
 }
 
-.#{$mi-css-prefix}-FavoriteInlineLegacy:before,
-.#{$mi-css-prefix}-FavoriteStar:before,
-.#{$mi-css-prefix}-OutlineStarLegacy:before,
-.#{$mi-css-prefix}-RatingStarLegacy:before,
-.#{$mi-css-prefix}-Unfavorite2Legacy:before {
+.#{$mi-css-prefix}-FavoriteStar:before {
      content: mi-get-icon($mi-var-FavoriteStar);
 }
 
@@ -1328,8 +1193,7 @@
      content: mi-get-icon($mi-var-FileExplorerApp);
 }
 
-.#{$mi-css-prefix}-Filter:before,
-.#{$mi-css-prefix}-FilterLegacy:before {
+.#{$mi-css-prefix}-Filter:before {
      content: mi-get-icon($mi-var-Filter);
 }
 
@@ -1341,9 +1205,7 @@
      content: mi-get-icon($mi-var-Fingerprint);
 }
 
-.#{$mi-css-prefix}-EndPoint:before,
-.#{$mi-css-prefix}-Flag:before,
-.#{$mi-css-prefix}-FlagLegacy:before {
+.#{$mi-css-prefix}-Flag:before {
      content: mi-get-icon($mi-var-Flag);
 }
 
@@ -1371,49 +1233,39 @@
      content: mi-get-icon($mi-var-Folder);
 }
 
-.#{$mi-css-prefix}-FolderFill:before,
-.#{$mi-css-prefix}-FolderLegacy:before {
+.#{$mi-css-prefix}-FolderFill:before {
      content: mi-get-icon($mi-var-FolderFill);
 }
 
-.#{$mi-css-prefix}-Font:before,
-.#{$mi-css-prefix}-FontLegacy:before {
+.#{$mi-css-prefix}-Font:before {
      content: mi-get-icon($mi-var-Font);
 }
 
-.#{$mi-css-prefix}-FontColor:before,
-.#{$mi-css-prefix}-FontColorLegacy:before {
+.#{$mi-css-prefix}-FontColor:before {
      content: mi-get-icon($mi-var-FontColor);
 }
 
-.#{$mi-css-prefix}-FontColorKoreanLegacy:before {
-     content: mi-get-icon($mi-var-FontColorKoreanLegacy);
+.#{$mi-css-prefix}-FontColorKorean:before {
+     content: mi-get-icon($mi-var-FontColorKorean);
 }
 
-.#{$mi-css-prefix}-FontDecrease:before,
-.#{$mi-css-prefix}-FontDecreaseLegacy:before {
+.#{$mi-css-prefix}-FontDecrease:before {
      content: mi-get-icon($mi-var-FontDecrease);
 }
 
-.#{$mi-css-prefix}-FontIncrease:before,
-.#{$mi-css-prefix}-FontIncreaseLegacy:before {
+.#{$mi-css-prefix}-FontIncrease:before {
      content: mi-get-icon($mi-var-FontIncrease);
 }
 
-.#{$mi-css-prefix}-FontSize:before,
-.#{$mi-css-prefix}-FontSizeLegacy:before {
+.#{$mi-css-prefix}-FontSize:before {
      content: mi-get-icon($mi-var-FontSize);
 }
 
-.#{$mi-css-prefix}-FontStyleKoreanLegacy:before {
-     content: mi-get-icon($mi-var-FontStyleKoreanLegacy);
+.#{$mi-css-prefix}-FontStyleKorean:before {
+     content: mi-get-icon($mi-var-FontStyleKorean);
 }
 
-.#{$mi-css-prefix}-ArrowHTMLLegacyMirrored:before,
-.#{$mi-css-prefix}-BackBttnMirroredArrow20Legacy:before,
-.#{$mi-css-prefix}-BackBttnMirroredArrow42Legacy:before,
-.#{$mi-css-prefix}-Forward:before,
-.#{$mi-css-prefix}-ForwardLegacy:before {
+.#{$mi-css-prefix}-Forward:before {
      content: mi-get-icon($mi-var-Forward);
 }
 
@@ -1421,8 +1273,7 @@
      content: mi-get-icon($mi-var-ForwardSm);
 }
 
-.#{$mi-css-prefix}-FourBars:before,
-.#{$mi-css-prefix}-FourBarsLegacy:before {
+.#{$mi-css-prefix}-FourBars:before {
      content: mi-get-icon($mi-var-FourBars);
 }
 
@@ -1446,8 +1297,7 @@
      content: mi-get-icon($mi-var-FullKatakana);
 }
 
-.#{$mi-css-prefix}-FullScreen:before,
-.#{$mi-css-prefix}-FullScreenLegacy:before {
+.#{$mi-css-prefix}-FullScreen:before {
      content: mi-get-icon($mi-var-FullScreen);
 }
 
@@ -1463,28 +1313,23 @@
      content: mi-get-icon($mi-var-GlobalNavButton);
 }
 
-.#{$mi-css-prefix}-Globe:before,
-.#{$mi-css-prefix}-GlobeLegacy:before {
+.#{$mi-css-prefix}-Globe:before {
      content: mi-get-icon($mi-var-Globe);
 }
 
-.#{$mi-css-prefix}-Go:before,
-.#{$mi-css-prefix}-GoLegacy:before {
+.#{$mi-css-prefix}-Go:before {
      content: mi-get-icon($mi-var-Go);
 }
 
-.#{$mi-css-prefix}-GoLegacyMirrored:before,
 .#{$mi-css-prefix}-GoMirrored:before {
      content: mi-get-icon($mi-var-GoMirrored);
 }
 
-.#{$mi-css-prefix}-GoToStart:before,
-.#{$mi-css-prefix}-GoToStartLegacy:before {
+.#{$mi-css-prefix}-GoToStart:before {
      content: mi-get-icon($mi-var-GoToStart);
 }
 
-.#{$mi-css-prefix}-GotoToday:before,
-.#{$mi-css-prefix}-GotoTodayLegacy:before {
+.#{$mi-css-prefix}-GotoToday:before {
      content: mi-get-icon($mi-var-GotoToday);
 }
 
@@ -1540,8 +1385,7 @@
      content: mi-get-icon($mi-var-Handwriting);
 }
 
-.#{$mi-css-prefix}-HangUp:before,
-.#{$mi-css-prefix}-HangUpLegacy:before {
+.#{$mi-css-prefix}-HangUp:before {
      content: mi-get-icon($mi-var-HangUp);
 }
 
@@ -1577,8 +1421,7 @@
      content: mi-get-icon($mi-var-Health);
 }
 
-.#{$mi-css-prefix}-Heart:before,
-.#{$mi-css-prefix}-HeartLegacy:before {
+.#{$mi-css-prefix}-Heart:before {
      content: mi-get-icon($mi-var-Heart);
 }
 
@@ -1586,34 +1429,27 @@
      content: mi-get-icon($mi-var-HeartBroken);
 }
 
-.#{$mi-css-prefix}-HeartBrokenLegacy:before,
-.#{$mi-css-prefix}-HeartBrokenZeroWidthLegacy:before {
-     content: mi-get-icon($mi-var-HeartBrokenLegacy);
+.#{$mi-css-prefix}-HeartBroken:before {
+     content: mi-get-icon($mi-var-HeartBroken);
 }
 
-.#{$mi-css-prefix}-HeartFill:before,
-.#{$mi-css-prefix}-HeartFillLegacy:before,
-.#{$mi-css-prefix}-HeartFillZeroWidthLegacy:before {
+.#{$mi-css-prefix}-HeartFill:before {
      content: mi-get-icon($mi-var-HeartFill);
 }
 
-.#{$mi-css-prefix}-Help:before,
-.#{$mi-css-prefix}-HelpLegacy:before {
+.#{$mi-css-prefix}-Help:before {
      content: mi-get-icon($mi-var-Help);
 }
 
-.#{$mi-css-prefix}-HelpLegacyMirrored:before,
 .#{$mi-css-prefix}-HelpMirrored:before {
      content: mi-get-icon($mi-var-HelpMirrored);
 }
 
-.#{$mi-css-prefix}-HideBcc:before,
-.#{$mi-css-prefix}-HideBccLegacy:before {
+.#{$mi-css-prefix}-HideBcc:before {
      content: mi-get-icon($mi-var-HideBcc);
 }
 
-.#{$mi-css-prefix}-Highlight:before,
-.#{$mi-css-prefix}-HighlightLegacy:before {
+.#{$mi-css-prefix}-Highlight:before {
      content: mi-get-icon($mi-var-Highlight);
 }
 
@@ -1629,8 +1465,7 @@
      content: mi-get-icon($mi-var-History);
 }
 
-.#{$mi-css-prefix}-Home:before,
-.#{$mi-css-prefix}-HomeLegacy:before {
+.#{$mi-css-prefix}-Home:before {
      content: mi-get-icon($mi-var-Home);
 }
 
@@ -1658,24 +1493,19 @@
      content: mi-get-icon($mi-var-ImageExport);
 }
 
-.#{$mi-css-prefix}-ExportMirrored:before,
-.#{$mi-css-prefix}-Import:before,
-.#{$mi-css-prefix}-ImportLegacy:before {
+.#{$mi-css-prefix}-Import:before {
      content: mi-get-icon($mi-var-Import);
 }
 
-.#{$mi-css-prefix}-ImportAll:before,
-.#{$mi-css-prefix}-ImportAllLegacy:before {
+.#{$mi-css-prefix}-ImportAll:before {
      content: mi-get-icon($mi-var-ImportAll);
 }
 
-.#{$mi-css-prefix}-ImportAllLegacyMirrored:before,
 .#{$mi-css-prefix}-ImportAllMirrored:before {
      content: mi-get-icon($mi-var-ImportAllMirrored);
 }
 
-.#{$mi-css-prefix}-Important:before,
-.#{$mi-css-prefix}-ImportantLegacy:before {
+.#{$mi-css-prefix}-Important:before {
      content: mi-get-icon($mi-var-Important);
 }
 
@@ -1691,12 +1521,12 @@
      content: mi-get-icon($mi-var-IncidentTriangle);
 }
 
-.#{$mi-css-prefix}-IncreaseIndentLegacy:before {
-     content: mi-get-icon($mi-var-IncreaseIndentLegacy);
+.#{$mi-css-prefix}-IncreaseIndent:before {
+     content: mi-get-icon($mi-var-IncreaseIndent);
 }
 
-.#{$mi-css-prefix}-IncreaseIndentLegacyMirrored:before {
-     content: mi-get-icon($mi-var-IncreaseIndentLegacyMirrored);
+.#{$mi-css-prefix}-IncreaseIndentMirrored:before {
+     content: mi-get-icon($mi-var-IncreaseIndentMirrored);
 }
 
 .#{$mi-css-prefix}-Info:before {
@@ -1739,29 +1569,28 @@
      content: mi-get-icon($mi-var-InsiderHubApp);
 }
 
-.#{$mi-css-prefix}-Italic:before,
-.#{$mi-css-prefix}-ItalicLegacy:before {
+.#{$mi-css-prefix}-Italic:before {
      content: mi-get-icon($mi-var-Italic);
 }
 
-.#{$mi-css-prefix}-ItalicCLegacy:before {
-     content: mi-get-icon($mi-var-ItalicCLegacy);
+.#{$mi-css-prefix}-ItalicC:before {
+     content: mi-get-icon($mi-var-ItalicC);
 }
 
-.#{$mi-css-prefix}-ItalicILegacy:before {
-     content: mi-get-icon($mi-var-ItalicILegacy);
+.#{$mi-css-prefix}-ItalicI:before {
+     content: mi-get-icon($mi-var-ItalicI);
 }
 
-.#{$mi-css-prefix}-ItalicKLegacy:before {
-     content: mi-get-icon($mi-var-ItalicKLegacy);
+.#{$mi-css-prefix}-ItalicK:before {
+     content: mi-get-icon($mi-var-ItalicK);
 }
 
-.#{$mi-css-prefix}-ItalicKoreanLegacy:before {
-     content: mi-get-icon($mi-var-ItalicKoreanLegacy);
+.#{$mi-css-prefix}-ItalicKorean:before {
+     content: mi-get-icon($mi-var-ItalicKorean);
 }
 
-.#{$mi-css-prefix}-ItalicRussianLegacy:before {
-     content: mi-get-icon($mi-var-ItalicRussianLegacy);
+.#{$mi-css-prefix}-ItalicRussian:before {
+     content: mi-get-icon($mi-var-ItalicRussian);
 }
 
 .#{$mi-css-prefix}-Japanese:before {
@@ -1788,9 +1617,8 @@
      content: mi-get-icon($mi-var-Key12On);
 }
 
-.#{$mi-css-prefix}-KeyBoardLegacy:before,
-.#{$mi-css-prefix}-KeyboardClassic:before {
-     content: mi-get-icon($mi-var-KeyBoardLegacy);
+.#{$mi-css-prefix}-Keyboard:before {
+     content: mi-get-icon($mi-var-Keyboard);
 }
 
 .#{$mi-css-prefix}-KeyboardBrightness:before {
@@ -1825,13 +1653,11 @@
      content: mi-get-icon($mi-var-KeyboardShortcut);
 }
 
-.#{$mi-css-prefix}-KeyboardSplit:before,
-.#{$mi-css-prefix}-KeyboardSplitLegacy:before {
+.#{$mi-css-prefix}-KeyboardSplit:before {
      content: mi-get-icon($mi-var-KeyboardSplit);
 }
 
-.#{$mi-css-prefix}-KeyboardStandard:before,
-.#{$mi-css-prefix}-KeyboardStandardLegacy:before {
+.#{$mi-css-prefix}-KeyboardStandard:before {
      content: mi-get-icon($mi-var-KeyboardStandard);
 }
 
@@ -1871,16 +1697,15 @@
      content: mi-get-icon($mi-var-LaptopSelected);
 }
 
-.#{$mi-css-prefix}-LayoutLegacy:before {
-     content: mi-get-icon($mi-var-LayoutLegacy);
+.#{$mi-css-prefix}-Layout:before {
+     content: mi-get-icon($mi-var-Layout);
 }
 
 .#{$mi-css-prefix}-Leaf:before {
      content: mi-get-icon($mi-var-Leaf);
 }
 
-.#{$mi-css-prefix}-LeaveChat:before,
-.#{$mi-css-prefix}-LeaveChatLegacy:before {
+.#{$mi-css-prefix}-LeaveChat:before {
      content: mi-get-icon($mi-var-LeaveChat);
 }
 
@@ -1900,8 +1725,7 @@
      content: mi-get-icon($mi-var-LeftQuote);
 }
 
-.#{$mi-css-prefix}-Library:before,
-.#{$mi-css-prefix}-LibraryLegacy:before {
+.#{$mi-css-prefix}-Library:before {
      content: mi-get-icon($mi-var-Library);
 }
 
@@ -1909,8 +1733,7 @@
      content: mi-get-icon($mi-var-Light);
 }
 
-.#{$mi-css-prefix}-Lightbulb:before,
-.#{$mi-css-prefix}-ToolTip:before {
+.#{$mi-css-prefix}-Lightbulb:before {
      content: mi-get-icon($mi-var-Lightbulb);
 }
 
@@ -1918,19 +1741,15 @@
      content: mi-get-icon($mi-var-LightningBolt);
 }
 
-.#{$mi-css-prefix}-Like:before,
-.#{$mi-css-prefix}-LikeInlineLegacy:before,
-.#{$mi-css-prefix}-LikeLegacy:before {
+.#{$mi-css-prefix}-Like:before {
      content: mi-get-icon($mi-var-Like);
 }
 
-.#{$mi-css-prefix}-LikeDislike:before,
-.#{$mi-css-prefix}-LikeDislikeLegacy:before {
+.#{$mi-css-prefix}-LikeDislike:before {
      content: mi-get-icon($mi-var-LikeDislike);
 }
 
-.#{$mi-css-prefix}-Link:before,
-.#{$mi-css-prefix}-LinkLegacy:before {
+.#{$mi-css-prefix}-Link:before {
      content: mi-get-icon($mi-var-Link);
 }
 
@@ -1942,13 +1761,11 @@
      content: mi-get-icon($mi-var-ListMirrored);
 }
 
-.#{$mi-css-prefix}-Location:before,
-.#{$mi-css-prefix}-LocationLegacy:before {
+.#{$mi-css-prefix}-Location:before {
      content: mi-get-icon($mi-var-Location);
 }
 
-.#{$mi-css-prefix}-Lock:before,
-.#{$mi-css-prefix}-LockLegacy:before {
+.#{$mi-css-prefix}-Lock:before {
      content: mi-get-icon($mi-var-Lock);
 }
 
@@ -1968,8 +1785,7 @@
      content: mi-get-icon($mi-var-MagStripeReader);
 }
 
-.#{$mi-css-prefix}-Mail:before,
-.#{$mi-css-prefix}-MailLegacy:before {
+.#{$mi-css-prefix}-Mail:before {
      content: mi-get-icon($mi-var-Mail);
 }
 
@@ -1977,44 +1793,35 @@
      content: mi-get-icon($mi-var-MailBadge12);
 }
 
-.#{$mi-css-prefix}-MailFill:before,
-.#{$mi-css-prefix}-MailFillLegacy:before,
-.#{$mi-css-prefix}-MailMessageLegacy:before {
+.#{$mi-css-prefix}-MailFill:before {
      content: mi-get-icon($mi-var-MailFill);
 }
 
-.#{$mi-css-prefix}-MailForward:before,
-.#{$mi-css-prefix}-MailForwardLegacy:before {
+.#{$mi-css-prefix}-MailForward:before {
      content: mi-get-icon($mi-var-MailForward);
 }
 
-.#{$mi-css-prefix}-MailForwardLegacyMirrored:before,
 .#{$mi-css-prefix}-MailForwardMirrored:before {
      content: mi-get-icon($mi-var-MailForwardMirrored);
 }
 
-.#{$mi-css-prefix}-MailReply:before,
-.#{$mi-css-prefix}-MailReplyLegacy:before {
+.#{$mi-css-prefix}-MailReply:before {
      content: mi-get-icon($mi-var-MailReply);
 }
 
-.#{$mi-css-prefix}-MailReplyAll:before,
-.#{$mi-css-prefix}-MailReplyAllLegacy:before {
+.#{$mi-css-prefix}-MailReplyAll:before {
      content: mi-get-icon($mi-var-MailReplyAll);
 }
 
-.#{$mi-css-prefix}-MailReplyAllLegacyMirrored:before,
 .#{$mi-css-prefix}-MailReplyAllMirrored:before {
      content: mi-get-icon($mi-var-MailReplyAllMirrored);
 }
 
-.#{$mi-css-prefix}-MailReplyLegacyMirrored:before,
 .#{$mi-css-prefix}-MailReplyMirrored:before {
      content: mi-get-icon($mi-var-MailReplyMirrored);
 }
 
-.#{$mi-css-prefix}-Manage:before,
-.#{$mi-css-prefix}-ManageLegacy:before {
+.#{$mi-css-prefix}-Manage:before {
      content: mi-get-icon($mi-var-Manage);
 }
 
@@ -2030,8 +1837,7 @@
      content: mi-get-icon($mi-var-MapDirections);
 }
 
-.#{$mi-css-prefix}-MapDrive:before,
-.#{$mi-css-prefix}-MapDriveLegacy:before {
+.#{$mi-css-prefix}-MapDrive:before {
      content: mi-get-icon($mi-var-MapDrive);
 }
 
@@ -2039,14 +1845,12 @@
      content: mi-get-icon($mi-var-MapLayers);
 }
 
-.#{$mi-css-prefix}-MapLegacy:before,
 .#{$mi-css-prefix}-MapPin:before {
      content: mi-get-icon($mi-var-MapPin);
 }
 
-.#{$mi-css-prefix}-MapPin2:before,
-.#{$mi-css-prefix}-MapPinLegacy:before {
-     content: mi-get-icon($mi-var-MapPinLegacy);
+.#{$mi-css-prefix}-MapPin2:before {
+     content: mi-get-icon($mi-var-MapPin2);
 }
 
 .#{$mi-css-prefix}-Marker:before {
@@ -2069,14 +1873,11 @@
      content: mi-get-icon($mi-var-Megaphone);
 }
 
-.#{$mi-css-prefix}-Memo:before,
-.#{$mi-css-prefix}-MemoLegacy:before {
+.#{$mi-css-prefix}-Memo:before {
      content: mi-get-icon($mi-var-Memo);
 }
 
-.#{$mi-css-prefix}-CommentInlineLegacy:before,
-.#{$mi-css-prefix}-Message:before,
-.#{$mi-css-prefix}-MessageLegacy:before {
+.#{$mi-css-prefix}-Message:before {
      content: mi-get-icon($mi-var-Message);
 }
 
@@ -2100,8 +1901,7 @@
      content: mi-get-icon($mi-var-MicSleep);
 }
 
-.#{$mi-css-prefix}-Microphone:before,
-.#{$mi-css-prefix}-MicrophoneLegacy:before {
+.#{$mi-css-prefix}-Microphone:before {
      content: mi-get-icon($mi-var-Microphone);
 }
 
@@ -2329,8 +2129,7 @@
      content: mi-get-icon($mi-var-MobileTablet);
 }
 
-.#{$mi-css-prefix}-More:before,
-.#{$mi-css-prefix}-MoreLegacy:before {
+.#{$mi-css-prefix}-More:before {
      content: mi-get-icon($mi-var-More);
 }
 
@@ -2338,8 +2137,7 @@
      content: mi-get-icon($mi-var-Mouse);
 }
 
-.#{$mi-css-prefix}-MoveToFolder:before,
-.#{$mi-css-prefix}-MoveToFolderLegacy:before {
+.#{$mi-css-prefix}-MoveToFolder:before {
      content: mi-get-icon($mi-var-MoveToFolder);
 }
 
@@ -2347,12 +2145,10 @@
      content: mi-get-icon($mi-var-Movies);
 }
 
-.#{$mi-css-prefix}-MultiSelect:before,
-.#{$mi-css-prefix}-MultiSelectLegacy:before {
+.#{$mi-css-prefix}-MultiSelect:before {
      content: mi-get-icon($mi-var-MultiSelect);
 }
 
-.#{$mi-css-prefix}-MultiSelectLegacyMirrored:before,
 .#{$mi-css-prefix}-MultiSelectMirrored:before {
      content: mi-get-icon($mi-var-MultiSelectMirrored);
 }
@@ -2389,8 +2185,7 @@
      content: mi-get-icon($mi-var-MusicAlbum);
 }
 
-.#{$mi-css-prefix}-MusicInfo:before,
-.#{$mi-css-prefix}-MusicInfoLegacy:before {
+.#{$mi-css-prefix}-MusicInfo:before {
      content: mi-get-icon($mi-var-MusicInfo);
 }
 
@@ -2398,8 +2193,7 @@
      content: mi-get-icon($mi-var-MusicNote);
 }
 
-.#{$mi-css-prefix}-Mute:before,
-.#{$mi-css-prefix}-MuteLegacy:before {
+.#{$mi-css-prefix}-Mute:before {
      content: mi-get-icon($mi-var-Mute);
 }
 
@@ -2447,7 +2241,6 @@
      content: mi-get-icon($mi-var-NUIFPStartSlideAction);
 }
 
-.#{$mi-css-prefix}-NUIFPPressRepeatHand:before,
 .#{$mi-css-prefix}-NUIFPStartSlideHand:before {
      content: mi-get-icon($mi-var-NUIFPStartSlideHand);
 }
@@ -2488,18 +2281,15 @@
      content: mi-get-icon($mi-var-NetworkTower);
 }
 
-.#{$mi-css-prefix}-NewFolder:before,
-.#{$mi-css-prefix}-NewFolderLegacy:before {
+.#{$mi-css-prefix}-NewFolder:before {
      content: mi-get-icon($mi-var-NewFolder);
 }
 
-.#{$mi-css-prefix}-NewWindow:before,
-.#{$mi-css-prefix}-NewWindowLegacy:before {
+.#{$mi-css-prefix}-NewWindow:before {
      content: mi-get-icon($mi-var-NewWindow);
 }
 
-.#{$mi-css-prefix}-Next:before,
-.#{$mi-css-prefix}-NextLegacy:before {
+.#{$mi-css-prefix}-Next:before {
      content: mi-get-icon($mi-var-Next);
 }
 
@@ -2507,58 +2297,47 @@
      content: mi-get-icon($mi-var-OEM);
 }
 
-.#{$mi-css-prefix}-OneBar:before,
-.#{$mi-css-prefix}-OneBarLegacy:before {
+.#{$mi-css-prefix}-OneBar:before {
      content: mi-get-icon($mi-var-OneBar);
 }
 
-.#{$mi-css-prefix}-OpenFile:before,
-.#{$mi-css-prefix}-OpenFileLegacy:before {
+.#{$mi-css-prefix}-OpenFile:before {
      content: mi-get-icon($mi-var-OpenFile);
 }
 
-.#{$mi-css-prefix}-OpenInNewWindow:before,
-.#{$mi-css-prefix}-OpenInNewWindowLegacy:before {
+.#{$mi-css-prefix}-OpenInNewWindow:before {
      content: mi-get-icon($mi-var-OpenInNewWindow);
 }
 
-.#{$mi-css-prefix}-OpenLocal:before,
-.#{$mi-css-prefix}-OpenLocalLegacy:before {
+.#{$mi-css-prefix}-OpenLocal:before {
      content: mi-get-icon($mi-var-OpenLocal);
 }
 
-.#{$mi-css-prefix}-OpenPane:before,
-.#{$mi-css-prefix}-OpenPaneLegacy:before {
+.#{$mi-css-prefix}-OpenPane:before {
      content: mi-get-icon($mi-var-OpenPane);
 }
 
-.#{$mi-css-prefix}-OpenPaneLegacyMirrored:before,
 .#{$mi-css-prefix}-OpenPaneMirrored:before {
      content: mi-get-icon($mi-var-OpenPaneMirrored);
 }
 
-.#{$mi-css-prefix}-OpenWith:before,
-.#{$mi-css-prefix}-OpenWithLegacy:before {
+.#{$mi-css-prefix}-OpenWith:before {
      content: mi-get-icon($mi-var-OpenWith);
 }
 
-.#{$mi-css-prefix}-OpenWithLegacyMirrored:before,
 .#{$mi-css-prefix}-OpenWithMirrored:before {
      content: mi-get-icon($mi-var-OpenWithMirrored);
 }
 
-.#{$mi-css-prefix}-Orientation:before,
-.#{$mi-css-prefix}-OrientationLegacy:before {
+.#{$mi-css-prefix}-Orientation:before {
      content: mi-get-icon($mi-var-Orientation);
 }
 
-.#{$mi-css-prefix}-OtherUser:before,
-.#{$mi-css-prefix}-OtherUserLegacy:before {
+.#{$mi-css-prefix}-OtherUser:before {
      content: mi-get-icon($mi-var-OtherUser);
 }
 
-.#{$mi-css-prefix}-PC1:before,
-.#{$mi-css-prefix}-PC1Legacy:before {
+.#{$mi-css-prefix}-PC1:before {
      content: mi-get-icon($mi-var-PC1);
 }
 
@@ -2570,8 +2349,7 @@
      content: mi-get-icon($mi-var-Package);
 }
 
-.#{$mi-css-prefix}-Page:before,
-.#{$mi-css-prefix}-PageLegacy:before {
+.#{$mi-css-prefix}-Page:before {
      content: mi-get-icon($mi-var-Page);
 }
 
@@ -2583,7 +2361,6 @@
      content: mi-get-icon($mi-var-PageRight);
 }
 
-.#{$mi-css-prefix}-PageFillLegacy:before,
 .#{$mi-css-prefix}-PageSolid:before {
      content: mi-get-icon($mi-var-PageSolid);
 }
@@ -2616,13 +2393,11 @@
      content: mi-get-icon($mi-var-PasswordKeyShow);
 }
 
-.#{$mi-css-prefix}-Paste:before,
-.#{$mi-css-prefix}-PasteLegacy:before {
+.#{$mi-css-prefix}-Paste:before {
      content: mi-get-icon($mi-var-Paste);
 }
 
-.#{$mi-css-prefix}-Pause:before,
-.#{$mi-css-prefix}-PauseLegacy:before {
+.#{$mi-css-prefix}-Pause:before {
      content: mi-get-icon($mi-var-Pause);
 }
 
@@ -2650,8 +2425,7 @@
      content: mi-get-icon($mi-var-Pencil);
 }
 
-.#{$mi-css-prefix}-People:before,
-.#{$mi-css-prefix}-PeopleLegacy:before {
+.#{$mi-css-prefix}-People:before {
      content: mi-get-icon($mi-var-People);
 }
 
@@ -2659,8 +2433,7 @@
      content: mi-get-icon($mi-var-PeriodKey);
 }
 
-.#{$mi-css-prefix}-Permissions:before,
-.#{$mi-css-prefix}-PermissionsLegacy:before {
+.#{$mi-css-prefix}-Permissions:before {
      content: mi-get-icon($mi-var-Permissions);
 }
 
@@ -2672,13 +2445,11 @@
      content: mi-get-icon($mi-var-Personalize);
 }
 
-.#{$mi-css-prefix}-Phone:before,
-.#{$mi-css-prefix}-PhoneLegacy:before {
+.#{$mi-css-prefix}-Phone:before {
      content: mi-get-icon($mi-var-Phone);
 }
 
-.#{$mi-css-prefix}-PhoneBook:before,
-.#{$mi-css-prefix}-PhoneBookLegacy:before {
+.#{$mi-css-prefix}-PhoneBook:before {
      content: mi-get-icon($mi-var-PhoneBook);
 }
 
@@ -2690,8 +2461,7 @@
      content: mi-get-icon($mi-var-Photo2);
 }
 
-.#{$mi-css-prefix}-Picture:before,
-.#{$mi-css-prefix}-PictureLegacy:before {
+.#{$mi-css-prefix}-Picture:before {
      content: mi-get-icon($mi-var-Picture);
 }
 
@@ -2699,8 +2469,7 @@
      content: mi-get-icon($mi-var-PieSingle);
 }
 
-.#{$mi-css-prefix}-Pin:before,
-.#{$mi-css-prefix}-PinLegacy:before {
+.#{$mi-css-prefix}-Pin:before {
      content: mi-get-icon($mi-var-Pin);
 }
 
@@ -2716,12 +2485,11 @@
      content: mi-get-icon($mi-var-PinnedFill);
 }
 
-.#{$mi-css-prefix}-PlaceFolderLegacy:before {
-     content: mi-get-icon($mi-var-PlaceFolderLegacy);
+.#{$mi-css-prefix}-PlaceFolder:before {
+     content: mi-get-icon($mi-var-PlaceFolder);
 }
 
-.#{$mi-css-prefix}-Play:before,
-.#{$mi-css-prefix}-PlayLegacy:before {
+.#{$mi-css-prefix}-Play:before {
      content: mi-get-icon($mi-var-Play);
 }
 
@@ -2733,8 +2501,8 @@
      content: mi-get-icon($mi-var-PlayBadge12);
 }
 
-.#{$mi-css-prefix}-PlayOnLegacy:before {
-     content: mi-get-icon($mi-var-PlayOnLegacy);
+.#{$mi-css-prefix}-PlayOn:before {
+     content: mi-get-icon($mi-var-PlayOn);
 }
 
 .#{$mi-css-prefix}-PlaybackRate1x:before {
@@ -2757,8 +2525,7 @@
      content: mi-get-icon($mi-var-PoliceCar);
 }
 
-.#{$mi-css-prefix}-PostUpdate:before,
-.#{$mi-css-prefix}-PostUpdateLegacy:before {
+.#{$mi-css-prefix}-PostUpdate:before {
      content: mi-get-icon($mi-var-PostUpdate);
 }
 
@@ -2766,28 +2533,23 @@
      content: mi-get-icon($mi-var-PowerButton);
 }
 
-.#{$mi-css-prefix}-PresenceChickletVideo:before,
-.#{$mi-css-prefix}-PresenceChickletVideoLegacy:before {
+.#{$mi-css-prefix}-PresenceChickletVideo:before {
      content: mi-get-icon($mi-var-PresenceChickletVideo);
 }
 
-.#{$mi-css-prefix}-Preview:before,
-.#{$mi-css-prefix}-PreviewLegacy:before {
+.#{$mi-css-prefix}-Preview:before {
      content: mi-get-icon($mi-var-Preview);
 }
 
-.#{$mi-css-prefix}-PreviewLink:before,
-.#{$mi-css-prefix}-PreviewLinkLegacy:before {
+.#{$mi-css-prefix}-PreviewLink:before {
      content: mi-get-icon($mi-var-PreviewLink);
 }
 
-.#{$mi-css-prefix}-Previous:before,
-.#{$mi-css-prefix}-PreviousLegacy:before {
+.#{$mi-css-prefix}-Previous:before {
      content: mi-get-icon($mi-var-Previous);
 }
 
-.#{$mi-css-prefix}-Print:before,
-.#{$mi-css-prefix}-PrintLegacy:before {
+.#{$mi-css-prefix}-Print:before {
      content: mi-get-icon($mi-var-Print);
 }
 
@@ -2795,16 +2557,15 @@
      content: mi-get-icon($mi-var-Printer3D);
 }
 
-.#{$mi-css-prefix}-Printer3DLegacy:before {
-     content: mi-get-icon($mi-var-Printer3DLegacy);
+.#{$mi-css-prefix}-Printer3D2:before {
+     content: mi-get-icon($mi-var-Printer3D2);
 }
 
 .#{$mi-css-prefix}-PrintfaxPrinterFile:before {
      content: mi-get-icon($mi-var-PrintfaxPrinterFile);
 }
 
-.#{$mi-css-prefix}-Priority:before,
-.#{$mi-css-prefix}-PriorityLegacy:before {
+.#{$mi-css-prefix}-Priority:before {
      content: mi-get-icon($mi-var-Priority);
 }
 
@@ -2820,8 +2581,7 @@
      content: mi-get-icon($mi-var-Projector);
 }
 
-.#{$mi-css-prefix}-ProtectedDocument:before,
-.#{$mi-css-prefix}-ProtectedDocumentLegacy:before {
+.#{$mi-css-prefix}-ProtectedDocument:before {
      content: mi-get-icon($mi-var-ProtectedDocument);
 }
 
@@ -2917,8 +2677,7 @@
      content: mi-get-icon($mi-var-RadioBullet2);
 }
 
-.#{$mi-css-prefix}-Read:before,
-.#{$mi-css-prefix}-ReadLegacy:before {
+.#{$mi-css-prefix}-Read:before {
      content: mi-get-icon($mi-var-Read);
 }
 
@@ -2930,33 +2689,27 @@
      content: mi-get-icon($mi-var-ReceiptPrinter);
 }
 
-.#{$mi-css-prefix}-LengthLegacy:before,
 .#{$mi-css-prefix}-Recent:before {
      content: mi-get-icon($mi-var-Recent);
 }
 
-.#{$mi-css-prefix}-Record:before,
-.#{$mi-css-prefix}-RecordLegacy:before {
+.#{$mi-css-prefix}-Record:before {
      content: mi-get-icon($mi-var-Record);
 }
 
-.#{$mi-css-prefix}-Redo:before,
-.#{$mi-css-prefix}-RedoLegacy:before {
+.#{$mi-css-prefix}-Redo:before {
      content: mi-get-icon($mi-var-Redo);
 }
 
-.#{$mi-css-prefix}-ReduceTileLegacy:before {
-     content: mi-get-icon($mi-var-ReduceTileLegacy);
+.#{$mi-css-prefix}-ReduceTile:before {
+     content: mi-get-icon($mi-var-ReduceTile);
 }
 
-.#{$mi-css-prefix}-ReduceTileLegacyMirrored:before {
-     content: mi-get-icon($mi-var-ReduceTileLegacyMirrored);
+.#{$mi-css-prefix}-ReduceTileMirrored:before {
+     content: mi-get-icon($mi-var-ReduceTileMirrored);
 }
 
-.#{$mi-css-prefix}-Refresh:before,
-.#{$mi-css-prefix}-RefreshLegacy:before,
-.#{$mi-css-prefix}-RepeatAll:before,
-.#{$mi-css-prefix}-RepeatAllLegacy:before {
+.#{$mi-css-prefix}-Refresh:before {
      content: mi-get-icon($mi-var-Refresh);
 }
 
@@ -2972,13 +2725,11 @@
      content: mi-get-icon($mi-var-ReminderFill);
 }
 
-.#{$mi-css-prefix}-Remote:before,
-.#{$mi-css-prefix}-RemoteLegacy:before {
+.#{$mi-css-prefix}-Remote:before {
      content: mi-get-icon($mi-var-Remote);
 }
 
-.#{$mi-css-prefix}-Remove:before,
-.#{$mi-css-prefix}-RemoveLegacy:before {
+.#{$mi-css-prefix}-Remove:before {
      content: mi-get-icon($mi-var-Remove);
 }
 
@@ -2986,23 +2737,19 @@
      content: mi-get-icon($mi-var-RemoveFrom);
 }
 
-.#{$mi-css-prefix}-Rename:before,
-.#{$mi-css-prefix}-RenameLegacy:before {
+.#{$mi-css-prefix}-Rename:before {
      content: mi-get-icon($mi-var-Rename);
 }
 
-.#{$mi-css-prefix}-Repair:before,
-.#{$mi-css-prefix}-RepairLegacy:before {
+.#{$mi-css-prefix}-Repair:before {
      content: mi-get-icon($mi-var-Repair);
 }
 
-.#{$mi-css-prefix}-RepeatOne:before,
-.#{$mi-css-prefix}-RepeatOneLegacy:before {
+.#{$mi-css-prefix}-RepeatOne:before {
      content: mi-get-icon($mi-var-RepeatOne);
 }
 
-.#{$mi-css-prefix}-Reply:before,
-.#{$mi-css-prefix}-ReplyLegacy:before {
+.#{$mi-css-prefix}-Reply:before {
      content: mi-get-icon($mi-var-Reply);
 }
 
@@ -3010,8 +2757,7 @@
      content: mi-get-icon($mi-var-ReplyMirrored);
 }
 
-.#{$mi-css-prefix}-ReportHacked:before,
-.#{$mi-css-prefix}-ReportHackedLegacy:before {
+.#{$mi-css-prefix}-ReportHacked:before {
      content: mi-get-icon($mi-var-ReportHacked);
 }
 
@@ -3023,8 +2769,7 @@
      content: mi-get-icon($mi-var-ResetDrive);
 }
 
-.#{$mi-css-prefix}-Reshare:before,
-.#{$mi-css-prefix}-ReshareLegacy:before {
+.#{$mi-css-prefix}-Reshare:before {
      content: mi-get-icon($mi-var-Reshare);
 }
 
@@ -3076,8 +2821,8 @@
      content: mi-get-icon($mi-var-ResizeTouchSmaller);
 }
 
-.#{$mi-css-prefix}-ResolutionLegacy:before {
-     content: mi-get-icon($mi-var-ResolutionLegacy);
+.#{$mi-css-prefix}-Resolution:before {
+     content: mi-get-icon($mi-var-Resolution);
 }
 
 .#{$mi-css-prefix}-ReturnKey:before {
@@ -3092,8 +2837,7 @@
      content: mi-get-icon($mi-var-ReturnKeySm);
 }
 
-.#{$mi-css-prefix}-ReturnToWindow:before,
-.#{$mi-css-prefix}-ReturnToWindowLegacy:before {
+.#{$mi-css-prefix}-ReturnToWindow:before {
      content: mi-get-icon($mi-var-ReturnToWindow);
 }
 
@@ -3161,13 +2905,12 @@
      content: mi-get-icon($mi-var-Rotate);
 }
 
-.#{$mi-css-prefix}-RotateCamera:before,
-.#{$mi-css-prefix}-RotateCameraLegacy:before {
+.#{$mi-css-prefix}-RotateCamera:before {
      content: mi-get-icon($mi-var-RotateCamera);
 }
 
-.#{$mi-css-prefix}-RotateLegacy:before {
-     content: mi-get-icon($mi-var-RotateLegacy);
+.#{$mi-css-prefix}-Rotate:before {
+     content: mi-get-icon($mi-var-Rotate);
 }
 
 .#{$mi-css-prefix}-RotateMapLeft:before {
@@ -3210,13 +2953,11 @@
      content: mi-get-icon($mi-var-SIPUndock);
 }
 
-.#{$mi-css-prefix}-Save:before,
-.#{$mi-css-prefix}-SaveLegacy:before {
+.#{$mi-css-prefix}-Save:before {
      content: mi-get-icon($mi-var-Save);
 }
 
-.#{$mi-css-prefix}-SaveAs:before,
-.#{$mi-css-prefix}-SaveAsLegacy:before {
+.#{$mi-css-prefix}-SaveAs:before {
      content: mi-get-icon($mi-var-SaveAs);
 }
 
@@ -3224,13 +2965,11 @@
      content: mi-get-icon($mi-var-SaveCopy);
 }
 
-.#{$mi-css-prefix}-SaveLocal:before,
-.#{$mi-css-prefix}-SaveLocalLegacy:before {
+.#{$mi-css-prefix}-SaveLocal:before {
      content: mi-get-icon($mi-var-SaveLocal);
 }
 
-.#{$mi-css-prefix}-Scan:before,
-.#{$mi-css-prefix}-ScanLegacy:before {
+.#{$mi-css-prefix}-Scan:before {
      content: mi-get-icon($mi-var-Scan);
 }
 
@@ -3242,9 +2981,7 @@
      content: mi-get-icon($mi-var-ScrollUpDown);
 }
 
-.#{$mi-css-prefix}-FindLegacy:before,
-.#{$mi-css-prefix}-Search:before,
-.#{$mi-css-prefix}-SearchboxLegacy:before {
+.#{$mi-css-prefix}-Search:before {
      content: mi-get-icon($mi-var-Search);
 }
 
@@ -3252,17 +2989,15 @@
      content: mi-get-icon($mi-var-SearchAndApps);
 }
 
-.#{$mi-css-prefix}-SelectAll:before,
-.#{$mi-css-prefix}-SelectAllLegacy:before {
+.#{$mi-css-prefix}-SelectAll:before {
      content: mi-get-icon($mi-var-SelectAll);
 }
 
-.#{$mi-css-prefix}-SemanticZoomLegacy:before {
-     content: mi-get-icon($mi-var-SemanticZoomLegacy);
+.#{$mi-css-prefix}-SemanticZoom:before {
+     content: mi-get-icon($mi-var-SemanticZoom);
 }
 
-.#{$mi-css-prefix}-Send:before,
-.#{$mi-css-prefix}-SendLegacy:before {
+.#{$mi-css-prefix}-Send:before {
      content: mi-get-icon($mi-var-Send);
 }
 
@@ -3282,18 +3017,15 @@
      content: mi-get-icon($mi-var-Sensor);
 }
 
-.#{$mi-css-prefix}-SetTile:before,
-.#{$mi-css-prefix}-SetTileLegacy:before {
+.#{$mi-css-prefix}-SetTile:before {
      content: mi-get-icon($mi-var-SetTile);
 }
 
-.#{$mi-css-prefix}-SetlockScreen:before,
-.#{$mi-css-prefix}-SetlockScreenLegacy:before {
+.#{$mi-css-prefix}-SetlockScreen:before {
      content: mi-get-icon($mi-var-SetlockScreen);
 }
 
-.#{$mi-css-prefix}-Settings:before,
-.#{$mi-css-prefix}-SettingsLegacy:before {
+.#{$mi-css-prefix}-Settings:before {
      content: mi-get-icon($mi-var-Settings);
 }
 
@@ -3313,8 +3045,7 @@
      content: mi-get-icon($mi-var-ShareBroadband);
 }
 
-.#{$mi-css-prefix}-Shop:before,
-.#{$mi-css-prefix}-ShopLegacy:before {
+.#{$mi-css-prefix}-Shop:before {
      content: mi-get-icon($mi-var-Shop);
 }
 
@@ -3322,31 +3053,27 @@
      content: mi-get-icon($mi-var-ShoppingCart);
 }
 
-.#{$mi-css-prefix}-ShowAllFiles1Legacy:before {
-     content: mi-get-icon($mi-var-ShowAllFiles1Legacy);
+.#{$mi-css-prefix}-ShowAllFiles1:before {
+     content: mi-get-icon($mi-var-ShowAllFiles1);
 }
 
-.#{$mi-css-prefix}-ShowAllFiles3Legacy:before {
-     content: mi-get-icon($mi-var-ShowAllFiles3Legacy);
+.#{$mi-css-prefix}-ShowAllFiles3:before {
+     content: mi-get-icon($mi-var-ShowAllFiles3);
 }
 
-.#{$mi-css-prefix}-ShowBcc:before,
-.#{$mi-css-prefix}-ShowBccLegacy:before {
+.#{$mi-css-prefix}-ShowBcc:before {
      content: mi-get-icon($mi-var-ShowBcc);
 }
 
-.#{$mi-css-prefix}-ShowResults:before,
-.#{$mi-css-prefix}-ShowResultsLegacy:before {
+.#{$mi-css-prefix}-ShowResults:before {
      content: mi-get-icon($mi-var-ShowResults);
 }
 
-.#{$mi-css-prefix}-ShowResultsLegacyMirrored:before,
 .#{$mi-css-prefix}-ShowResultsMirrored:before {
      content: mi-get-icon($mi-var-ShowResultsMirrored);
 }
 
-.#{$mi-css-prefix}-Shuffle:before,
-.#{$mi-css-prefix}-ShuffleLegacy:before {
+.#{$mi-css-prefix}-Shuffle:before {
      content: mi-get-icon($mi-var-Shuffle);
 }
 
@@ -3382,8 +3109,8 @@
      content: mi-get-icon($mi-var-SignalRoaming);
 }
 
-.#{$mi-css-prefix}-SizeLegacy:before {
-     content: mi-get-icon($mi-var-SizeLegacy);
+.#{$mi-css-prefix}-Size:before {
+     content: mi-get-icon($mi-var-Size);
 }
 
 .#{$mi-css-prefix}-SkipBack10:before {
@@ -3398,8 +3125,7 @@
      content: mi-get-icon($mi-var-SliderThumb);
 }
 
-.#{$mi-css-prefix}-Slideshow:before,
-.#{$mi-css-prefix}-SlideshowLegacy:before {
+.#{$mi-css-prefix}-Slideshow:before {
      content: mi-get-icon($mi-var-Slideshow);
 }
 
@@ -3411,8 +3137,7 @@
      content: mi-get-icon($mi-var-SmartcardVirtual);
 }
 
-.#{$mi-css-prefix}-Sort:before,
-.#{$mi-css-prefix}-SortLegacy:before {
+.#{$mi-css-prefix}-Sort:before {
      content: mi-get-icon($mi-var-Sort);
 }
 
@@ -3536,8 +3261,7 @@
      content: mi-get-icon($mi-var-StockUp);
 }
 
-.#{$mi-css-prefix}-Stop:before,
-.#{$mi-css-prefix}-StopLegacy:before {
+.#{$mi-css-prefix}-Stop:before {
      content: mi-get-icon($mi-var-Stop);
 }
 
@@ -3549,8 +3273,8 @@
      content: mi-get-icon($mi-var-StopPointSolid);
 }
 
-.#{$mi-css-prefix}-StopSlideshowLegacy:before {
-     content: mi-get-icon($mi-var-StopSlideshowLegacy);
+.#{$mi-css-prefix}-StopSlideshow:before {
+     content: mi-get-icon($mi-var-StopSlideshow);
 }
 
 .#{$mi-css-prefix}-Stopwatch:before {
@@ -3577,8 +3301,7 @@
      content: mi-get-icon($mi-var-StreamingEnterprise);
 }
 
-.#{$mi-css-prefix}-Street:before,
-.#{$mi-css-prefix}-StreetLegacy:before {
+.#{$mi-css-prefix}-Street:before {
      content: mi-get-icon($mi-var-Street);
 }
 
@@ -3622,13 +3345,11 @@
      content: mi-get-icon($mi-var-SwipeRevealArt);
 }
 
-.#{$mi-css-prefix}-Switch:before,
-.#{$mi-css-prefix}-SwitchLegacy:before {
+.#{$mi-css-prefix}-Switch:before {
      content: mi-get-icon($mi-var-Switch);
 }
 
-.#{$mi-css-prefix}-SwitchApps:before,
-.#{$mi-css-prefix}-SwitchAppsLegacy:before {
+.#{$mi-css-prefix}-SwitchApps:before {
      content: mi-get-icon($mi-var-SwitchApps);
 }
 
@@ -3636,8 +3357,7 @@
      content: mi-get-icon($mi-var-SwitchUser);
 }
 
-.#{$mi-css-prefix}-Sync:before,
-.#{$mi-css-prefix}-SyncLegacy:before {
+.#{$mi-css-prefix}-Sync:before {
      content: mi-get-icon($mi-var-Sync);
 }
 
@@ -3649,8 +3369,7 @@
      content: mi-get-icon($mi-var-SyncError);
 }
 
-.#{$mi-css-prefix}-SyncFolder:before,
-.#{$mi-css-prefix}-SyncFolderLegacy:before {
+.#{$mi-css-prefix}-SyncFolder:before {
      content: mi-get-icon($mi-var-SyncFolder);
 }
 
@@ -3678,8 +3397,7 @@
      content: mi-get-icon($mi-var-TabletSelected);
 }
 
-.#{$mi-css-prefix}-Tag:before,
-.#{$mi-css-prefix}-TagLegacy:before {
+.#{$mi-css-prefix}-Tag:before {
      content: mi-get-icon($mi-var-Tag);
 }
 
@@ -3699,8 +3417,7 @@
      content: mi-get-icon($mi-var-ThoughtBubble);
 }
 
-.#{$mi-css-prefix}-ThreeBars:before,
-.#{$mi-css-prefix}-ThreeBarsLegacy:before {
+.#{$mi-css-prefix}-ThreeBars:before {
      content: mi-get-icon($mi-var-ThreeBars);
 }
 
@@ -3736,8 +3453,7 @@
      content: mi-get-icon($mi-var-Touch);
 }
 
-.#{$mi-css-prefix}-TouchPointer:before,
-.#{$mi-css-prefix}-TouchPointerLegacy:before {
+.#{$mi-css-prefix}-TouchPointer:before {
      content: mi-get-icon($mi-var-TouchPointer);
 }
 
@@ -3777,28 +3493,24 @@
      content: mi-get-icon($mi-var-TreeFolderFolderOpenFill);
 }
 
-.#{$mi-css-prefix}-Trim:before,
-.#{$mi-css-prefix}-TrimLegacy:before {
+.#{$mi-css-prefix}-Trim:before {
      content: mi-get-icon($mi-var-Trim);
 }
 
-.#{$mi-css-prefix}-TwoBars:before,
-.#{$mi-css-prefix}-TwoBarsLegacy:before {
+.#{$mi-css-prefix}-TwoBars:before {
      content: mi-get-icon($mi-var-TwoBars);
 }
 
-.#{$mi-css-prefix}-TwoPage:before,
-.#{$mi-css-prefix}-TwoPageLegacy:before {
+.#{$mi-css-prefix}-TwoPage:before {
      content: mi-get-icon($mi-var-TwoPage);
 }
 
-.#{$mi-css-prefix}-Type:before,
-.#{$mi-css-prefix}-TypeLegacy:before {
+.#{$mi-css-prefix}-Type:before {
      content: mi-get-icon($mi-var-Type);
 }
 
-.#{$mi-css-prefix}-TypingIndicatorLegacy:before {
-     content: mi-get-icon($mi-var-TypingIndicatorLegacy);
+.#{$mi-css-prefix}-TypingIndicator:before {
+     content: mi-get-icon($mi-var-TypingIndicator);
 }
 
 .#{$mi-css-prefix}-USB:before {
@@ -3809,38 +3521,35 @@
      content: mi-get-icon($mi-var-USBSafeConnect);
 }
 
-.#{$mi-css-prefix}-Underline:before,
-.#{$mi-css-prefix}-UnderlineLegacy:before {
+.#{$mi-css-prefix}-Underline:before {
      content: mi-get-icon($mi-var-Underline);
 }
 
-.#{$mi-css-prefix}-UnderlineLKoreanLegacy:before {
-     content: mi-get-icon($mi-var-UnderlineLKoreanLegacy);
+.#{$mi-css-prefix}-UnderlineLKorean:before {
+     content: mi-get-icon($mi-var-UnderlineLKorean);
 }
 
-.#{$mi-css-prefix}-UnderlineRussianLegacy:before {
-     content: mi-get-icon($mi-var-UnderlineRussianLegacy);
+.#{$mi-css-prefix}-UnderlineRussian:before {
+     content: mi-get-icon($mi-var-UnderlineRussian);
 }
 
-.#{$mi-css-prefix}-UnderlineSLegacy:before {
-     content: mi-get-icon($mi-var-UnderlineSLegacy);
+.#{$mi-css-prefix}-UnderlineS:before {
+     content: mi-get-icon($mi-var-UnderlineS);
 }
 
-.#{$mi-css-prefix}-UnderlineULegacy:before {
-     content: mi-get-icon($mi-var-UnderlineULegacy);
+.#{$mi-css-prefix}-UnderlineU:before {
+     content: mi-get-icon($mi-var-UnderlineU);
 }
 
 .#{$mi-css-prefix}-UnderscoreSpace:before {
      content: mi-get-icon($mi-var-UnderscoreSpace);
 }
 
-.#{$mi-css-prefix}-Undo:before,
-.#{$mi-css-prefix}-UndoLegacy:before {
+.#{$mi-css-prefix}-Undo:before {
      content: mi-get-icon($mi-var-Undo);
 }
 
-.#{$mi-css-prefix}-Unfavorite:before,
-.#{$mi-css-prefix}-UnfavoriteLegacy:before {
+.#{$mi-css-prefix}-Unfavorite:before {
      content: mi-get-icon($mi-var-Unfavorite);
 }
 
@@ -3848,23 +3557,19 @@
      content: mi-get-icon($mi-var-Unit);
 }
 
-.#{$mi-css-prefix}-Unlock:before,
-.#{$mi-css-prefix}-UnlockLegacy:before {
+.#{$mi-css-prefix}-Unlock:before {
      content: mi-get-icon($mi-var-Unlock);
 }
 
-.#{$mi-css-prefix}-Unpin:before,
-.#{$mi-css-prefix}-UnpinLegacy:before {
+.#{$mi-css-prefix}-Unpin:before {
      content: mi-get-icon($mi-var-Unpin);
 }
 
-.#{$mi-css-prefix}-UnsyncFolder:before,
-.#{$mi-css-prefix}-UnsyncFolderLegacy:before {
+.#{$mi-css-prefix}-UnsyncFolder:before {
      content: mi-get-icon($mi-var-UnsyncFolder);
 }
 
-.#{$mi-css-prefix}-Up:before,
-.#{$mi-css-prefix}-UpLegacy:before {
+.#{$mi-css-prefix}-Up:before {
      content: mi-get-icon($mi-var-Up);
 }
 
@@ -3880,9 +3585,7 @@
      content: mi-get-icon($mi-var-UpdateRestore);
 }
 
-.#{$mi-css-prefix}-Upload:before,
-.#{$mi-css-prefix}-UploadLegacy:before,
-.#{$mi-css-prefix}-UploadSkyDriveLegacy:before {
+.#{$mi-css-prefix}-Upload:before {
      content: mi-get-icon($mi-var-Upload);
 }
 
@@ -3894,31 +3597,23 @@
      content: mi-get-icon($mi-var-Vibrate);
 }
 
-.#{$mi-css-prefix}-Video:before,
-.#{$mi-css-prefix}-VideoInlineLegacy:before,
-.#{$mi-css-prefix}-VideoLegacy:before {
+.#{$mi-css-prefix}-Video:before {
      content: mi-get-icon($mi-var-Video);
 }
 
-.#{$mi-css-prefix}-VideoChat:before,
-.#{$mi-css-prefix}-VideoChatLegacy:before {
+.#{$mi-css-prefix}-VideoChat:before {
      content: mi-get-icon($mi-var-VideoChat);
 }
 
-.#{$mi-css-prefix}-RevealPasswordLegacy:before,
-.#{$mi-css-prefix}-View:before,
-.#{$mi-css-prefix}-ViewLegacy:before {
+.#{$mi-css-prefix}-View:before {
      content: mi-get-icon($mi-var-View);
 }
 
-.#{$mi-css-prefix}-ShowAllFilesLegacy:before,
-.#{$mi-css-prefix}-ViewAll:before,
-.#{$mi-css-prefix}-ViewAllLegacy:before {
+.#{$mi-css-prefix}-ViewAll:before {
      content: mi-get-icon($mi-var-ViewAll);
 }
 
-.#{$mi-css-prefix}-Volume:before,
-.#{$mi-css-prefix}-VolumeLegacy:before {
+.#{$mi-css-prefix}-Volume:before {
      content: mi-get-icon($mi-var-Volume);
 }
 
@@ -3954,8 +3649,7 @@
      content: mi-get-icon($mi-var-Warning);
 }
 
-.#{$mi-css-prefix}-Webcam:before,
-.#{$mi-css-prefix}-WebcamLegacy:before {
+.#{$mi-css-prefix}-Webcam:before {
      content: mi-get-icon($mi-var-Webcam);
 }
 
@@ -4080,8 +3774,7 @@
      content: mi-get-icon($mi-var-WorkSolid);
 }
 
-.#{$mi-css-prefix}-World:before,
-.#{$mi-css-prefix}-WorldLegacy:before {
+.#{$mi-css-prefix}-World:before {
      content: mi-get-icon($mi-var-World);
 }
 
@@ -4089,18 +3782,15 @@
      content: mi-get-icon($mi-var-XboxOneConsole);
 }
 
-.#{$mi-css-prefix}-ZeroBars:before,
-.#{$mi-css-prefix}-ZeroBarsLegacy:before {
+.#{$mi-css-prefix}-ZeroBars:before {
      content: mi-get-icon($mi-var-ZeroBars);
 }
 
-.#{$mi-css-prefix}-Zoom:before,
-.#{$mi-css-prefix}-ZoomLegacy:before {
+.#{$mi-css-prefix}-Zoom:before {
      content: mi-get-icon($mi-var-Zoom);
 }
 
-.#{$mi-css-prefix}-ZoomIn:before,
-.#{$mi-css-prefix}-ZoomInLegacy:before {
+.#{$mi-css-prefix}-ZoomIn:before {
      content: mi-get-icon($mi-var-ZoomIn);
 }
 
@@ -4108,8 +3798,7 @@
      content: mi-get-icon($mi-var-ZoomMode);
 }
 
-.#{$mi-css-prefix}-ZoomOut:before,
-.#{$mi-css-prefix}-ZoomOutLegacy:before {
+.#{$mi-css-prefix}-ZoomOut:before {
      content: mi-get-icon($mi-var-ZoomOut);
 }
 
