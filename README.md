@@ -1,6 +1,8 @@
 # Fluent Kit
 ## v1.0.2
 
+[![Logo](https://nespero.com/wp-content/themes/prd/assets/img/social/facebook.jpg)](https://nespero.com/)
+
 A library introducing Fluent Design to the Web, built on top of the most popular frameworks to keep the development process as simple as possible.
 
 ## Links:
