@@ -37,6 +37,7 @@ let js = (build, dirs) => {
         '/modules/forms/counter.js',
         '/modules/forms/input-number.js',
         '/modules/forms/input-password.js',
+        '/modules/forms/modal-js.js',
         '/modules/init.js',
     ].map(dir => `./js/${dir}`);
 
