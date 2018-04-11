@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 1.0.2 - 2018-04-11
+### Added
+- Fluent modals: moves all the positioning and sizing styles to the `.fluent-modal` CSS class namespace; . 
+- `@import` Bootstrap functions, variables and mixins when building fluent-kit.min.css
+
+### Changed
+- Fluent modals: moves all the design styles out of .modal namespace
+
 ## 1.0.1 - 2018-03-25
 ### Added
 - .gitignore 
