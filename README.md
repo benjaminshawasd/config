@@ -1,5 +1,5 @@
 # Fluent Kit
-## v1.0.1
+## v1.0.2
 
 A library introducing Fluent Design to the Web, built on top of the most popular frameworks to keep the development process as simple as possible.
 
