@@ -2,37 +2,44 @@
         
     $.fn.charCounter = function() {
 
-        var $inputs = $(this);
+        const $inputs = $(this);
 
         return $inputs.each(function(index, input) {
 
-            var $input   = $(input);
-            var $label   = $input.siblings("label").first();
-            var $counter = $("<span></span>");
-            var max      = parseInt($input.attr("maxlength"), 10);
+            const $input   = $(input);
+            const $label   = $input.siblings("label").first();
+            const $counter = $("<span></span>");
+            const max      = parseInt($input.attr("maxlength"), 10);
+            const html     = '' + 
+                `<span class='char-counter-current'>
+                    ${$input.val().length}
+                </span>/${max}`;
 
             $input.parent().addClass("char-counter-wrap");
+            $counter
+                .html(html)
+                .addClass("char-counter")
+                .insertAfter($label);
 
-            $counter.html("<span class='char-counter-current'>" + $input.val().length + "</span>/" + max);
-            $counter.addClass("char-counter");
-            $counter.insertAfter($label);
+            $input.on({
 
-            $input.on("input keyup", function(e) {
-                var current = $input.val().length;
-                $counter.find(".char-counter-current").text(current);
-            });
+                'input keyup': function(e) {
+                    const current = $input.val().length;
+                    $counter.find(".char-counter-current").text(current);
+                },
 
-            $input.on("focus", function(e) {
-                $counter.addClass("char-counter-focused");
-            });
+                'focus': function(e) {
+                    $counter.addClass("char-counter-focused");
+                },
 
-            $input.on("blur", function(e) {
-                $counter.removeClass("char-counter-focused");
+                'blur': function(e) {
+                    $counter.removeClass("char-counter-focused");
+                }
+
             });
 
         });
 
     }
-
 
 })(jQuery);
