@@ -59,22 +59,6 @@ input[type="checkbox"] {
         border-color: map-get($neutral-palette, "10");
     }
 
-    &:indeterminate {
-        + label:before {
-            left: -5px;
-            top: 5px;
-            width: 10px;
-            height: 10px;
-            border: 5px solid black;
-            transform: (rotate(90deg));
-            -webkit-backface-visibility: hidden;
-            transform-origin: (100% 100%);
-        }
-        + label:after {
-            border-color: map-get(map-get($colors-palette, "primary"), "bg");
-        }
-    }
-
     &:disabled {
 
         + label { cursor: not-allowed!important; }
@@ -95,15 +79,6 @@ input[type="checkbox"] {
             }
             + label:after {
                 background-color: map-get($neutral-palette, "6");
-                border-color: map-get($neutral-palette, "6");
-            }
-        }
-        &:indeterminate {
-            + label:after {
-                border-color: map-get($neutral-palette, "6");
-                background-color: transparent;
-            }
-            + label:before {
                 border-color: map-get($neutral-palette, "6");
             }
         }
