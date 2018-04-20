@@ -1,7 +1,9 @@
 (function($){
+
     $.fn.numberInput = function() {
         
-        var $number = $(this);
+        const $number = $(this);
+
         function round(n, places) {
             n = +n;
             return +("" + n.toFixed(places)).replace(/0$/g, "");
@@ -9,14 +11,14 @@
 
         $number.each(function(index, input) {
 
-            var $input    = $(input);
-            var $up       = $input.next().children(".mi-ChevronUp");
-            var $down     = $input.next().children(".mi-ChevronDown");
-            var min       = $input.attr("min");
-            var max       = $input.attr("max");
-            var step      = $input.attr("step") || "";
-            var isDecimal = step.indexOf(".") > -1;
-            var denominatorDecimalPlaces = 0;
+            const $input    = $(input);
+            const $up       = $input.next().children(".mi-ChevronUp");
+            const $down     = $input.next().children(".mi-ChevronDown");
+            const min       = $input.attr("min");
+            const max       = $input.attr("max");
+            let step        = $input.attr("step") || "";
+            const isDecimal = step.indexOf(".") > -1;
+            let denominatorDecimalPlaces = 0;
             if(isDecimal)
                 denominatorDecimalPlaces = step.substr(step.indexOf(".") + 1).length;
             
@@ -25,14 +27,14 @@
             $up.on("click", function(e) {
 
                 e.preventDefault();
-                var value                  = "" + ($input.val() || 0);
-                var isValueDecimal         = value.indexOf(".") > -1;
-                var numeratorDecimalPlaces = 0;
+                let value                  = "" + ($input.val() || 0);
+                const isValueDecimal       = value.indexOf(".") > -1;
+                let numeratorDecimalPlaces = 0;
                 if(isValueDecimal)
                     numeratorDecimalPlaces = value.substr(value.indexOf(".") + 1).length;
 
-                var decimalPlaces = denominatorDecimalPlaces + numeratorDecimalPlaces;
-                var increment     = +value + step;
+                let decimalPlaces = denominatorDecimalPlaces + numeratorDecimalPlaces;
+                let increment     = +value + step;
                 
                 $down.prop("disabled", false);
 
@@ -47,20 +49,21 @@
                 } else 
                     value = +value + step;
 
-                $input.val(value);
+                $input.val(value).trigger("keyup");
 
             });
 
             $down.on("click", function(e) {
+
                 e.preventDefault();
-                var value                  = $input.val();
-                var isValueDecimal         = value.indexOf(".") > -1;
-                var numeratorDecimalPlaces = 0;
+                let value                  = $input.val();
+                const isValueDecimal       = value.indexOf(".") > -1;
+                let numeratorDecimalPlaces = 0;
                 if(isValueDecimal)
                     numeratorDecimalPlaces = value.substr(value.indexOf(".") + 1).length;
                
-                var decimalPlaces = denominatorDecimalPlaces + numeratorDecimalPlaces;
-                var decrement     = +value - step;
+                let decimalPlaces = denominatorDecimalPlaces + numeratorDecimalPlaces;
+                let decrement     = +value - step;
 
                 $up.prop("disabled", false);
 
@@ -70,13 +73,13 @@
                 } else 
                     value = isDecimal ? round(decrement, decimalPlaces) : decrement;
 
-                $input.val(value);
+                $input.val(value).trigger("keyup");
 
             });
 
             $input.on("keyup", function(e) {
 
-                var value = +$input.val();;
+                const value = +$input.val();;
                 if(max && max < value)
                     $input.val(max);
                 else if(min && min > value)
@@ -87,7 +90,6 @@
         });
 
     }
-
 
 })(jQuery);
     
