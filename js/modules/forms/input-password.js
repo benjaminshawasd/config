@@ -2,28 +2,23 @@
     
     $.fn.passwordInputToggle = function() {
         
-        var $toggle = $(this);
+        const $toggle = $(this);
         $toggle.on("click input", function(e) {
 
             e.preventDefault();
 
-            var $this         = $(this);
-            var $input        = $this.prev();
-            var isPassword    = $input.attr("type") === "password";
-            var isToggleClass = $this.attr("class").indexOf("PasswordKey") > -1;
+            const $this         = $(this);
+            const $input        = $this.prev();
+            const isPassword    = $input.attr("type") === "password";
+            const isToggleClass = $this.attr("class").includes("PasswordKey");
 
-            if(isToggleClass) {
-                if(isPassword)
-                    $this.removeClass("mi-PasswordKeyHide").addClass("mi-PasswordKeyShow");
-                else
-                    $this.removeClass("mi-PasswordKeyShow").addClass("mi-PasswordKeyHide");
-            }
+            if(isToggleClass)
+                $this.toggleClass("mi-PasswordKeyHide mi-PasswordKeyShow");
 
             $input.attr("type", isPassword ? "text" : "password");
             
         });    
 
     }
-
 
 })(jQuery);
