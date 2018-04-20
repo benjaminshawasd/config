@@ -3,37 +3,12 @@
     border-radius: 0;
     border: none;
 
-    .card-header {
-        background-color: transparent;
-        border-bottom-color: map-get(map-get($colors-palette, "primary"), "bg");
-        padding: 1.25rem 1.25rem .5rem 0;
-        font-size: 1.3rem;
-    }
-
-    .card-footer {
-        background-color: transparent;
-        border-top-color: map-get(map-get($colors-palette, "primary"), "bg");
-    }
-
-    .card-title, .card-subtitle { padding-top: .3rem; }
     .card-title { 
         font-weight: 700;
-        margin-bottom: .25rem; 
     }
+    
     .card-subtitle { 
         font-size: .9rem;
-    }
-
-    .card-body, .card-footer {
-        padding: 1.25rem 1.25rem 1.25rem 0;
-    }
-
-    img { margin-top: 1.25rem; }
-
-    .card-cta { 
-        letter-spacing: .075em; 
-        text-overflow: clip;
-        whitespace: nowrap;
     }
 
 }
