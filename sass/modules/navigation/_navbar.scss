@@ -64,6 +64,8 @@ nav.navbar {
     .navbar-toggler {
         margin-top: 0;
         border: none;
+        outline: none;
+        &::before{ font: normal normal normal 10px/1 micon; }
         &[aria-expanded='false']::before { content: "\EB48"; };
         &[aria-expanded='true']::before { content: "\EAA2"; };
     }
