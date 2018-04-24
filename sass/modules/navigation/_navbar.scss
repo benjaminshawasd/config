@@ -38,6 +38,13 @@
     }
 }
 
+.navbar-dark .navbar-toggler::before {
+    color: #fff;
+}
+.navbar-light .navbar-toggler::before {
+    color: rgba(0,0,0,.9);
+}
+
 nav.navbar {
 
     .navbar-toggler {
