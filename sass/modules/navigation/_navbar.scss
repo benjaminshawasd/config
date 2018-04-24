@@ -40,32 +40,11 @@
 
 nav.navbar {
 
-    &.with-horizontal-trail {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: stretch;
-        padding-right: 0;
-
-        .navbar-brand {
-            box-shadow: 3px -3px 13px 0px rgba(0,0,0,0.75);
-            z-index: 1201;
-        }
-
-        .horizontal-trail {
-            float: right;
-            display: flex;
-            flex-wrap: nowrap;
-            overflow: auto;
-            white-space: nowrap;
-        }
-
-    }
-
     .navbar-toggler {
         margin-top: 0;
         border: none;
         outline: none;
-        &::before{ font: normal normal normal 10px/1 micon; }
+        &::before{ font: normal normal normal 1rem/1 micon; }
         &[aria-expanded='false']::before { content: "\EB48"; };
         &[aria-expanded='true']::before { content: "\EAA2"; };
     }
@@ -83,11 +62,6 @@ nav.navbar {
             min-width: 0; 
             padding-right: 2.8125rem;
             &:hover { text-decoration: none; };
-        };
-       
-        .mi {
-            line-height: 2.8125rem;
-            font-size: 1.5rem;
         }
     }
 
