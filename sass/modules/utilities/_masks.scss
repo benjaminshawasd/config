@@ -19,17 +19,8 @@
     background: radial-gradient(circle at center center,map-get($neutral-palette, "0"), rgba(0,0,0,0) 80%);
 }
 
-$masks: ( 
-    '2' : .2, 
-    '4' : .4,
-    '6' : .6,
-    '8' : .8,
-    '10': 1
-);
-
 @each $mask, $opacity in $masks {
     .mask-dark-#{$mask}::after, .mask-light-#{$mask}::after {
         opacity: $opacity;
     }
 }
-
