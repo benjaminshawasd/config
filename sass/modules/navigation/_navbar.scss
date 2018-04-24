@@ -8,11 +8,7 @@
     cursor: pointer;
     padding: 0 1rem;
     text-align: left;
-    color: map-get($neutral-palette, "10");
     margin: 0;
-    &:hover {
-        background-color: map-get($neutral-palette, "2");
-    }
 }
 
 @media (min-width: 768px) {
@@ -44,8 +40,8 @@
 
 nav.navbar {
 
-    padding: 0;
-    padding-right: 2rem;
+    // padding: 0;
+    // padding-right: 2rem;
 
     &.with-horizontal-trail {
         display: flex;
@@ -99,7 +95,6 @@ nav.navbar {
     .nav-link {
         padding-left: 1rem;
         &.disabled { cursor: not-allowed; }
-        &:not(.disabled):hover { background-color: map-get($neutral-palette, "2"); }
         &:focus { outline: 0; };
     }
 
