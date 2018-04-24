@@ -32,13 +32,12 @@ let js = (build, dirs) => {
     dirs = dirs.length ? dirs : [];
 
     const directories = [
-        '/modules/popover.js',
-        '/modules/forms/autocomplete.js',
-        '/modules/forms/counter.js',
-        '/modules/forms/input-number.js',
-        '/modules/forms/input-password.js',
-        '/modules/forms/modal-js.js',
-        '/modules/init.js',
+        'free/popover.js',
+        'free/modal.js',
+        'free/forms/counter.js',
+        'free/forms/input-number.js',
+        'free/forms/input-password.js',
+        'free/init.js',
     ].map(dir => `./js/${dir}`);
 
     return gulp.src(dirs.concat(directories))
@@ -46,7 +45,6 @@ let js = (build, dirs) => {
         .pipe(babel({
             presets: ['env']
         }))
-        .pipe(gulp.dest('./js/'))
         .pipe(uglify())
         .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
         .pipe(gulp.dest('./js/'));
@@ -57,20 +55,6 @@ gulp.task('min', () => {
 
     const styles  = css('min');
     const scripts = js('min', []);
-
-    return [styles, scripts];
-
-});
-
-gulp.task('full', () => {
-
-    const styles  = css('full.min');
-    const scripts = js('full.min', [
-        './js/vendor/jquery-3.2.1.js',
-        './js/vendor/popper-1.12.9.js',
-        './js/vendor/bootstrap-4.0.0.js',
-        './js/vendor/perfect-scrollbar-1.3.0.js',
-    ]);
 
     return [styles, scripts];
 

@@ -10,9 +10,6 @@
  *
  */
 
-@import "bootstrap-4.0.0/functions";
-@import "bootstrap-4.0.0/variables";
-@import "bootstrap-4.0.0/mixins/breakpoints";
 @import "modules/variables";
 @import "modules/fonts/opensans/open-sans-300";
 @import "modules/fonts/opensans/open-sans-300italic";
@@ -60,4 +57,3 @@
 @import "modules/motion/tooltips";
 @import "modules/motion/modal";
 @import "modules/motion/tabs";
-@import "main";
