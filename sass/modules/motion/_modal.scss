@@ -69,6 +69,15 @@
 
     }
 
+    @media (min-width: 768px) {
+        .modal-dialog { width: 500px; }
+        .modal-sm { width: 300px; }
+    }
+
+    @media (min-width: 992px) {
+        .modal-lg { width: 800px; }
+    }
+
 }
 
 .modal-title {
@@ -94,16 +103,6 @@
 .modal-footer {
     border-top:0;
     padding-top:0 24px 24px 24px;
-}
-
-
-@include media-breakpoint-up(sm) {
-    .modal-dialog { width: $modal-md; }
-    .modal-sm { width: $modal-sm; }
-}
-
-@include media-breakpoint-up(lg) {
-    .modal-lg { width: $modal-lg; }
 }
 
 .modal-backdrop {
