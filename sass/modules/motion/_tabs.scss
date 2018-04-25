@@ -12,6 +12,7 @@
         margin: 0 .75rem;
         color: map-get($neutral-palette, "8");
         cursor: pointer;
+        background: transparent;
         padding:0;
         &:hover {
             border-color:transparent;
@@ -28,6 +29,7 @@
             color: map-get($neutral-palette, "10");
             border-width:0;
             border-bottom: 2px solid map-get(map-get($colors-palette, "primary"), "bg");
+            background: transparent;
         }
         &.disabled {
             cursor: not-allowed;
