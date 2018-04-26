@@ -2,9 +2,38 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+and, most of the time (but not always, exceptions being: [1.1.0] so far), this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## 1.1.0 - 2018-04-27
+### Added
+- `.cta` class for anchors
+- Color for toggler in `.navbar-dark` and `.navbar-light`
+- Spacing for navbar dropdown in `lg` and `xl` breakpoints
+
+### Changed
+- Char counter, password, number inputs and modals .js to use ES6 `const` and `let`
+- jQuery, PopperJS and Bootstrap dependencies are no longer part of the package
+- No `px` left in the whole package, using `rem` instead
+- Moves all scss `$vars` to `_variables.scss`
+
+### Fixed
+- Char counter width to not break at 7 characters (like: _999/999_)
+- Toggler icon for basic navbars
+- Basic tab `.active` transparent background
+- Trigger `keyup` on number input arrow clicks
+
+### Removed
+- Autocomplete input
+- Indeterminate checkbox styles
+- Horizontal trail navbar
+- Depth utilities
+- Most of the `.card` styles (docs use spacing utilities instead)
+- Spacing from `.list-title` helper class
+- `:focus` and `:hover` colors from navbar
+- Left margin from `ul` and `ol`
+- `border-radius` from `.dropdown-menu`
 
 ## 1.0.2 - 2018-04-11
 ### Added
