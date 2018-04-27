@@ -13,7 +13,7 @@ and, most of the time (but not always, exceptions being: [1.1.0] so far), this p
 - Spacing for navbar dropdown in `lg` and `xl` breakpoints
 
 ### Changed
-- Char counter, password, number inputs and modals .js to use ES6 `const` and `let`
+- Char counter, password, number inputs and modals .js to use ES6, `const` and `let` mostly
 - jQuery, PopperJS and Bootstrap dependencies are no longer part of the package
 - No `px` left in the whole package, using `rem` instead
 - Moves all scss `$vars` to `_variables.scss`
