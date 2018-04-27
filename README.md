@@ -15,9 +15,12 @@ A library introducing Fluent Design to the Web, built on top of the most popular
 
 Quick start options:
 
-- Download from [Github](https://github.com/Nespero/fluent-kit.git).
-- Download from [Nespero](https://nespero.com/fluent/jquery/).
-- Clone the repo: `git clone https://github.com/Nespero/fluent-kit.git`.
+- Download from [Github](https://github.com/Nespero/fluent-kit.git),
+- Download from [Nespero](https://nespero.com/fluent/jquery/),
+- `git clone https://github.com/Nespero/fluent-kit.git`
+- `npm install fluent-kit`
+- `bower install fluent-kit`
+- `yarn add fluent-kit`
 
 ## Social Media
 

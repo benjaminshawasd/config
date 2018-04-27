@@ -1,0 +1,53 @@
+{
+  "name": "fluent-kit",
+  "description": "A library introducing Fluent Design to the Web, built on top of the most popular frameworks to keep the development process as simple as possible.",
+  "main": "index.html",
+  "authors": [
+    "[\"Nespero <nesperoteam@gmail.com> (https://nespero.com/)\"]"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web",
+    "bootstrap",
+    "html",
+    "kit",
+    "html",
+    "css",
+    "template",
+    "web",
+    "template",
+    "bootstrap",
+    "css3",
+    "template",
+    "frontend",
+    "responsive",
+    "bootstrap",
+    "template",
+    "bootstrap",
+    "4",
+    "ui",
+    "kit",
+    "premium",
+    "bootstrap",
+    "kit",
+    "responsive",
+    "ui",
+    "kit",
+    "fluent-design",
+    "fluent"
+  ],
+  "homepage": "https://nespero.com/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
