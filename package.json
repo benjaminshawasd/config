@@ -12,6 +12,16 @@
     "framework",
     "web",
     "bootstrap",
+    "html kit",
+    "html css template",
+    "web template",
+    "bootstrap",
+    "css3 template",
+    "frontend",
+    "responsive bootstrap template",
+    "bootstrap 4 ui kit",
+    "premium bootstrap kit",
+    "responsive ui kit"
 
   ],
   "bugs": {
@@ -28,7 +38,7 @@
     "sass/",
     "js/"
   ],
-  "browser": "./js/fluent-kit.min.js",
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/nespero/fluent-kit.git"
@@ -61,5 +71,5 @@
   },
   "engines": {
     "node": ">=6"
-  },
+  }
 }
