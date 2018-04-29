@@ -32,12 +32,13 @@ let js = (build, dirs) => {
     dirs = dirs.length ? dirs : [];
 
     const directories = [
-        'free/popover.js',
-        'free/modal.js',
-        'free/forms/counter.js',
-        'free/forms/input-number.js',
-        'free/forms/input-password.js',
-        'free/init.js',
+        'vendor/perfect-scrollbar-1.3.0.js',
+        'modules/popover.js',
+        'modules/modal.js',
+        'modules/forms/counter.js',
+        'modules/forms/input-number.js',
+        'modules/forms/input-password.js',
+        'modules/init.js',
     ].map(dir => `./js/${dir}`);
 
     return gulp.src(dirs.concat(directories))
