@@ -1,5 +1,5 @@
 # Fluent Kit
-## v1.1.0
+## v1.1.1
 
 [![Logo](https://nespero.com/wp-content/themes/prd/assets/img/social/facebook.jpg)](https://nespero.com/)
 
