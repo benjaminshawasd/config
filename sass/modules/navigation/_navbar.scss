@@ -52,8 +52,8 @@ nav.navbar {
         border: none;
         outline: none;
         &::before{ font: normal normal normal 1rem/1 micon; }
-        &[aria-expanded='false']::before { content: "\EB48"; };
-        &[aria-expanded='true']::before { content: "\EAA2"; };
+        &[aria-expanded='false']::before { content: $mi-var-GlobalNavButton; };
+        &[aria-expanded='true']::before { content: $mi-var-ChromeClose; };
     }
 
     .navbar-toggler-icon {
