@@ -2,12 +2,8 @@
 
 const gulp         = require('gulp');
 const sass         = require('gulp-sass');
-const minifyCSS    = require('gulp-csso');
 const autoprefixer = require('gulp-autoprefixer');
-const cleanCSS     = require('gulp-clean-css');
 const concat       = require('gulp-concat');
-const addsrc       = require('gulp-add-src');
-const rename       = require('gulp-rename');
 const uglify       = require('gulp-uglify');
 const gutil        = require('gulp-util');
 const babel        = require('gulp-babel');
