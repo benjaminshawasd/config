@@ -1,39 +1,39 @@
 input[type="number"] {
-    // hide spinner buttons
-    -moz-appearance: textfield;
-    &::-webkit-inner-spin-button,
-    &::-webkit-outer-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
+  // hide spinner buttons
+  -moz-appearance: textfield;
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  @extend %input-with-button;
+  height: 2rem;
+  font-size: .85rem;
+
+  + div.number-spinners {
+    font-size: 0;
+    padding: 0;
+    height:2rem;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    button {
+      @extend %inputs-button-styles;
+      height: 50%;
+      max-height: 50%;
+      font-size: .7rem;
+      padding:0;
+      margin: 0;
+      background-color: transparent;
+      outline: none;
+      border:none;
+
+      &:disabled {
+        background-color: map-get($neutral-palette, "8");
+        color: white;
+      }
     }
-    @extend %input-with-button;
-    height: 2rem;
-    font-size: .85rem;
 
-    + div.number-spinners {
-        font-size: 0;
-        padding: 0;
-        height:2rem;
-        line-height: 1;
-        display: flex;
-        flex-direction: column;
-        button {
-            @extend %inputs-button-styles;
-            height: 50%;
-            max-height: 50%;
-            font-size: .7rem;
-            padding:0;
-            margin: 0;
-            background-color: transparent;
-            outline: none;
-            border:none;
+  }
 
-            &:disabled {
-                background-color: map-get($neutral-palette, "8");
-                color: white;
-            }
-        }
-
-    }
-    
 }

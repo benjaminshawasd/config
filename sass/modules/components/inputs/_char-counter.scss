@@ -1,20 +1,20 @@
 .char-counter-wrap {
 
-    > label {
-        display:block;
-        float:left;
-        width: calc(100% - 3.3rem); // width of 7 characters, ie: 112/120
-    }
+  > label {
+    display:block;
+    float:left;
+    width: calc(100% - 3.3rem); // width of 7 characters, ie: 112/120
+  }
 
-    > span.char-counter {
-        display: none;
-        float: right;
-        font-size: .875rem;
-        text-align: right;
-        margin-top: .3rem;
-        &.char-counter-focused {
-            display: block;
-        }
+  > span.char-counter {
+    display: none;
+    float: right;
+    font-size: .875rem;
+    text-align: right;
+    margin-top: .3rem;
+    &.char-counter-focused {
+      display: block;
     }
+  }
 
 }

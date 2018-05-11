@@ -82,20 +82,20 @@
 }
 @supports (-ms-overflow-style: none) {
   .ps {
-    overflow: auto !important;
+  overflow: auto !important;
   }
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .ps {
-    overflow: auto !important;
+  overflow: auto !important;
   }
 }
 
 .perfect-scrollbar {
-    position: relative;
+  position: relative;
 }
 .ps__rail-x,
 .ps__rail-y {
-    z-index: 2000;
+  z-index: 2000;
 }

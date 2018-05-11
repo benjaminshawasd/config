@@ -15,48 +15,48 @@ const cssnano      = require('gulp-cssnano');
 
 let css = (build) => {
 
-    return gulp
-        .src(`sass/fluent-kit.${build}.scss`)
-        .pipe(sass({outputStyle: 'nested'}).on('error', sass.logError))
-        .pipe(autoprefixer({
-            browsers: ['last 10 versions'],
-            cascade: false
-        }))
-        .pipe(cssnano())
-        .pipe(gulp.dest('./css/'));
+  return gulp
+    .src(`sass/fluent-kit.${build}.scss`)
+    .pipe(sass({outputStyle: 'nested'}).on('error', sass.logError))
+    .pipe(autoprefixer({
+      browsers: ['last 10 versions'],
+      cascade: false
+    }))
+    .pipe(cssnano())
+    .pipe(gulp.dest('./css/'));
 
 }
 
 let js = (build, dirs) => {
-    
-    dirs = dirs.length ? dirs : [];
 
-    const directories = [
-        'vendor/perfect-scrollbar-1.3.0.js',
-        'modules/popover.js',
-        'modules/modal.js',
-        'modules/forms/counter.js',
-        'modules/forms/input-number.js',
-        'modules/forms/input-password.js',
-        'modules/init.js',
-    ].map(dir => `./js/${dir}`);
+  dirs = dirs.length ? dirs : [];
 
-    return gulp.src(dirs.concat(directories))
-        .pipe(concat(`fluent-kit.${build}.js`))
-        .pipe(babel({
-            presets: ['env']
-        }))
-        .pipe(uglify())
-        .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
-        .pipe(gulp.dest('./js/'));
+  const directories = [
+    'vendor/perfect-scrollbar-1.3.0.js',
+    'modules/popover.js',
+    'modules/modal.js',
+    'modules/forms/counter.js',
+    'modules/forms/input-number.js',
+    'modules/forms/input-password.js',
+    'modules/init.js',
+  ].map(dir => `./js/${dir}`);
+
+  return gulp.src(dirs.concat(directories))
+    .pipe(concat(`fluent-kit.${build}.js`))
+    .pipe(babel({
+      presets: ['env']
+    }))
+    .pipe(uglify())
+    .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
+    .pipe(gulp.dest('./js/'));
 
 }
 
 gulp.task('min', () => {
 
-    const styles  = css('min');
-    const scripts = js('min', []);
+  const styles  = css('min');
+  const scripts = js('min', []);
 
-    return [styles, scripts];
+  return [styles, scripts];
 
 });

@@ -1,19 +1,19 @@
 .progress.determinate {
 
-    border: 0;
-    min-width: 296px;
-    height: 4px;
-    border-radius: 0;
-    margin-top: 24px;
+  border: 0;
+  min-width: 296px;
+  height: 4px;
+  border-radius: 0;
+  margin-top: 24px;
 
 }
 
 @each $key, $val in $colors-palette {
 
-    progress.progress.determinate.progress-#{$key} {
-        color: map-get($val, "color");
-        &.progress::-moz-progress-bar { background: map-get($val, "bg"); }
-        &.progress::-webkit-progress-value { background: map-get($val, "bg"); }
-    }
+  progress.progress.determinate.progress-#{$key} {
+    color: map-get($val, "color");
+    &.progress::-moz-progress-bar { background: map-get($val, "bg"); }
+    &.progress::-webkit-progress-value { background: map-get($val, "bg"); }
+  }
 
 }

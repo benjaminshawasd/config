@@ -2,23 +2,23 @@
 // -------------------------
 
 .#{$mi-css-prefix}-ul {
-    padding-left: 0;
-    margin-left: $mi-li-width;
-    list-style-type: none;
+  padding-left: 0;
+  margin-left: $mi-li-width;
+  list-style-type: none;
 
-    > li {
-        position: relative;
-    }
+  > li {
+    position: relative;
+  }
 }
 
 .#{$mi-css-prefix}-li {
-    position: absolute;
-    left: -$mi-li-width;
-    width: $mi-li-width;
-    top: (2em / 14);
-    text-align: center;
+  position: absolute;
+  left: -$mi-li-width;
+  width: $mi-li-width;
+  top: (2em / 14);
+  text-align: center;
 
-    &.#{$mi-css-prefix}-lg {
-        left: -$mi-li-width + (4em / 14);
-    }
+  &.#{$mi-css-prefix}-lg {
+    left: -$mi-li-width + (4em / 14);
+  }
 }

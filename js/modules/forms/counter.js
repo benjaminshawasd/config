@@ -1,45 +1,45 @@
 (function($){
-        
-    $.fn.charCounter = function() {
 
-        const $inputs = $(this);
+  $.fn.charCounter = function() {
 
-        return $inputs.each(function(index, input) {
+    const $inputs = $(this);
 
-            const $input   = $(input);
-            const $label   = $input.siblings("label").first();
-            const $counter = $("<span></span>");
-            const max      = parseInt($input.attr("maxlength"), 10);
-            const html     = '' + 
-                `<span class='char-counter-current'>
-                    ${$input.val().length}
-                </span>/${max}`;
+    return $inputs.each(function(index, input) {
 
-            $input.parent().addClass("char-counter-wrap");
-            $counter
-                .html(html)
-                .addClass("char-counter")
-                .insertAfter($label);
+      const $input  = $(input);
+      const $label  = $input.siblings("label").first();
+      const $counter = $("<span></span>");
+      const max    = parseInt($input.attr("maxlength"), 10);
+      const html    = '' +
+         `<span class='char-counter-current'>
+            ${$input.val().length}
+         </span>/${max}`;
 
-            $input.on({
+      $input.parent().addClass("char-counter-wrap");
+      $counter
+         .html(html)
+         .addClass("char-counter")
+         .insertAfter($label);
 
-                'input keyup': function(e) {
-                    const current = $input.val().length;
-                    $counter.find(".char-counter-current").text(current);
-                },
+      $input.on({
 
-                'focus': function(e) {
-                    $counter.addClass("char-counter-focused");
-                },
+         'input keyup': function(e) {
+            const current = $input.val().length;
+            $counter.find(".char-counter-current").text(current);
+         },
 
-                'blur': function(e) {
-                    $counter.removeClass("char-counter-focused");
-                }
+         'focus': function(e) {
+            $counter.addClass("char-counter-focused");
+         },
 
-            });
+         'blur': function(e) {
+            $counter.removeClass("char-counter-focused");
+         }
 
-        });
+      });
 
-    }
+    });
+
+  }
 
 })(jQuery);

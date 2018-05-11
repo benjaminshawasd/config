@@ -1,21 +1,21 @@
 .page-footer {
-    padding: .53rem 5%;
-    background: map-get($neutral-palette, "1");
-    ul {
-        padding: 0;
-        list-style-type: none;
-        li {
-            a {
-                font-size: .6875rem;
-                line-height: 1rem;
-                color: map-get($neutral-palette, "8");
-                padding: .5rem 0;
-            }
-        }
+  padding: .53rem 5%;
+  background: map-get($neutral-palette, "1");
+  ul {
+    padding: 0;
+    list-style-type: none;
+    li {
+      a {
+        font-size: .6875rem;
+        line-height: 1rem;
+        color: map-get($neutral-palette, "8");
+        padding: .5rem 0;
+      }
     }
-    .footer-copyright {
-        text-align: center;
-        font-size: .875rem;
-        padding: .53rem 5% 1.25rem;
-    }
+  }
+  .footer-copyright {
+    text-align: center;
+    font-size: .875rem;
+    padding: .53rem 5% 1.25rem;
+  }
 }

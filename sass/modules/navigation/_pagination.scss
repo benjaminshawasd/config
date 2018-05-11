@@ -1,17 +1,17 @@
 ul.pagination {
-    .page-item {
-        margin-right: .75rem;
-        a.page-link { 
-            background: transparent; 
-            border: none;
-            outline: 0;
-            color: map-get(map-get($colors-palette, "primary"), "bg");;
-            white-space: nowrap;
-            border-radius:0;
-        }
-
-        &.active a.page-link { border: 1px solid map-get($neutral-palette, "10"); }
-        &.disabled { cursor: not-allowed; }
-        &.disabled a.page-link { color: map-get($neutral-palette, "6"); }
+  .page-item {
+    margin-right: .75rem;
+    a.page-link {
+      background: transparent;
+      border: none;
+      outline: 0;
+      color: map-get(map-get($colors-palette, "primary"), "bg");;
+      white-space: nowrap;
+      border-radius:0;
     }
+
+    &.active a.page-link { border: 1px solid map-get($neutral-palette, "10"); }
+    &.disabled { cursor: not-allowed; }
+    &.disabled a.page-link { color: map-get($neutral-palette, "6"); }
+  }
 }

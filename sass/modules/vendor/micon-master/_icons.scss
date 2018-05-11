@@ -1,4391 +1,4391 @@
 /* Micon uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
+  readers do not read off random characters that represent icons */
 .#{$mi-css-prefix}-Accept:before {
-     content: mi-get-icon($mi-var-Accept);
+  content: mi-get-icon($mi-var-Accept);
 }
 
 .#{$mi-css-prefix}-Accident:before {
-     content: mi-get-icon($mi-var-Accident);
+  content: mi-get-icon($mi-var-Accident);
 }
 
 .#{$mi-css-prefix}-AccidentSolid:before {
-     content: mi-get-icon($mi-var-AccidentSolid);
+  content: mi-get-icon($mi-var-AccidentSolid);
 }
 
 .#{$mi-css-prefix}-Accounts:before {
-     content: mi-get-icon($mi-var-Accounts);
+  content: mi-get-icon($mi-var-Accounts);
 }
 
 .#{$mi-css-prefix}-ActionCenter:before {
-     content: mi-get-icon($mi-var-ActionCenter);
+  content: mi-get-icon($mi-var-ActionCenter);
 }
 
 .#{$mi-css-prefix}-ActionCenterAsterisk:before {
-     content: mi-get-icon($mi-var-ActionCenterAsterisk);
+  content: mi-get-icon($mi-var-ActionCenterAsterisk);
 }
 
 .#{$mi-css-prefix}-ActionCenterMirrored:before {
-     content: mi-get-icon($mi-var-ActionCenterMirrored);
+  content: mi-get-icon($mi-var-ActionCenterMirrored);
 }
 
 .#{$mi-css-prefix}-ActionCenterNotification:before {
-     content: mi-get-icon($mi-var-ActionCenterNotification);
+  content: mi-get-icon($mi-var-ActionCenterNotification);
 }
 
 .#{$mi-css-prefix}-ActionCenterNotificationMirrored:before {
-     content: mi-get-icon($mi-var-ActionCenterNotificationMirrored);
+  content: mi-get-icon($mi-var-ActionCenterNotificationMirrored);
 }
 
 .#{$mi-css-prefix}-ActionCenterQuiet:before {
-     content: mi-get-icon($mi-var-ActionCenterQuiet);
+  content: mi-get-icon($mi-var-ActionCenterQuiet);
 }
 
 .#{$mi-css-prefix}-ActionCenterQuietNotification:before {
-     content: mi-get-icon($mi-var-ActionCenterQuietNotification);
+  content: mi-get-icon($mi-var-ActionCenterQuietNotification);
 }
 
 .#{$mi-css-prefix}-Add:before {
-     content: mi-get-icon($mi-var-Add);
+  content: mi-get-icon($mi-var-Add);
 }
 
 .#{$mi-css-prefix}-AddFriend:before {
-     content: mi-get-icon($mi-var-AddFriend);
+  content: mi-get-icon($mi-var-AddFriend);
 }
 
 .#{$mi-css-prefix}-AddRemoteDevice:before {
-     content: mi-get-icon($mi-var-AddRemoteDevice);
+  content: mi-get-icon($mi-var-AddRemoteDevice);
 }
 
 .#{$mi-css-prefix}-AddSurfaceHub:before {
-     content: mi-get-icon($mi-var-AddSurfaceHub);
+  content: mi-get-icon($mi-var-AddSurfaceHub);
 }
 
 .#{$mi-css-prefix}-AddTo:before {
-     content: mi-get-icon($mi-var-AddTo);
+  content: mi-get-icon($mi-var-AddTo);
 }
 
 .#{$mi-css-prefix}-AdjustHologram:before {
-     content: mi-get-icon($mi-var-AdjustHologram);
+  content: mi-get-icon($mi-var-AdjustHologram);
 }
 
 .#{$mi-css-prefix}-Admin:before {
-     content: mi-get-icon($mi-var-Admin);
+  content: mi-get-icon($mi-var-Admin);
 }
 
 .#{$mi-css-prefix}-Airplane:before {
-     content: mi-get-icon($mi-var-Airplane);
+  content: mi-get-icon($mi-var-Airplane);
 }
 
 .#{$mi-css-prefix}-AirplaneSolid:before {
-     content: mi-get-icon($mi-var-AirplaneSolid);
+  content: mi-get-icon($mi-var-AirplaneSolid);
 }
 
 .#{$mi-css-prefix}-AlignCenter:before {
-     content: mi-get-icon($mi-var-AlignCenter);
+  content: mi-get-icon($mi-var-AlignCenter);
 }
 
 .#{$mi-css-prefix}-AlignLeft:before {
-     content: mi-get-icon($mi-var-AlignLeft);
+  content: mi-get-icon($mi-var-AlignLeft);
 }
 
 .#{$mi-css-prefix}-AlignRight:before {
-     content: mi-get-icon($mi-var-AlignRight);
+  content: mi-get-icon($mi-var-AlignRight);
 }
 
 .#{$mi-css-prefix}-AllApps:before {
-     content: mi-get-icon($mi-var-AllApps);
+  content: mi-get-icon($mi-var-AllApps);
 }
 
 .#{$mi-css-prefix}-AllAppsMirrored:before {
-     content: mi-get-icon($mi-var-AllAppsMirrored);
+  content: mi-get-icon($mi-var-AllAppsMirrored);
 }
 
 .#{$mi-css-prefix}-Annotation:before {
-     content: mi-get-icon($mi-var-Annotation);
+  content: mi-get-icon($mi-var-Annotation);
 }
 
 .#{$mi-css-prefix}-AppIconDefault:before {
-     content: mi-get-icon($mi-var-AppIconDefault);
+  content: mi-get-icon($mi-var-AppIconDefault);
 }
 
 .#{$mi-css-prefix}-AspectRatio:before {
-     content: mi-get-icon($mi-var-AspectRatio);
+  content: mi-get-icon($mi-var-AspectRatio);
 }
 
 .#{$mi-css-prefix}-Asterisk:before {
-     content: mi-get-icon($mi-var-Asterisk);
+  content: mi-get-icon($mi-var-Asterisk);
 }
 
 .#{$mi-css-prefix}-AsteriskBadge12:before {
-     content: mi-get-icon($mi-var-AsteriskBadge12);
+  content: mi-get-icon($mi-var-AsteriskBadge12);
 }
 
 .#{$mi-css-prefix}-Attach:before {
-     content: mi-get-icon($mi-var-Attach);
+  content: mi-get-icon($mi-var-Attach);
 }
 
 .#{$mi-css-prefix}-AttachCamera:before {
-     content: mi-get-icon($mi-var-AttachCamera);
+  content: mi-get-icon($mi-var-AttachCamera);
 }
 
 .#{$mi-css-prefix}-Audio:before {
-     content: mi-get-icon($mi-var-Audio);
+  content: mi-get-icon($mi-var-Audio);
 }
 
 .#{$mi-css-prefix}-Back:before {
-     content: mi-get-icon($mi-var-Back);
+  content: mi-get-icon($mi-var-Back);
 }
 
 .#{$mi-css-prefix}-BackSpaceQWERTYLg:before {
-     content: mi-get-icon($mi-var-BackSpaceQWERTYLg);
+  content: mi-get-icon($mi-var-BackSpaceQWERTYLg);
 }
 
 .#{$mi-css-prefix}-BackSpaceQWERTYMd:before {
-     content: mi-get-icon($mi-var-BackSpaceQWERTYMd);
+  content: mi-get-icon($mi-var-BackSpaceQWERTYMd);
 }
 
 .#{$mi-css-prefix}-BackSpaceQWERTYSm:before {
-     content: mi-get-icon($mi-var-BackSpaceQWERTYSm);
+  content: mi-get-icon($mi-var-BackSpaceQWERTYSm);
 }
 
 .#{$mi-css-prefix}-BackToWindow:before {
-     content: mi-get-icon($mi-var-BackToWindow);
+  content: mi-get-icon($mi-var-BackToWindow);
 }
 
 .#{$mi-css-prefix}-BackgroundToggle:before {
-     content: mi-get-icon($mi-var-BackgroundToggle);
+  content: mi-get-icon($mi-var-BackgroundToggle);
 }
 
 .#{$mi-css-prefix}-Badge:before {
-     content: mi-get-icon($mi-var-Badge);
+  content: mi-get-icon($mi-var-Badge);
 }
 
 .#{$mi-css-prefix}-Bank:before {
-     content: mi-get-icon($mi-var-Bank);
+  content: mi-get-icon($mi-var-Bank);
 }
 
 .#{$mi-css-prefix}-BarcodeScanner:before {
-     content: mi-get-icon($mi-var-BarcodeScanner);
+  content: mi-get-icon($mi-var-BarcodeScanner);
 }
 
 .#{$mi-css-prefix}-Battery0:before {
-     content: mi-get-icon($mi-var-Battery0);
+  content: mi-get-icon($mi-var-Battery0);
 }
 
 .#{$mi-css-prefix}-Battery1:before {
-     content: mi-get-icon($mi-var-Battery1);
+  content: mi-get-icon($mi-var-Battery1);
 }
 
 .#{$mi-css-prefix}-Battery10:before {
-     content: mi-get-icon($mi-var-Battery10);
+  content: mi-get-icon($mi-var-Battery10);
 }
 
 .#{$mi-css-prefix}-Battery2:before {
-     content: mi-get-icon($mi-var-Battery2);
+  content: mi-get-icon($mi-var-Battery2);
 }
 
 .#{$mi-css-prefix}-Battery3:before {
-     content: mi-get-icon($mi-var-Battery3);
+  content: mi-get-icon($mi-var-Battery3);
 }
 
 .#{$mi-css-prefix}-Battery4:before {
-     content: mi-get-icon($mi-var-Battery4);
+  content: mi-get-icon($mi-var-Battery4);
 }
 
 .#{$mi-css-prefix}-Battery5:before {
-     content: mi-get-icon($mi-var-Battery5);
+  content: mi-get-icon($mi-var-Battery5);
 }
 
 .#{$mi-css-prefix}-Battery6:before {
-     content: mi-get-icon($mi-var-Battery6);
+  content: mi-get-icon($mi-var-Battery6);
 }
 
 .#{$mi-css-prefix}-Battery7:before {
-     content: mi-get-icon($mi-var-Battery7);
+  content: mi-get-icon($mi-var-Battery7);
 }
 
 .#{$mi-css-prefix}-Battery8:before {
-     content: mi-get-icon($mi-var-Battery8);
+  content: mi-get-icon($mi-var-Battery8);
 }
 
 .#{$mi-css-prefix}-Battery9:before {
-     content: mi-get-icon($mi-var-Battery9);
+  content: mi-get-icon($mi-var-Battery9);
 }
 
 .#{$mi-css-prefix}-BatteryCharging0:before {
-     content: mi-get-icon($mi-var-BatteryCharging0);
+  content: mi-get-icon($mi-var-BatteryCharging0);
 }
 
 .#{$mi-css-prefix}-BatteryCharging1:before {
-     content: mi-get-icon($mi-var-BatteryCharging1);
+  content: mi-get-icon($mi-var-BatteryCharging1);
 }
 
 .#{$mi-css-prefix}-BatteryCharging10:before {
-     content: mi-get-icon($mi-var-BatteryCharging10);
+  content: mi-get-icon($mi-var-BatteryCharging10);
 }
 
 .#{$mi-css-prefix}-BatteryCharging2:before {
-     content: mi-get-icon($mi-var-BatteryCharging2);
+  content: mi-get-icon($mi-var-BatteryCharging2);
 }
 
 .#{$mi-css-prefix}-BatteryCharging3:before {
-     content: mi-get-icon($mi-var-BatteryCharging3);
+  content: mi-get-icon($mi-var-BatteryCharging3);
 }
 
 .#{$mi-css-prefix}-BatteryCharging4:before {
-     content: mi-get-icon($mi-var-BatteryCharging4);
+  content: mi-get-icon($mi-var-BatteryCharging4);
 }
 
 .#{$mi-css-prefix}-BatteryCharging5:before {
-     content: mi-get-icon($mi-var-BatteryCharging5);
+  content: mi-get-icon($mi-var-BatteryCharging5);
 }
 
 .#{$mi-css-prefix}-BatteryCharging6:before {
-     content: mi-get-icon($mi-var-BatteryCharging6);
+  content: mi-get-icon($mi-var-BatteryCharging6);
 }
 
 .#{$mi-css-prefix}-BatteryCharging7:before {
-     content: mi-get-icon($mi-var-BatteryCharging7);
+  content: mi-get-icon($mi-var-BatteryCharging7);
 }
 
 .#{$mi-css-prefix}-BatteryCharging8:before {
-     content: mi-get-icon($mi-var-BatteryCharging8);
+  content: mi-get-icon($mi-var-BatteryCharging8);
 }
 
 .#{$mi-css-prefix}-BatteryCharging9:before {
-     content: mi-get-icon($mi-var-BatteryCharging9);
+  content: mi-get-icon($mi-var-BatteryCharging9);
 }
 
 .#{$mi-css-prefix}-BatterySaver0:before {
-     content: mi-get-icon($mi-var-BatterySaver0);
+  content: mi-get-icon($mi-var-BatterySaver0);
 }
 
 .#{$mi-css-prefix}-BatterySaver1:before {
-     content: mi-get-icon($mi-var-BatterySaver1);
+  content: mi-get-icon($mi-var-BatterySaver1);
 }
 
 .#{$mi-css-prefix}-BatterySaver10:before {
-     content: mi-get-icon($mi-var-BatterySaver10);
+  content: mi-get-icon($mi-var-BatterySaver10);
 }
 
 .#{$mi-css-prefix}-BatterySaver2:before {
-     content: mi-get-icon($mi-var-BatterySaver2);
+  content: mi-get-icon($mi-var-BatterySaver2);
 }
 
 .#{$mi-css-prefix}-BatterySaver3:before {
-     content: mi-get-icon($mi-var-BatterySaver3);
+  content: mi-get-icon($mi-var-BatterySaver3);
 }
 
 .#{$mi-css-prefix}-BatterySaver4:before {
-     content: mi-get-icon($mi-var-BatterySaver4);
+  content: mi-get-icon($mi-var-BatterySaver4);
 }
 
 .#{$mi-css-prefix}-BatterySaver5:before {
-     content: mi-get-icon($mi-var-BatterySaver5);
+  content: mi-get-icon($mi-var-BatterySaver5);
 }
 
 .#{$mi-css-prefix}-BatterySaver6:before {
-     content: mi-get-icon($mi-var-BatterySaver6);
+  content: mi-get-icon($mi-var-BatterySaver6);
 }
 
 .#{$mi-css-prefix}-BatterySaver7:before {
-     content: mi-get-icon($mi-var-BatterySaver7);
+  content: mi-get-icon($mi-var-BatterySaver7);
 }
 
 .#{$mi-css-prefix}-BatterySaver8:before {
-     content: mi-get-icon($mi-var-BatterySaver8);
+  content: mi-get-icon($mi-var-BatterySaver8);
 }
 
 .#{$mi-css-prefix}-BatterySaver9:before {
-     content: mi-get-icon($mi-var-BatterySaver9);
+  content: mi-get-icon($mi-var-BatterySaver9);
 }
 
 .#{$mi-css-prefix}-BatteryUnknown:before {
-     content: mi-get-icon($mi-var-BatteryUnknown);
+  content: mi-get-icon($mi-var-BatteryUnknown);
 }
 
 .#{$mi-css-prefix}-Beta:before {
-     content: mi-get-icon($mi-var-Beta);
+  content: mi-get-icon($mi-var-Beta);
 }
 
 .#{$mi-css-prefix}-BidiLtr:before {
-     content: mi-get-icon($mi-var-BidiLtr);
+  content: mi-get-icon($mi-var-BidiLtr);
 }
 
 .#{$mi-css-prefix}-BidiRtl:before {
-     content: mi-get-icon($mi-var-BidiRtl);
+  content: mi-get-icon($mi-var-BidiRtl);
 }
 
 .#{$mi-css-prefix}-BlockContact:before {
-     content: mi-get-icon($mi-var-BlockContact);
+  content: mi-get-icon($mi-var-BlockContact);
 }
 
 .#{$mi-css-prefix}-Blocked:before {
-     content: mi-get-icon($mi-var-Blocked);
+  content: mi-get-icon($mi-var-Blocked);
 }
 
 .#{$mi-css-prefix}-Bluetooth:before {
-     content: mi-get-icon($mi-var-Bluetooth);
+  content: mi-get-icon($mi-var-Bluetooth);
 }
 
 .#{$mi-css-prefix}-BodyCam:before {
-     content: mi-get-icon($mi-var-BodyCam);
+  content: mi-get-icon($mi-var-BodyCam);
 }
 
 .#{$mi-css-prefix}-Bold:before {
-     content: mi-get-icon($mi-var-Bold);
+  content: mi-get-icon($mi-var-Bold);
 }
 
 .#{$mi-css-prefix}-BoldF:before {
-     content: mi-get-icon($mi-var-BoldF);
+  content: mi-get-icon($mi-var-BoldF);
 }
 
 .#{$mi-css-prefix}-BoldG:before {
-     content: mi-get-icon($mi-var-BoldG);
+  content: mi-get-icon($mi-var-BoldG);
 }
 
 .#{$mi-css-prefix}-BoldKorean:before {
-     content: mi-get-icon($mi-var-BoldKorean);
+  content: mi-get-icon($mi-var-BoldKorean);
 }
 
 .#{$mi-css-prefix}-BoldN:before {
-     content: mi-get-icon($mi-var-BoldN);
+  content: mi-get-icon($mi-var-BoldN);
 }
 
 .#{$mi-css-prefix}-BoldRussion:before {
-     content: mi-get-icon($mi-var-BoldRussion);
+  content: mi-get-icon($mi-var-BoldRussion);
 }
 
 .#{$mi-css-prefix}-Bookmarks:before {
-     content: mi-get-icon($mi-var-Bookmarks);
+  content: mi-get-icon($mi-var-Bookmarks);
 }
 
 .#{$mi-css-prefix}-BookmarksMirrored:before {
-     content: mi-get-icon($mi-var-BookmarksMirrored);
+  content: mi-get-icon($mi-var-BookmarksMirrored);
 }
 
 .#{$mi-css-prefix}-Brightness:before {
-     content: mi-get-icon($mi-var-Brightness);
+  content: mi-get-icon($mi-var-Brightness);
 }
 
 .#{$mi-css-prefix}-Broom:before {
-     content: mi-get-icon($mi-var-Broom);
+  content: mi-get-icon($mi-var-Broom);
 }
 
 .#{$mi-css-prefix}-BrowsePhotos:before {
-     content: mi-get-icon($mi-var-BrowsePhotos);
+  content: mi-get-icon($mi-var-BrowsePhotos);
 }
 
 .#{$mi-css-prefix}-BrushSize:before {
-     content: mi-get-icon($mi-var-BrushSize);
+  content: mi-get-icon($mi-var-BrushSize);
 }
 
 .#{$mi-css-prefix}-BuildingEnergy:before {
-     content: mi-get-icon($mi-var-BuildingEnergy);
+  content: mi-get-icon($mi-var-BuildingEnergy);
 }
 
 .#{$mi-css-prefix}-List {
-     content: mi-get-icon($mi-var-List);
+  content: mi-get-icon($mi-var-List);
 }
 
 .#{$mi-css-prefix}-ListMirrored:before {
-     content: mi-get-icon($mi-var-ListMirrored);
+  content: mi-get-icon($mi-var-ListMirrored);
 }
 
 .#{$mi-css-prefix}-Bus:before {
-     content: mi-get-icon($mi-var-Bus);
+  content: mi-get-icon($mi-var-Bus);
 }
 
 .#{$mi-css-prefix}-BusSolid:before {
-     content: mi-get-icon($mi-var-BusSolid);
+  content: mi-get-icon($mi-var-BusSolid);
 }
 
 .#{$mi-css-prefix}-CC:before {
-     content: mi-get-icon($mi-var-CC);
+  content: mi-get-icon($mi-var-CC);
 }
 
 .#{$mi-css-prefix}-CCEuro:before {
-     content: mi-get-icon($mi-var-CCEuro);
+  content: mi-get-icon($mi-var-CCEuro);
 }
 
 .#{$mi-css-prefix}-CCJapan:before {
-     content: mi-get-icon($mi-var-CCJapan);
+  content: mi-get-icon($mi-var-CCJapan);
 }
 
 .#{$mi-css-prefix}-Calculator:before {
-     content: mi-get-icon($mi-var-Calculator);
+  content: mi-get-icon($mi-var-Calculator);
 }
 
 .#{$mi-css-prefix}-CalculatorAddition:before {
-     content: mi-get-icon($mi-var-CalculatorAddition);
+  content: mi-get-icon($mi-var-CalculatorAddition);
 }
 
 .#{$mi-css-prefix}-CalculatorBackspace:before {
-     content: mi-get-icon($mi-var-CalculatorBackspace);
+  content: mi-get-icon($mi-var-CalculatorBackspace);
 }
 
 .#{$mi-css-prefix}-CalculatorDivide:before {
-     content: mi-get-icon($mi-var-CalculatorDivide);
+  content: mi-get-icon($mi-var-CalculatorDivide);
 }
 
 .#{$mi-css-prefix}-CalculatorEqualTo:before {
-     content: mi-get-icon($mi-var-CalculatorEqualTo);
+  content: mi-get-icon($mi-var-CalculatorEqualTo);
 }
 
 .#{$mi-css-prefix}-CalculatorMultiply:before {
-     content: mi-get-icon($mi-var-CalculatorMultiply);
+  content: mi-get-icon($mi-var-CalculatorMultiply);
 }
 
 .#{$mi-css-prefix}-CalculatorNegate:before {
-     content: mi-get-icon($mi-var-CalculatorNegate);
+  content: mi-get-icon($mi-var-CalculatorNegate);
 }
 
 .#{$mi-css-prefix}-CalculatorPercentage:before {
-     content: mi-get-icon($mi-var-CalculatorPercentage);
+  content: mi-get-icon($mi-var-CalculatorPercentage);
 }
 
 .#{$mi-css-prefix}-CalculatorSquareroot:before {
-     content: mi-get-icon($mi-var-CalculatorSquareroot);
+  content: mi-get-icon($mi-var-CalculatorSquareroot);
 }
 
 .#{$mi-css-prefix}-CalculatorSubtract:before {
-     content: mi-get-icon($mi-var-CalculatorSubtract);
+  content: mi-get-icon($mi-var-CalculatorSubtract);
 }
 
 .#{$mi-css-prefix}-Calendar:before {
-     content: mi-get-icon($mi-var-Calendar);
+  content: mi-get-icon($mi-var-Calendar);
 }
 
 .#{$mi-css-prefix}-CalendarDay:before {
-     content: mi-get-icon($mi-var-CalendarDay);
+  content: mi-get-icon($mi-var-CalendarDay);
 }
 
 .#{$mi-css-prefix}-CalendarMirrored:before {
-     content: mi-get-icon($mi-var-CalendarMirrored);
+  content: mi-get-icon($mi-var-CalendarMirrored);
 }
 
 .#{$mi-css-prefix}-CalendarReply:before {
-     content: mi-get-icon($mi-var-CalendarReply);
+  content: mi-get-icon($mi-var-CalendarReply);
 }
 
 .#{$mi-css-prefix}-CalendarSolid:before {
-     content: mi-get-icon($mi-var-CalendarSolid);
+  content: mi-get-icon($mi-var-CalendarSolid);
 }
 
 .#{$mi-css-prefix}-CalendarWeek:before {
-     content: mi-get-icon($mi-var-CalendarWeek);
+  content: mi-get-icon($mi-var-CalendarWeek);
 }
 
 .#{$mi-css-prefix}-CaligraphyPen:before {
-     content: mi-get-icon($mi-var-CaligraphyPen);
+  content: mi-get-icon($mi-var-CaligraphyPen);
 }
 
 .#{$mi-css-prefix}-CallForwardInternational:before {
-     content: mi-get-icon($mi-var-CallForwardInternational);
+  content: mi-get-icon($mi-var-CallForwardInternational);
 }
 
 .#{$mi-css-prefix}-CallForwardInternationalMirrored:before {
-     content: mi-get-icon($mi-var-CallForwardInternationalMirrored);
+  content: mi-get-icon($mi-var-CallForwardInternationalMirrored);
 }
 
 .#{$mi-css-prefix}-CallForwardRoaming:before {
-     content: mi-get-icon($mi-var-CallForwardRoaming);
+  content: mi-get-icon($mi-var-CallForwardRoaming);
 }
 
 .#{$mi-css-prefix}-CallForwardRoamingMirrored:before {
-     content: mi-get-icon($mi-var-CallForwardRoamingMirrored);
+  content: mi-get-icon($mi-var-CallForwardRoamingMirrored);
 }
 
 .#{$mi-css-prefix}-CallForwarding:before {
-     content: mi-get-icon($mi-var-CallForwarding);
+  content: mi-get-icon($mi-var-CallForwarding);
 }
 
 .#{$mi-css-prefix}-CallForwardingMirrored:before {
-     content: mi-get-icon($mi-var-CallForwardingMirrored);
+  content: mi-get-icon($mi-var-CallForwardingMirrored);
 }
 
 .#{$mi-css-prefix}-Camera:before {
-     content: mi-get-icon($mi-var-Camera);
+  content: mi-get-icon($mi-var-Camera);
 }
 
 .#{$mi-css-prefix}-Cancel:before {
-     content: mi-get-icon($mi-var-Cancel);
+  content: mi-get-icon($mi-var-Cancel);
 }
 
 .#{$mi-css-prefix}-Caption:before {
-     content: mi-get-icon($mi-var-Caption);
+  content: mi-get-icon($mi-var-Caption);
 }
 
 .#{$mi-css-prefix}-Car:before {
-     content: mi-get-icon($mi-var-Car);
+  content: mi-get-icon($mi-var-Car);
 }
 
 .#{$mi-css-prefix}-CashDrawer:before {
-     content: mi-get-icon($mi-var-CashDrawer);
+  content: mi-get-icon($mi-var-CashDrawer);
 }
 
 .#{$mi-css-prefix}-CellPhone:before {
-     content: mi-get-icon($mi-var-CellPhone);
+  content: mi-get-icon($mi-var-CellPhone);
 }
 
 .#{$mi-css-prefix}-Certificate:before {
-     content: mi-get-icon($mi-var-Certificate);
+  content: mi-get-icon($mi-var-Certificate);
 }
 
 .#{$mi-css-prefix}-Characters:before {
-     content: mi-get-icon($mi-var-Characters);
+  content: mi-get-icon($mi-var-Characters);
 }
 
 .#{$mi-css-prefix}-ChatBubbles:before {
-     content: mi-get-icon($mi-var-ChatBubbles);
+  content: mi-get-icon($mi-var-ChatBubbles);
 }
 
 .#{$mi-css-prefix}-CheckMark:before {
-     content: mi-get-icon($mi-var-CheckMark);
+  content: mi-get-icon($mi-var-CheckMark);
 }
 
 .#{$mi-css-prefix}-Checkbox:before {
-     content: mi-get-icon($mi-var-Checkbox);
+  content: mi-get-icon($mi-var-Checkbox);
 }
 
 .#{$mi-css-prefix}-CheckboxComposite:before {
-     content: mi-get-icon($mi-var-CheckboxComposite);
+  content: mi-get-icon($mi-var-CheckboxComposite);
 }
 
 .#{$mi-css-prefix}-CheckboxCompositeReversed:before {
-     content: mi-get-icon($mi-var-CheckboxCompositeReversed);
+  content: mi-get-icon($mi-var-CheckboxCompositeReversed);
 }
 
 .#{$mi-css-prefix}-CheckboxFill:before {
-     content: mi-get-icon($mi-var-CheckboxFill);
+  content: mi-get-icon($mi-var-CheckboxFill);
 }
 
 .#{$mi-css-prefix}-CheckboxIndeterminate:before {
-     content: mi-get-icon($mi-var-CheckboxIndeterminate);
+  content: mi-get-icon($mi-var-CheckboxIndeterminate);
 }
 
 .#{$mi-css-prefix}-ChevronDown:before {
-     content: mi-get-icon($mi-var-ChevronDown);
+  content: mi-get-icon($mi-var-ChevronDown);
 }
 
 .#{$mi-css-prefix}-ChevronDownMed:before {
-     content: mi-get-icon($mi-var-ChevronDownMed);
+  content: mi-get-icon($mi-var-ChevronDownMed);
 }
 
 .#{$mi-css-prefix}-ChevronDownSmall:before {
-     content: mi-get-icon($mi-var-ChevronDownSmall);
+  content: mi-get-icon($mi-var-ChevronDownSmall);
 }
 
 .#{$mi-css-prefix}-ChevronLeft:before {
-     content: mi-get-icon($mi-var-ChevronLeft);
+  content: mi-get-icon($mi-var-ChevronLeft);
 }
 
 .#{$mi-css-prefix}-ChevronLeftMed:before {
-     content: mi-get-icon($mi-var-ChevronLeftMed);
+  content: mi-get-icon($mi-var-ChevronLeftMed);
 }
 
 .#{$mi-css-prefix}-ChevronLeftSmall:before {
-     content: mi-get-icon($mi-var-ChevronLeftSmall);
+  content: mi-get-icon($mi-var-ChevronLeftSmall);
 }
 
 .#{$mi-css-prefix}-ChevronRight:before {
-     content: mi-get-icon($mi-var-ChevronRight);
+  content: mi-get-icon($mi-var-ChevronRight);
 }
 
 .#{$mi-css-prefix}-ChevronRightMed:before {
-     content: mi-get-icon($mi-var-ChevronRightMed);
+  content: mi-get-icon($mi-var-ChevronRightMed);
 }
 
 .#{$mi-css-prefix}-ChevronRightSmall:before {
-     content: mi-get-icon($mi-var-ChevronRightSmall);
+  content: mi-get-icon($mi-var-ChevronRightSmall);
 }
 
 .#{$mi-css-prefix}-ChevronUp:before {
-     content: mi-get-icon($mi-var-ChevronUp);
+  content: mi-get-icon($mi-var-ChevronUp);
 }
 
 .#{$mi-css-prefix}-ChevronUpMed:before {
-     content: mi-get-icon($mi-var-ChevronUpMed);
+  content: mi-get-icon($mi-var-ChevronUpMed);
 }
 
 .#{$mi-css-prefix}-ChevronUpSmall:before {
-     content: mi-get-icon($mi-var-ChevronUpSmall);
+  content: mi-get-icon($mi-var-ChevronUpSmall);
 }
 
 .#{$mi-css-prefix}-ChineseBoPoMoFo:before {
-     content: mi-get-icon($mi-var-ChineseBoPoMoFo);
+  content: mi-get-icon($mi-var-ChineseBoPoMoFo);
 }
 
 .#{$mi-css-prefix}-ChineseChangjie:before {
-     content: mi-get-icon($mi-var-ChineseChangjie);
+  content: mi-get-icon($mi-var-ChineseChangjie);
 }
 
 .#{$mi-css-prefix}-ChinesePinyin:before {
-     content: mi-get-icon($mi-var-ChinesePinyin);
+  content: mi-get-icon($mi-var-ChinesePinyin);
 }
 
 .#{$mi-css-prefix}-ChineseQuick:before {
-     content: mi-get-icon($mi-var-ChineseQuick);
+  content: mi-get-icon($mi-var-ChineseQuick);
 }
 
 .#{$mi-css-prefix}-ChromeAnnotate:before {
-     content: mi-get-icon($mi-var-ChromeAnnotate);
+  content: mi-get-icon($mi-var-ChromeAnnotate);
 }
 
 .#{$mi-css-prefix}-ChromeBack:before {
-     content: mi-get-icon($mi-var-ChromeBack);
+  content: mi-get-icon($mi-var-ChromeBack);
 }
 
 .#{$mi-css-prefix}-ChromeBackMirrored:before {
-     content: mi-get-icon($mi-var-ChromeBackMirrored);
+  content: mi-get-icon($mi-var-ChromeBackMirrored);
 }
 
 .#{$mi-css-prefix}-ChromeBackToWindow:before {
-     content: mi-get-icon($mi-var-ChromeBackToWindow);
+  content: mi-get-icon($mi-var-ChromeBackToWindow);
 }
 
 .#{$mi-css-prefix}-ChromeClose:before {
-     content: mi-get-icon($mi-var-ChromeClose);
+  content: mi-get-icon($mi-var-ChromeClose);
 }
 
 .#{$mi-css-prefix}-ChromeFullScreen:before {
-     content: mi-get-icon($mi-var-ChromeFullScreen);
+  content: mi-get-icon($mi-var-ChromeFullScreen);
 }
 
 .#{$mi-css-prefix}-ChromeMaximize:before {
-     content: mi-get-icon($mi-var-ChromeMaximize);
+  content: mi-get-icon($mi-var-ChromeMaximize);
 }
 
 .#{$mi-css-prefix}-ChromeMinimize:before {
-     content: mi-get-icon($mi-var-ChromeMinimize);
+  content: mi-get-icon($mi-var-ChromeMinimize);
 }
 
 .#{$mi-css-prefix}-ChromeRestore:before {
-     content: mi-get-icon($mi-var-ChromeRestore);
+  content: mi-get-icon($mi-var-ChromeRestore);
 }
 
 .#{$mi-css-prefix}-CircleFill:before {
-     content: mi-get-icon($mi-var-CircleFill);
+  content: mi-get-icon($mi-var-CircleFill);
 }
 
 .#{$mi-css-prefix}-CircleFillBadge12:before {
-     content: mi-get-icon($mi-var-CircleFillBadge12);
+  content: mi-get-icon($mi-var-CircleFillBadge12);
 }
 
 .#{$mi-css-prefix}-CircleRing:before {
-     content: mi-get-icon($mi-var-CircleRing);
+  content: mi-get-icon($mi-var-CircleRing);
 }
 
 .#{$mi-css-prefix}-CircleRingBadge12:before {
-     content: mi-get-icon($mi-var-CircleRingBadge12);
+  content: mi-get-icon($mi-var-CircleRingBadge12);
 }
 
 .#{$mi-css-prefix}-CityNext:before {
-     content: mi-get-icon($mi-var-CityNext);
+  content: mi-get-icon($mi-var-CityNext);
 }
 
 .#{$mi-css-prefix}-CityNext2:before {
-     content: mi-get-icon($mi-var-CityNext2);
+  content: mi-get-icon($mi-var-CityNext2);
 }
 
 .#{$mi-css-prefix}-Clear:before {
-     content: mi-get-icon($mi-var-Clear);
+  content: mi-get-icon($mi-var-Clear);
 }
 
 .#{$mi-css-prefix}-ClearAllInk:before {
-     content: mi-get-icon($mi-var-ClearAllInk);
+  content: mi-get-icon($mi-var-ClearAllInk);
 }
 
 .#{$mi-css-prefix}-ClearAllInkMirrored:before {
-     content: mi-get-icon($mi-var-ClearAllInkMirrored);
+  content: mi-get-icon($mi-var-ClearAllInkMirrored);
 }
 
 .#{$mi-css-prefix}-ClearSelection:before {
-     content: mi-get-icon($mi-var-ClearSelection);
+  content: mi-get-icon($mi-var-ClearSelection);
 }
 
 .#{$mi-css-prefix}-ClearSelectionMirrored:before {
-     content: mi-get-icon($mi-var-ClearSelectionMirrored);
+  content: mi-get-icon($mi-var-ClearSelectionMirrored);
 }
 
 .#{$mi-css-prefix}-Click:before {
-     content: mi-get-icon($mi-var-Click);
+  content: mi-get-icon($mi-var-Click);
 }
 
 .#{$mi-css-prefix}-Clock:before {
-     content: mi-get-icon($mi-var-Clock);
+  content: mi-get-icon($mi-var-Clock);
 }
 
 .#{$mi-css-prefix}-ClosePane:before {
-     content: mi-get-icon($mi-var-ClosePane);
+  content: mi-get-icon($mi-var-ClosePane);
 }
 
 .#{$mi-css-prefix}-ClosePaneMirrored:before {
-     content: mi-get-icon($mi-var-ClosePaneMirrored);
+  content: mi-get-icon($mi-var-ClosePaneMirrored);
 }
 
 .#{$mi-css-prefix}-Cloud:before {
-     content: mi-get-icon($mi-var-Cloud);
+  content: mi-get-icon($mi-var-Cloud);
 }
 
 .#{$mi-css-prefix}-CloudPrinter:before {
-     content: mi-get-icon($mi-var-CloudPrinter);
+  content: mi-get-icon($mi-var-CloudPrinter);
 }
 
 .#{$mi-css-prefix}-Code:before {
-     content: mi-get-icon($mi-var-Code);
+  content: mi-get-icon($mi-var-Code);
 }
 
 .#{$mi-css-prefix}-Color:before {
-     content: mi-get-icon($mi-var-Color);
+  content: mi-get-icon($mi-var-Color);
 }
 
 .#{$mi-css-prefix}-CommaKey:before {
-     content: mi-get-icon($mi-var-CommaKey);
+  content: mi-get-icon($mi-var-CommaKey);
 }
 
 .#{$mi-css-prefix}-CommandPrompt:before {
-     content: mi-get-icon($mi-var-CommandPrompt);
+  content: mi-get-icon($mi-var-CommandPrompt);
 }
 
 .#{$mi-css-prefix}-Comment:before {
-     content: mi-get-icon($mi-var-Comment);
+  content: mi-get-icon($mi-var-Comment);
 }
 
 .#{$mi-css-prefix}-Communications:before {
-     content: mi-get-icon($mi-var-Communications);
+  content: mi-get-icon($mi-var-Communications);
 }
 
 .#{$mi-css-prefix}-CompanionApp:before {
-     content: mi-get-icon($mi-var-CompanionApp);
+  content: mi-get-icon($mi-var-CompanionApp);
 }
 
 .#{$mi-css-prefix}-CompanionDeviceFramework:before {
-     content: mi-get-icon($mi-var-CompanionDeviceFramework);
+  content: mi-get-icon($mi-var-CompanionDeviceFramework);
 }
 
 .#{$mi-css-prefix}-Completed:before {
-     content: mi-get-icon($mi-var-Completed);
+  content: mi-get-icon($mi-var-Completed);
 }
 
 .#{$mi-css-prefix}-CompletedSolid:before {
-     content: mi-get-icon($mi-var-CompletedSolid);
+  content: mi-get-icon($mi-var-CompletedSolid);
 }
 
 .#{$mi-css-prefix}-Component:before {
-     content: mi-get-icon($mi-var-Component);
+  content: mi-get-icon($mi-var-Component);
 }
 
 .#{$mi-css-prefix}-Connect:before {
-     content: mi-get-icon($mi-var-Connect);
+  content: mi-get-icon($mi-var-Connect);
 }
 
 .#{$mi-css-prefix}-ConnectApp:before,
 .#{$mi-css-prefix}-MiracastLogoLarge:before {
-     content: mi-get-icon($mi-var-ConnectApp);
+  content: mi-get-icon($mi-var-ConnectApp);
 }
 
 .#{$mi-css-prefix}-Construction:before {
-     content: mi-get-icon($mi-var-Construction);
+  content: mi-get-icon($mi-var-Construction);
 }
 
 .#{$mi-css-prefix}-ConstructionCone:before {
-     content: mi-get-icon($mi-var-ConstructionCone);
+  content: mi-get-icon($mi-var-ConstructionCone);
 }
 
 .#{$mi-css-prefix}-ConstructionSolid:before {
-     content: mi-get-icon($mi-var-ConstructionSolid);
+  content: mi-get-icon($mi-var-ConstructionSolid);
 }
 
 .#{$mi-css-prefix}-Contact:before {
-     content: mi-get-icon($mi-var-Contact);
+  content: mi-get-icon($mi-var-Contact);
 }
 
 .#{$mi-css-prefix}-Contact2:before {
-     content: mi-get-icon($mi-var-Contact2);
+  content: mi-get-icon($mi-var-Contact2);
 }
 
 .#{$mi-css-prefix}-ContactInfo:before {
-     content: mi-get-icon($mi-var-ContactInfo);
+  content: mi-get-icon($mi-var-ContactInfo);
 }
 
 .#{$mi-css-prefix}-ContactInfoMirrored:before {
-     content: mi-get-icon($mi-var-ContactInfoMirrored);
+  content: mi-get-icon($mi-var-ContactInfoMirrored);
 }
 
 .#{$mi-css-prefix}-ContactPresence:before {
-     content: mi-get-icon($mi-var-ContactPresence);
+  content: mi-get-icon($mi-var-ContactPresence);
 }
 
 .#{$mi-css-prefix}-ContactSolid:before {
-     content: mi-get-icon($mi-var-ContactSolid);
+  content: mi-get-icon($mi-var-ContactSolid);
 }
 
 .#{$mi-css-prefix}-Copy:before {
-     content: mi-get-icon($mi-var-Copy);
+  content: mi-get-icon($mi-var-Copy);
 }
 
 .#{$mi-css-prefix}-Courthouse:before {
-     content: mi-get-icon($mi-var-Courthouse);
+  content: mi-get-icon($mi-var-Courthouse);
 }
 
 .#{$mi-css-prefix}-Crop:before {
-     content: mi-get-icon($mi-var-Crop);
+  content: mi-get-icon($mi-var-Crop);
 }
 
 .#{$mi-css-prefix}-Cut:before {
-     content: mi-get-icon($mi-var-Cut);
+  content: mi-get-icon($mi-var-Cut);
 }
 
 .#{$mi-css-prefix}-DMC:before {
-     content: mi-get-icon($mi-var-DMC);
+  content: mi-get-icon($mi-var-DMC);
 }
 
 .#{$mi-css-prefix}-DashKey:before {
-     content: mi-get-icon($mi-var-DashKey);
+  content: mi-get-icon($mi-var-DashKey);
 }
 
 .#{$mi-css-prefix}-DataSense:before {
-     content: mi-get-icon($mi-var-DataSense);
+  content: mi-get-icon($mi-var-DataSense);
 }
 
 .#{$mi-css-prefix}-DataSenseBar:before {
-     content: mi-get-icon($mi-var-DataSenseBar);
+  content: mi-get-icon($mi-var-DataSenseBar);
 }
 
 .#{$mi-css-prefix}-DateTime:before {
-     content: mi-get-icon($mi-var-DateTime);
+  content: mi-get-icon($mi-var-DateTime);
 }
 
 .#{$mi-css-prefix}-DateTimeMirrored:before {
-     content: mi-get-icon($mi-var-DateTimeMirrored);
+  content: mi-get-icon($mi-var-DateTimeMirrored);
 }
 
 .#{$mi-css-prefix}-DecreaseIndent:before {
-     content: mi-get-icon($mi-var-DecreaseIndent);
+  content: mi-get-icon($mi-var-DecreaseIndent);
 }
 
 .#{$mi-css-prefix}-DecreaseIndentMirrored:before {
-     content: mi-get-icon($mi-var-DecreaseIndentMirrored);
+  content: mi-get-icon($mi-var-DecreaseIndentMirrored);
 }
 
 .#{$mi-css-prefix}-DefenderApp:before {
-     content: mi-get-icon($mi-var-DefenderApp);
+  content: mi-get-icon($mi-var-DefenderApp);
 }
 
 .#{$mi-css-prefix}-Delete:before {
-     content: mi-get-icon($mi-var-Delete);
+  content: mi-get-icon($mi-var-Delete);
 }
 
 .#{$mi-css-prefix}-DevUpdate:before {
-     content: mi-get-icon($mi-var-DevUpdate);
+  content: mi-get-icon($mi-var-DevUpdate);
 }
 
 .#{$mi-css-prefix}-DeveloperTools:before {
-     content: mi-get-icon($mi-var-DeveloperTools);
+  content: mi-get-icon($mi-var-DeveloperTools);
 }
 
 .#{$mi-css-prefix}-DeviceDiscovery:before {
-     content: mi-get-icon($mi-var-DeviceDiscovery);
+  content: mi-get-icon($mi-var-DeviceDiscovery);
 }
 
 .#{$mi-css-prefix}-DeviceLaptopNoPic:before {
-     content: mi-get-icon($mi-var-DeviceLaptopNoPic);
+  content: mi-get-icon($mi-var-DeviceLaptopNoPic);
 }
 
 .#{$mi-css-prefix}-DeviceLaptopPic:before {
-     content: mi-get-icon($mi-var-DeviceLaptopPic);
+  content: mi-get-icon($mi-var-DeviceLaptopPic);
 }
 
 .#{$mi-css-prefix}-DeviceMonitorLeftPic:before {
-     content: mi-get-icon($mi-var-DeviceMonitorLeftPic);
+  content: mi-get-icon($mi-var-DeviceMonitorLeftPic);
 }
 
 .#{$mi-css-prefix}-DeviceMonitorNoPic:before {
-     content: mi-get-icon($mi-var-DeviceMonitorNoPic);
+  content: mi-get-icon($mi-var-DeviceMonitorNoPic);
 }
 
 .#{$mi-css-prefix}-DeviceMonitorRightPic:before {
-     content: mi-get-icon($mi-var-DeviceMonitorRightPic);
+  content: mi-get-icon($mi-var-DeviceMonitorRightPic);
 }
 
 .#{$mi-css-prefix}-Devices:before {
-     content: mi-get-icon($mi-var-Devices);
+  content: mi-get-icon($mi-var-Devices);
 }
 
 .#{$mi-css-prefix}-Devices3:before {
-     content: mi-get-icon($mi-var-Devices3);
+  content: mi-get-icon($mi-var-Devices3);
 }
 
 .#{$mi-css-prefix}-Devices4:before {
-     content: mi-get-icon($mi-var-Devices4);
+  content: mi-get-icon($mi-var-Devices4);
 }
 
 .#{$mi-css-prefix}-Devices2:before{
-     content: mi-get-icon($mi-var-Devices);
+  content: mi-get-icon($mi-var-Devices);
 }
 
 .#{$mi-css-prefix}-Diagnostic:before {
-     content: mi-get-icon($mi-var-Diagnostic);
+  content: mi-get-icon($mi-var-Diagnostic);
 }
 
 .#{$mi-css-prefix}-DialUp:before {
-     content: mi-get-icon($mi-var-DialUp);
+  content: mi-get-icon($mi-var-DialUp);
 }
 
 .#{$mi-css-prefix}-Dialpad:before {
-     content: mi-get-icon($mi-var-Dialpad);
+  content: mi-get-icon($mi-var-Dialpad);
 }
 
 .#{$mi-css-prefix}-Dictionary:before {
-     content: mi-get-icon($mi-var-Dictionary);
+  content: mi-get-icon($mi-var-Dictionary);
 }
 
 .#{$mi-css-prefix}-DictionaryAdd:before {
-     content: mi-get-icon($mi-var-DictionaryAdd);
+  content: mi-get-icon($mi-var-DictionaryAdd);
 }
 
 .#{$mi-css-prefix}-DictionaryCloud:before {
-     content: mi-get-icon($mi-var-DictionaryCloud);
+  content: mi-get-icon($mi-var-DictionaryCloud);
 }
 
 .#{$mi-css-prefix}-DirectAccess:before {
-     content: mi-get-icon($mi-var-DirectAccess);
+  content: mi-get-icon($mi-var-DirectAccess);
 }
 
 .#{$mi-css-prefix}-Directions:before {
-     content: mi-get-icon($mi-var-Directions);
+  content: mi-get-icon($mi-var-Directions);
 }
 
 .#{$mi-css-prefix}-DisableUpdates:before {
-     content: mi-get-icon($mi-var-DisableUpdates);
+  content: mi-get-icon($mi-var-DisableUpdates);
 }
 
 .#{$mi-css-prefix}-DisconnectDisplay:before {
-     content: mi-get-icon($mi-var-DisconnectDisplay);
+  content: mi-get-icon($mi-var-DisconnectDisplay);
 }
 
 .#{$mi-css-prefix}-DisconnectDrive:before {
-     content: mi-get-icon($mi-var-DisconnectDrive);
+  content: mi-get-icon($mi-var-DisconnectDrive);
 }
 
 .#{$mi-css-prefix}-Dislike:before {
-     content: mi-get-icon($mi-var-Dislike);
+  content: mi-get-icon($mi-var-Dislike);
 }
 
 .#{$mi-css-prefix}-Dock:before {
-     content: mi-get-icon($mi-var-Dock);
+  content: mi-get-icon($mi-var-Dock);
 }
 
 .#{$mi-css-prefix}-DockBottom:before {
-     content: mi-get-icon($mi-var-DockBottom);
+  content: mi-get-icon($mi-var-DockBottom);
 }
 
 .#{$mi-css-prefix}-DockLeft:before {
-     content: mi-get-icon($mi-var-DockLeft);
+  content: mi-get-icon($mi-var-DockLeft);
 }
 
 .#{$mi-css-prefix}-DockLeftMirrored:before {
-     content: mi-get-icon($mi-var-DockLeftMirrored);
+  content: mi-get-icon($mi-var-DockLeftMirrored);
 }
 
 .#{$mi-css-prefix}-DockRight:before {
-     content: mi-get-icon($mi-var-DockRight);
+  content: mi-get-icon($mi-var-DockRight);
 }
 
 .#{$mi-css-prefix}-DockRightMirrored:before {
-     content: mi-get-icon($mi-var-DockRightMirrored);
+  content: mi-get-icon($mi-var-DockRightMirrored);
 }
 
 .#{$mi-css-prefix}-Document:before {
-     content: mi-get-icon($mi-var-Document);
+  content: mi-get-icon($mi-var-Document);
 }
 
 .#{$mi-css-prefix}-Down:before {
-     content: mi-get-icon($mi-var-Down);
+  content: mi-get-icon($mi-var-Down);
 }
 
 .#{$mi-css-prefix}-DownShiftKey:before {
-     content: mi-get-icon($mi-var-DownShiftKey);
+  content: mi-get-icon($mi-var-DownShiftKey);
 }
 
 .#{$mi-css-prefix}-Download:before {
-     content: mi-get-icon($mi-var-Download);
+  content: mi-get-icon($mi-var-Download);
 }
 
 .#{$mi-css-prefix}-DownloadMap:before {
-     content: mi-get-icon($mi-var-DownloadMap);
+  content: mi-get-icon($mi-var-DownloadMap);
 }
 
 .#{$mi-css-prefix}-Draw:before {
-     content: mi-get-icon($mi-var-Draw);
+  content: mi-get-icon($mi-var-Draw);
 }
 
 .#{$mi-css-prefix}-DrawSolid:before {
-     content: mi-get-icon($mi-var-DrawSolid);
+  content: mi-get-icon($mi-var-DrawSolid);
 }
 
 .#{$mi-css-prefix}-Drop:before {
-     content: mi-get-icon($mi-var-Drop);
+  content: mi-get-icon($mi-var-Drop);
 }
 
 .#{$mi-css-prefix}-DullSound:before {
-     content: mi-get-icon($mi-var-DullSound);
+  content: mi-get-icon($mi-var-DullSound);
 }
 
 .#{$mi-css-prefix}-DullSoundKey:before {
-     content: mi-get-icon($mi-var-DullSoundKey);
+  content: mi-get-icon($mi-var-DullSoundKey);
 }
 
 .#{$mi-css-prefix}-EaseOfAccess:before {
-     content: mi-get-icon($mi-var-EaseOfAccess);
+  content: mi-get-icon($mi-var-EaseOfAccess);
 }
 
 .#{$mi-css-prefix}-Edit:before {
-     content: mi-get-icon($mi-var-Edit);
+  content: mi-get-icon($mi-var-Edit);
 }
 
 .#{$mi-css-prefix}-EditMirrored:before {
-     content: mi-get-icon($mi-var-EditMirrored);
+  content: mi-get-icon($mi-var-EditMirrored);
 }
 
 .#{$mi-css-prefix}-Education:before {
-     content: mi-get-icon($mi-var-Education);
+  content: mi-get-icon($mi-var-Education);
 }
 
 .#{$mi-css-prefix}-Emoji:before {
-     content: mi-get-icon($mi-var-Emoji);
+  content: mi-get-icon($mi-var-Emoji);
 }
 
 .#{$mi-css-prefix}-Emoji2:before {
-     content: mi-get-icon($mi-var-Emoji2);
+  content: mi-get-icon($mi-var-Emoji2);
 }
 
 .#{$mi-css-prefix}-EmojiSwatch:before {
-     content: mi-get-icon($mi-var-EmojiSwatch);
+  content: mi-get-icon($mi-var-EmojiSwatch);
 }
 
 .#{$mi-css-prefix}-EmojiTabCelebrationObjects:before {
-     content: mi-get-icon($mi-var-EmojiTabCelebrationObjects);
+  content: mi-get-icon($mi-var-EmojiTabCelebrationObjects);
 }
 
 .#{$mi-css-prefix}-EmojiTabFavorites:before {
-     content: mi-get-icon($mi-var-EmojiTabFavorites);
+  content: mi-get-icon($mi-var-EmojiTabFavorites);
 }
 
 .#{$mi-css-prefix}-EmojiTabFoodPlants:before {
-     content: mi-get-icon($mi-var-EmojiTabFoodPlants);
+  content: mi-get-icon($mi-var-EmojiTabFoodPlants);
 }
 
 .#{$mi-css-prefix}-EmojiTabPeople:before {
-     content: mi-get-icon($mi-var-EmojiTabPeople);
+  content: mi-get-icon($mi-var-EmojiTabPeople);
 }
 
 .#{$mi-css-prefix}-EmojiTabSmilesAnimals:before {
-     content: mi-get-icon($mi-var-EmojiTabSmilesAnimals);
+  content: mi-get-icon($mi-var-EmojiTabSmilesAnimals);
 }
 
 .#{$mi-css-prefix}-EmojiTabSymbols:before {
-     content: mi-get-icon($mi-var-EmojiTabSymbols);
+  content: mi-get-icon($mi-var-EmojiTabSymbols);
 }
 
 .#{$mi-css-prefix}-EmojiTabTextSmiles:before {
-     content: mi-get-icon($mi-var-EmojiTabTextSmiles);
+  content: mi-get-icon($mi-var-EmojiTabTextSmiles);
 }
 
 .#{$mi-css-prefix}-EmojiTabTransitPlaces:before {
-     content: mi-get-icon($mi-var-EmojiTabTransitPlaces);
+  content: mi-get-icon($mi-var-EmojiTabTransitPlaces);
 }
 
 .#{$mi-css-prefix}-EndPointSolid:before {
-     content: mi-get-icon($mi-var-EndPointSolid);
+  content: mi-get-icon($mi-var-EndPointSolid);
 }
 
 .#{$mi-css-prefix}-EraseTool:before {
-     content: mi-get-icon($mi-var-EraseTool);
+  content: mi-get-icon($mi-var-EraseTool);
 }
 
 .#{$mi-css-prefix}-EraseToolFill:before {
-     content: mi-get-icon($mi-var-EraseToolFill);
+  content: mi-get-icon($mi-var-EraseToolFill);
 }
 
 .#{$mi-css-prefix}-EraseToolFill2:before {
-     content: mi-get-icon($mi-var-EraseToolFill2);
+  content: mi-get-icon($mi-var-EraseToolFill2);
 }
 
 .#{$mi-css-prefix}-Error:before {
-     content: mi-get-icon($mi-var-Error);
+  content: mi-get-icon($mi-var-Error);
 }
 
 .#{$mi-css-prefix}-ErrorBadge:before {
-     content: mi-get-icon($mi-var-ErrorBadge);
+  content: mi-get-icon($mi-var-ErrorBadge);
 }
 
 .#{$mi-css-prefix}-ErrorBadge12:before {
-     content: mi-get-icon($mi-var-ErrorBadge12);
+  content: mi-get-icon($mi-var-ErrorBadge12);
 }
 
 .#{$mi-css-prefix}-Ethernet:before {
-     content: mi-get-icon($mi-var-Ethernet);
+  content: mi-get-icon($mi-var-Ethernet);
 }
 
 .#{$mi-css-prefix}-EthernetError:before {
-     content: mi-get-icon($mi-var-EthernetError);
+  content: mi-get-icon($mi-var-EthernetError);
 }
 
 .#{$mi-css-prefix}-EthernetWarning:before {
-     content: mi-get-icon($mi-var-EthernetWarning);
+  content: mi-get-icon($mi-var-EthernetWarning);
 }
 
 .#{$mi-css-prefix}-ExpandTile:before {
-     content: mi-get-icon($mi-var-ExpandTile);
+  content: mi-get-icon($mi-var-ExpandTile);
 }
 
 .#{$mi-css-prefix}-ExpandTileMirrored:before {
-     content: mi-get-icon($mi-var-ExpandTileMirrored);
+  content: mi-get-icon($mi-var-ExpandTileMirrored);
 }
 
 .#{$mi-css-prefix}-ExploreContent:before {
-     content: mi-get-icon($mi-var-ExploreContent);
+  content: mi-get-icon($mi-var-ExploreContent);
 }
 
 .#{$mi-css-prefix}-Export:before {
-     content: mi-get-icon($mi-var-Export);
+  content: mi-get-icon($mi-var-Export);
 }
 
 .#{$mi-css-prefix}-FastForward:before {
-     content: mi-get-icon($mi-var-FastForward);
+  content: mi-get-icon($mi-var-FastForward);
 }
 
 .#{$mi-css-prefix}-FavoriteStarFill:before {
-     content: mi-get-icon($mi-var-FavoriteStarFill);
+  content: mi-get-icon($mi-var-FavoriteStarFill);
 }
 
 .#{$mi-css-prefix}-FavoriteList:before {
-     content: mi-get-icon($mi-var-FavoriteList);
+  content: mi-get-icon($mi-var-FavoriteList);
 }
 
 .#{$mi-css-prefix}-FavoriteStar:before {
-     content: mi-get-icon($mi-var-FavoriteStar);
+  content: mi-get-icon($mi-var-FavoriteStar);
 }
 
 .#{$mi-css-prefix}-Feedback:before {
-     content: mi-get-icon($mi-var-Feedback);
+  content: mi-get-icon($mi-var-Feedback);
 }
 
 .#{$mi-css-prefix}-FeedbackApp:before {
-     content: mi-get-icon($mi-var-FeedbackApp);
+  content: mi-get-icon($mi-var-FeedbackApp);
 }
 
 .#{$mi-css-prefix}-Ferry:before {
-     content: mi-get-icon($mi-var-Ferry);
+  content: mi-get-icon($mi-var-Ferry);
 }
 
 .#{$mi-css-prefix}-FerrySolid:before {
-     content: mi-get-icon($mi-var-FerrySolid);
+  content: mi-get-icon($mi-var-FerrySolid);
 }
 
 .#{$mi-css-prefix}-FileExplorer:before {
-     content: mi-get-icon($mi-var-FileExplorer);
+  content: mi-get-icon($mi-var-FileExplorer);
 }
 
 .#{$mi-css-prefix}-FileExplorerApp:before {
-     content: mi-get-icon($mi-var-FileExplorerApp);
+  content: mi-get-icon($mi-var-FileExplorerApp);
 }
 
 .#{$mi-css-prefix}-Filter:before {
-     content: mi-get-icon($mi-var-Filter);
+  content: mi-get-icon($mi-var-Filter);
 }
 
 .#{$mi-css-prefix}-FingerInking:before {
-     content: mi-get-icon($mi-var-FingerInking);
+  content: mi-get-icon($mi-var-FingerInking);
 }
 
 .#{$mi-css-prefix}-Fingerprint:before {
-     content: mi-get-icon($mi-var-Fingerprint);
+  content: mi-get-icon($mi-var-Fingerprint);
 }
 
 .#{$mi-css-prefix}-Flag:before {
-     content: mi-get-icon($mi-var-Flag);
+  content: mi-get-icon($mi-var-Flag);
 }
 
 .#{$mi-css-prefix}-Flashlight:before {
-     content: mi-get-icon($mi-var-Flashlight);
+  content: mi-get-icon($mi-var-Flashlight);
 }
 
 .#{$mi-css-prefix}-FlickDown:before {
-     content: mi-get-icon($mi-var-FlickDown);
+  content: mi-get-icon($mi-var-FlickDown);
 }
 
 .#{$mi-css-prefix}-FlickLeft:before {
-     content: mi-get-icon($mi-var-FlickLeft);
+  content: mi-get-icon($mi-var-FlickLeft);
 }
 
 .#{$mi-css-prefix}-FlickRight:before {
-     content: mi-get-icon($mi-var-FlickRight);
+  content: mi-get-icon($mi-var-FlickRight);
 }
 
 .#{$mi-css-prefix}-FlickUp:before {
-     content: mi-get-icon($mi-var-FlickUp);
+  content: mi-get-icon($mi-var-FlickUp);
 }
 
 .#{$mi-css-prefix}-Folder:before {
-     content: mi-get-icon($mi-var-Folder);
+  content: mi-get-icon($mi-var-Folder);
 }
 
 .#{$mi-css-prefix}-FolderFill:before {
-     content: mi-get-icon($mi-var-FolderFill);
+  content: mi-get-icon($mi-var-FolderFill);
 }
 
 .#{$mi-css-prefix}-Font:before {
-     content: mi-get-icon($mi-var-Font);
+  content: mi-get-icon($mi-var-Font);
 }
 
 .#{$mi-css-prefix}-FontColor:before {
-     content: mi-get-icon($mi-var-FontColor);
+  content: mi-get-icon($mi-var-FontColor);
 }
 
 .#{$mi-css-prefix}-FontColorKorean:before {
-     content: mi-get-icon($mi-var-FontColorKorean);
+  content: mi-get-icon($mi-var-FontColorKorean);
 }
 
 .#{$mi-css-prefix}-FontDecrease:before {
-     content: mi-get-icon($mi-var-FontDecrease);
+  content: mi-get-icon($mi-var-FontDecrease);
 }
 
 .#{$mi-css-prefix}-FontIncrease:before {
-     content: mi-get-icon($mi-var-FontIncrease);
+  content: mi-get-icon($mi-var-FontIncrease);
 }
 
 .#{$mi-css-prefix}-FontSize:before {
-     content: mi-get-icon($mi-var-FontSize);
+  content: mi-get-icon($mi-var-FontSize);
 }
 
 .#{$mi-css-prefix}-FontStyleKorean:before {
-     content: mi-get-icon($mi-var-FontStyleKorean);
+  content: mi-get-icon($mi-var-FontStyleKorean);
 }
 
 .#{$mi-css-prefix}-Forward:before {
-     content: mi-get-icon($mi-var-Forward);
+  content: mi-get-icon($mi-var-Forward);
 }
 
 .#{$mi-css-prefix}-ForwardSm:before {
-     content: mi-get-icon($mi-var-ForwardSm);
+  content: mi-get-icon($mi-var-ForwardSm);
 }
 
 .#{$mi-css-prefix}-FourBars:before {
-     content: mi-get-icon($mi-var-FourBars);
+  content: mi-get-icon($mi-var-FourBars);
 }
 
 .#{$mi-css-prefix}-Frigid:before {
-     content: mi-get-icon($mi-var-Frigid);
+  content: mi-get-icon($mi-var-Frigid);
 }
 
 .#{$mi-css-prefix}-FullAlpha:before {
-     content: mi-get-icon($mi-var-FullAlpha);
+  content: mi-get-icon($mi-var-FullAlpha);
 }
 
 .#{$mi-css-prefix}-FullCircleMask:before {
-     content: mi-get-icon($mi-var-FullCircleMask);
+  content: mi-get-icon($mi-var-FullCircleMask);
 }
 
 .#{$mi-css-prefix}-FullHiragana:before {
-     content: mi-get-icon($mi-var-FullHiragana);
+  content: mi-get-icon($mi-var-FullHiragana);
 }
 
 .#{$mi-css-prefix}-FullKatakana:before {
-     content: mi-get-icon($mi-var-FullKatakana);
+  content: mi-get-icon($mi-var-FullKatakana);
 }
 
 .#{$mi-css-prefix}-FullScreen:before {
-     content: mi-get-icon($mi-var-FullScreen);
+  content: mi-get-icon($mi-var-FullScreen);
 }
 
 .#{$mi-css-prefix}-Game:before {
-     content: mi-get-icon($mi-var-Game);
+  content: mi-get-icon($mi-var-Game);
 }
 
 .#{$mi-css-prefix}-GameConsole:before {
-     content: mi-get-icon($mi-var-GameConsole);
+  content: mi-get-icon($mi-var-GameConsole);
 }
 
 .#{$mi-css-prefix}-GlobalNavButton:before {
-     content: mi-get-icon($mi-var-GlobalNavButton);
+  content: mi-get-icon($mi-var-GlobalNavButton);
 }
 
 .#{$mi-css-prefix}-Globe:before {
-     content: mi-get-icon($mi-var-Globe);
+  content: mi-get-icon($mi-var-Globe);
 }
 
 .#{$mi-css-prefix}-Go:before {
-     content: mi-get-icon($mi-var-Go);
+  content: mi-get-icon($mi-var-Go);
 }
 
 .#{$mi-css-prefix}-GoMirrored:before {
-     content: mi-get-icon($mi-var-GoMirrored);
+  content: mi-get-icon($mi-var-GoMirrored);
 }
 
 .#{$mi-css-prefix}-GoToStart:before {
-     content: mi-get-icon($mi-var-GoToStart);
+  content: mi-get-icon($mi-var-GoToStart);
 }
 
 .#{$mi-css-prefix}-GotoToday:before {
-     content: mi-get-icon($mi-var-GotoToday);
+  content: mi-get-icon($mi-var-GotoToday);
 }
 
 .#{$mi-css-prefix}-GripperBarHorizontal:before {
-     content: mi-get-icon($mi-var-GripperBarHorizontal);
+  content: mi-get-icon($mi-var-GripperBarHorizontal);
 }
 
 .#{$mi-css-prefix}-GripperBarVertical:before {
-     content: mi-get-icon($mi-var-GripperBarVertical);
+  content: mi-get-icon($mi-var-GripperBarVertical);
 }
 
 .#{$mi-css-prefix}-GripperResize:before {
-     content: mi-get-icon($mi-var-GripperResize);
+  content: mi-get-icon($mi-var-GripperResize);
 }
 
 .#{$mi-css-prefix}-GripperResizeMirrored:before {
-     content: mi-get-icon($mi-var-GripperResizeMirrored);
+  content: mi-get-icon($mi-var-GripperResizeMirrored);
 }
 
 .#{$mi-css-prefix}-GripperTool:before {
-     content: mi-get-icon($mi-var-GripperTool);
+  content: mi-get-icon($mi-var-GripperTool);
 }
 
 .#{$mi-css-prefix}-Groceries:before {
-     content: mi-get-icon($mi-var-Groceries);
+  content: mi-get-icon($mi-var-Groceries);
 }
 
 .#{$mi-css-prefix}-GuestUser:before {
-     content: mi-get-icon($mi-var-GuestUser);
+  content: mi-get-icon($mi-var-GuestUser);
 }
 
 .#{$mi-css-prefix}-HalfAlpha:before {
-     content: mi-get-icon($mi-var-HalfAlpha);
+  content: mi-get-icon($mi-var-HalfAlpha);
 }
 
 .#{$mi-css-prefix}-HalfDullSound:before {
-     content: mi-get-icon($mi-var-HalfDullSound);
+  content: mi-get-icon($mi-var-HalfDullSound);
 }
 
 .#{$mi-css-prefix}-HalfKatakana:before {
-     content: mi-get-icon($mi-var-HalfKatakana);
+  content: mi-get-icon($mi-var-HalfKatakana);
 }
 
 .#{$mi-css-prefix}-HalfStarLeft:before {
-     content: mi-get-icon($mi-var-HalfStarLeft);
+  content: mi-get-icon($mi-var-HalfStarLeft);
 }
 
 .#{$mi-css-prefix}-HalfStarRight:before {
-     content: mi-get-icon($mi-var-HalfStarRight);
+  content: mi-get-icon($mi-var-HalfStarRight);
 }
 
 .#{$mi-css-prefix}-Handwriting:before {
-     content: mi-get-icon($mi-var-Handwriting);
+  content: mi-get-icon($mi-var-Handwriting);
 }
 
 .#{$mi-css-prefix}-HangUp:before {
-     content: mi-get-icon($mi-var-HangUp);
+  content: mi-get-icon($mi-var-HangUp);
 }
 
 .#{$mi-css-prefix}-HardDrive:before {
-     content: mi-get-icon($mi-var-HardDrive);
+  content: mi-get-icon($mi-var-HardDrive);
 }
 
 .#{$mi-css-prefix}-Headphone:before {
-     content: mi-get-icon($mi-var-Headphone);
+  content: mi-get-icon($mi-var-Headphone);
 }
 
 .#{$mi-css-prefix}-Headphone0:before {
-     content: mi-get-icon($mi-var-Headphone0);
+  content: mi-get-icon($mi-var-Headphone0);
 }
 
 .#{$mi-css-prefix}-Headphone1:before {
-     content: mi-get-icon($mi-var-Headphone1);
+  content: mi-get-icon($mi-var-Headphone1);
 }
 
 .#{$mi-css-prefix}-Headphone2:before {
-     content: mi-get-icon($mi-var-Headphone2);
+  content: mi-get-icon($mi-var-Headphone2);
 }
 
 .#{$mi-css-prefix}-Headphone3:before {
-     content: mi-get-icon($mi-var-Headphone3);
+  content: mi-get-icon($mi-var-Headphone3);
 }
 
 .#{$mi-css-prefix}-Headset:before {
-     content: mi-get-icon($mi-var-Headset);
+  content: mi-get-icon($mi-var-Headset);
 }
 
 .#{$mi-css-prefix}-Health:before {
-     content: mi-get-icon($mi-var-Health);
+  content: mi-get-icon($mi-var-Health);
 }
 
 .#{$mi-css-prefix}-Heart:before {
-     content: mi-get-icon($mi-var-Heart);
+  content: mi-get-icon($mi-var-Heart);
 }
 
 .#{$mi-css-prefix}-HeartBroken:before {
-     content: mi-get-icon($mi-var-HeartBroken);
+  content: mi-get-icon($mi-var-HeartBroken);
 }
 
 .#{$mi-css-prefix}-HeartBroken:before {
-     content: mi-get-icon($mi-var-HeartBroken);
+  content: mi-get-icon($mi-var-HeartBroken);
 }
 
 .#{$mi-css-prefix}-HeartFill:before {
-     content: mi-get-icon($mi-var-HeartFill);
+  content: mi-get-icon($mi-var-HeartFill);
 }
 
 .#{$mi-css-prefix}-Help:before {
-     content: mi-get-icon($mi-var-Help);
+  content: mi-get-icon($mi-var-Help);
 }
 
 .#{$mi-css-prefix}-HelpMirrored:before {
-     content: mi-get-icon($mi-var-HelpMirrored);
+  content: mi-get-icon($mi-var-HelpMirrored);
 }
 
 .#{$mi-css-prefix}-HideBcc:before {
-     content: mi-get-icon($mi-var-HideBcc);
+  content: mi-get-icon($mi-var-HideBcc);
 }
 
 .#{$mi-css-prefix}-Highlight:before {
-     content: mi-get-icon($mi-var-Highlight);
+  content: mi-get-icon($mi-var-Highlight);
 }
 
 .#{$mi-css-prefix}-HighlightFill:before {
-     content: mi-get-icon($mi-var-HighlightFill);
+  content: mi-get-icon($mi-var-HighlightFill);
 }
 
 .#{$mi-css-prefix}-HighlightFill2:before {
-     content: mi-get-icon($mi-var-HighlightFill2);
+  content: mi-get-icon($mi-var-HighlightFill2);
 }
 
 .#{$mi-css-prefix}-History:before {
-     content: mi-get-icon($mi-var-History);
+  content: mi-get-icon($mi-var-History);
 }
 
 .#{$mi-css-prefix}-Home:before {
-     content: mi-get-icon($mi-var-Home);
+  content: mi-get-icon($mi-var-Home);
 }
 
 .#{$mi-css-prefix}-HomeGroup:before {
-     content: mi-get-icon($mi-var-HomeGroup);
+  content: mi-get-icon($mi-var-HomeGroup);
 }
 
 .#{$mi-css-prefix}-HomeSolid:before {
-     content: mi-get-icon($mi-var-HomeSolid);
+  content: mi-get-icon($mi-var-HomeSolid);
 }
 
 .#{$mi-css-prefix}-HorizontalTabKey:before {
-     content: mi-get-icon($mi-var-HorizontalTabKey);
+  content: mi-get-icon($mi-var-HorizontalTabKey);
 }
 
 .#{$mi-css-prefix}-IBeam:before {
-     content: mi-get-icon($mi-var-IBeam);
+  content: mi-get-icon($mi-var-IBeam);
 }
 
 .#{$mi-css-prefix}-IBeamOutline:before {
-     content: mi-get-icon($mi-var-IBeamOutline);
+  content: mi-get-icon($mi-var-IBeamOutline);
 }
 
 .#{$mi-css-prefix}-ImageExport:before {
-     content: mi-get-icon($mi-var-ImageExport);
+  content: mi-get-icon($mi-var-ImageExport);
 }
 
 .#{$mi-css-prefix}-Import:before {
-     content: mi-get-icon($mi-var-Import);
+  content: mi-get-icon($mi-var-Import);
 }
 
 .#{$mi-css-prefix}-ImportAll:before {
-     content: mi-get-icon($mi-var-ImportAll);
+  content: mi-get-icon($mi-var-ImportAll);
 }
 
 .#{$mi-css-prefix}-ImportAllMirrored:before {
-     content: mi-get-icon($mi-var-ImportAllMirrored);
+  content: mi-get-icon($mi-var-ImportAllMirrored);
 }
 
 .#{$mi-css-prefix}-Important:before {
-     content: mi-get-icon($mi-var-Important);
+  content: mi-get-icon($mi-var-Important);
 }
 
 .#{$mi-css-prefix}-ImportantBadge12:before {
-     content: mi-get-icon($mi-var-ImportantBadge12);
+  content: mi-get-icon($mi-var-ImportantBadge12);
 }
 
 .#{$mi-css-prefix}-InPrivate:before {
-     content: mi-get-icon($mi-var-InPrivate);
+  content: mi-get-icon($mi-var-InPrivate);
 }
 
 .#{$mi-css-prefix}-IncidentTriangle:before {
-     content: mi-get-icon($mi-var-IncidentTriangle);
+  content: mi-get-icon($mi-var-IncidentTriangle);
 }
 
 .#{$mi-css-prefix}-IncreaseIndent:before {
-     content: mi-get-icon($mi-var-IncreaseIndent);
+  content: mi-get-icon($mi-var-IncreaseIndent);
 }
 
 .#{$mi-css-prefix}-IncreaseIndentMirrored:before {
-     content: mi-get-icon($mi-var-IncreaseIndentMirrored);
+  content: mi-get-icon($mi-var-IncreaseIndentMirrored);
 }
 
 .#{$mi-css-prefix}-Info:before {
-     content: mi-get-icon($mi-var-Info);
+  content: mi-get-icon($mi-var-Info);
 }
 
 .#{$mi-css-prefix}-Info2:before {
-     content: mi-get-icon($mi-var-Info2);
+  content: mi-get-icon($mi-var-Info2);
 }
 
 .#{$mi-css-prefix}-InkingCaret:before {
-     content: mi-get-icon($mi-var-InkingCaret);
+  content: mi-get-icon($mi-var-InkingCaret);
 }
 
 .#{$mi-css-prefix}-InkingColorFill:before {
-     content: mi-get-icon($mi-var-InkingColorFill);
+  content: mi-get-icon($mi-var-InkingColorFill);
 }
 
 .#{$mi-css-prefix}-InkingColorOutline:before {
-     content: mi-get-icon($mi-var-InkingColorOutline);
+  content: mi-get-icon($mi-var-InkingColorOutline);
 }
 
 .#{$mi-css-prefix}-InkingTool:before {
-     content: mi-get-icon($mi-var-InkingTool);
+  content: mi-get-icon($mi-var-InkingTool);
 }
 
 .#{$mi-css-prefix}-InkingToolFill:before {
-     content: mi-get-icon($mi-var-InkingToolFill);
+  content: mi-get-icon($mi-var-InkingToolFill);
 }
 
 .#{$mi-css-prefix}-InkingToolFill2:before {
-     content: mi-get-icon($mi-var-InkingToolFill2);
+  content: mi-get-icon($mi-var-InkingToolFill2);
 }
 
 .#{$mi-css-prefix}-Input:before {
-     content: mi-get-icon($mi-var-Input);
+  content: mi-get-icon($mi-var-Input);
 }
 
 .#{$mi-css-prefix}-InsiderHubApp:before {
-     content: mi-get-icon($mi-var-InsiderHubApp);
+  content: mi-get-icon($mi-var-InsiderHubApp);
 }
 
 .#{$mi-css-prefix}-Italic:before {
-     content: mi-get-icon($mi-var-Italic);
+  content: mi-get-icon($mi-var-Italic);
 }
 
 .#{$mi-css-prefix}-ItalicC:before {
-     content: mi-get-icon($mi-var-ItalicC);
+  content: mi-get-icon($mi-var-ItalicC);
 }
 
 .#{$mi-css-prefix}-ItalicI:before {
-     content: mi-get-icon($mi-var-ItalicI);
+  content: mi-get-icon($mi-var-ItalicI);
 }
 
 .#{$mi-css-prefix}-ItalicK:before {
-     content: mi-get-icon($mi-var-ItalicK);
+  content: mi-get-icon($mi-var-ItalicK);
 }
 
 .#{$mi-css-prefix}-ItalicKorean:before {
-     content: mi-get-icon($mi-var-ItalicKorean);
+  content: mi-get-icon($mi-var-ItalicKorean);
 }
 
 .#{$mi-css-prefix}-ItalicRussian:before {
-     content: mi-get-icon($mi-var-ItalicRussian);
+  content: mi-get-icon($mi-var-ItalicRussian);
 }
 
 .#{$mi-css-prefix}-Japanese:before {
-     content: mi-get-icon($mi-var-Japanese);
+  content: mi-get-icon($mi-var-Japanese);
 }
 
 .#{$mi-css-prefix}-JpnRomanji:before {
-     content: mi-get-icon($mi-var-JpnRomanji);
+  content: mi-get-icon($mi-var-JpnRomanji);
 }
 
 .#{$mi-css-prefix}-JpnRomanjiLock:before {
-     content: mi-get-icon($mi-var-JpnRomanjiLock);
+  content: mi-get-icon($mi-var-JpnRomanjiLock);
 }
 
 .#{$mi-css-prefix}-JpnRomanjiShift:before {
-     content: mi-get-icon($mi-var-JpnRomanjiShift);
+  content: mi-get-icon($mi-var-JpnRomanjiShift);
 }
 
 .#{$mi-css-prefix}-JpnRomanjiShiftLock:before {
-     content: mi-get-icon($mi-var-JpnRomanjiShiftLock);
+  content: mi-get-icon($mi-var-JpnRomanjiShiftLock);
 }
 
 .#{$mi-css-prefix}-Key12On:before {
-     content: mi-get-icon($mi-var-Key12On);
+  content: mi-get-icon($mi-var-Key12On);
 }
 
 .#{$mi-css-prefix}-Keyboard:before {
-     content: mi-get-icon($mi-var-Keyboard);
+  content: mi-get-icon($mi-var-Keyboard);
 }
 
 .#{$mi-css-prefix}-KeyboardBrightness:before {
-     content: mi-get-icon($mi-var-KeyboardBrightness);
+  content: mi-get-icon($mi-var-KeyboardBrightness);
 }
 
 .#{$mi-css-prefix}-KeyboardDismiss:before {
-     content: mi-get-icon($mi-var-KeyboardDismiss);
+  content: mi-get-icon($mi-var-KeyboardDismiss);
 }
 
 .#{$mi-css-prefix}-KeyboardFull:before {
-     content: mi-get-icon($mi-var-KeyboardFull);
+  content: mi-get-icon($mi-var-KeyboardFull);
 }
 
 .#{$mi-css-prefix}-KeyboardLeftHanded:before {
-     content: mi-get-icon($mi-var-KeyboardLeftHanded);
+  content: mi-get-icon($mi-var-KeyboardLeftHanded);
 }
 
 .#{$mi-css-prefix}-KeyboardLowerBrightness:before {
-     content: mi-get-icon($mi-var-KeyboardLowerBrightness);
+  content: mi-get-icon($mi-var-KeyboardLowerBrightness);
 }
 
 .#{$mi-css-prefix}-KeyboardOneHanded:before {
-     content: mi-get-icon($mi-var-KeyboardOneHanded);
+  content: mi-get-icon($mi-var-KeyboardOneHanded);
 }
 
 .#{$mi-css-prefix}-KeyboardRightHanded:before {
-     content: mi-get-icon($mi-var-KeyboardRightHanded);
+  content: mi-get-icon($mi-var-KeyboardRightHanded);
 }
 
 .#{$mi-css-prefix}-KeyboardShortcut:before {
-     content: mi-get-icon($mi-var-KeyboardShortcut);
+  content: mi-get-icon($mi-var-KeyboardShortcut);
 }
 
 .#{$mi-css-prefix}-KeyboardSplit:before {
-     content: mi-get-icon($mi-var-KeyboardSplit);
+  content: mi-get-icon($mi-var-KeyboardSplit);
 }
 
 .#{$mi-css-prefix}-KeyboardStandard:before {
-     content: mi-get-icon($mi-var-KeyboardStandard);
+  content: mi-get-icon($mi-var-KeyboardStandard);
 }
 
 .#{$mi-css-prefix}-Korean:before {
-     content: mi-get-icon($mi-var-Korean);
+  content: mi-get-icon($mi-var-Korean);
 }
 
 .#{$mi-css-prefix}-LEDLight:before {
-     content: mi-get-icon($mi-var-LEDLight);
+  content: mi-get-icon($mi-var-LEDLight);
 }
 
 .#{$mi-css-prefix}-Label:before {
-     content: mi-get-icon($mi-var-Label);
+  content: mi-get-icon($mi-var-Label);
 }
 
 .#{$mi-css-prefix}-LangJPN:before {
-     content: mi-get-icon($mi-var-LangJPN);
+  content: mi-get-icon($mi-var-LangJPN);
 }
 
 .#{$mi-css-prefix}-LanguageChs:before {
-     content: mi-get-icon($mi-var-LanguageChs);
+  content: mi-get-icon($mi-var-LanguageChs);
 }
 
 .#{$mi-css-prefix}-LanguageCht:before {
-     content: mi-get-icon($mi-var-LanguageCht);
+  content: mi-get-icon($mi-var-LanguageCht);
 }
 
 .#{$mi-css-prefix}-LanguageJpn:before {
-     content: mi-get-icon($mi-var-LanguageJpn);
+  content: mi-get-icon($mi-var-LanguageJpn);
 }
 
 .#{$mi-css-prefix}-LanguageKor:before {
-     content: mi-get-icon($mi-var-LanguageKor);
+  content: mi-get-icon($mi-var-LanguageKor);
 }
 
 .#{$mi-css-prefix}-LaptopSelected:before {
-     content: mi-get-icon($mi-var-LaptopSelected);
+  content: mi-get-icon($mi-var-LaptopSelected);
 }
 
 .#{$mi-css-prefix}-Layout:before {
-     content: mi-get-icon($mi-var-Layout);
+  content: mi-get-icon($mi-var-Layout);
 }
 
 .#{$mi-css-prefix}-Leaf:before {
-     content: mi-get-icon($mi-var-Leaf);
+  content: mi-get-icon($mi-var-Leaf);
 }
 
 .#{$mi-css-prefix}-LeaveChat:before {
-     content: mi-get-icon($mi-var-LeaveChat);
+  content: mi-get-icon($mi-var-LeaveChat);
 }
 
 .#{$mi-css-prefix}-LeaveChatMirrored:before {
-     content: mi-get-icon($mi-var-LeaveChatMirrored);
+  content: mi-get-icon($mi-var-LeaveChatMirrored);
 }
 
 .#{$mi-css-prefix}-LeftArrowKeyTime0:before {
-     content: mi-get-icon($mi-var-LeftArrowKeyTime0);
+  content: mi-get-icon($mi-var-LeftArrowKeyTime0);
 }
 
 .#{$mi-css-prefix}-LeftDoubleQuote:before {
-     content: mi-get-icon($mi-var-LeftDoubleQuote);
+  content: mi-get-icon($mi-var-LeftDoubleQuote);
 }
 
 .#{$mi-css-prefix}-LeftQuote:before {
-     content: mi-get-icon($mi-var-LeftQuote);
+  content: mi-get-icon($mi-var-LeftQuote);
 }
 
 .#{$mi-css-prefix}-Library:before {
-     content: mi-get-icon($mi-var-Library);
+  content: mi-get-icon($mi-var-Library);
 }
 
 .#{$mi-css-prefix}-Light:before {
-     content: mi-get-icon($mi-var-Light);
+  content: mi-get-icon($mi-var-Light);
 }
 
 .#{$mi-css-prefix}-Lightbulb:before {
-     content: mi-get-icon($mi-var-Lightbulb);
+  content: mi-get-icon($mi-var-Lightbulb);
 }
 
 .#{$mi-css-prefix}-LightningBolt:before {
-     content: mi-get-icon($mi-var-LightningBolt);
+  content: mi-get-icon($mi-var-LightningBolt);
 }
 
 .#{$mi-css-prefix}-Like:before {
-     content: mi-get-icon($mi-var-Like);
+  content: mi-get-icon($mi-var-Like);
 }
 
 .#{$mi-css-prefix}-LikeDislike:before {
-     content: mi-get-icon($mi-var-LikeDislike);
+  content: mi-get-icon($mi-var-LikeDislike);
 }
 
 .#{$mi-css-prefix}-Link:before {
-     content: mi-get-icon($mi-var-Link);
+  content: mi-get-icon($mi-var-Link);
 }
 
 .#{$mi-css-prefix}-List:before {
-     content: mi-get-icon($mi-var-List);
+  content: mi-get-icon($mi-var-List);
 }
 
 .#{$mi-css-prefix}-ListMirrored:before {
-     content: mi-get-icon($mi-var-ListMirrored);
+  content: mi-get-icon($mi-var-ListMirrored);
 }
 
 .#{$mi-css-prefix}-Location:before {
-     content: mi-get-icon($mi-var-Location);
+  content: mi-get-icon($mi-var-Location);
 }
 
 .#{$mi-css-prefix}-Lock:before {
-     content: mi-get-icon($mi-var-Lock);
+  content: mi-get-icon($mi-var-Lock);
 }
 
 .#{$mi-css-prefix}-LockScreenGlance:before {
-     content: mi-get-icon($mi-var-LockScreenGlance);
+  content: mi-get-icon($mi-var-LockScreenGlance);
 }
 
 .#{$mi-css-prefix}-LockscreenDesktop:before {
-     content: mi-get-icon($mi-var-LockscreenDesktop);
+  content: mi-get-icon($mi-var-LockscreenDesktop);
 }
 
 .#{$mi-css-prefix}-LowerBrightness:before {
-     content: mi-get-icon($mi-var-LowerBrightness);
+  content: mi-get-icon($mi-var-LowerBrightness);
 }
 
 .#{$mi-css-prefix}-MagStripeReader:before {
-     content: mi-get-icon($mi-var-MagStripeReader);
+  content: mi-get-icon($mi-var-MagStripeReader);
 }
 
 .#{$mi-css-prefix}-Mail:before {
-     content: mi-get-icon($mi-var-Mail);
+  content: mi-get-icon($mi-var-Mail);
 }
 
 .#{$mi-css-prefix}-MailBadge12:before {
-     content: mi-get-icon($mi-var-MailBadge12);
+  content: mi-get-icon($mi-var-MailBadge12);
 }
 
 .#{$mi-css-prefix}-MailFill:before {
-     content: mi-get-icon($mi-var-MailFill);
+  content: mi-get-icon($mi-var-MailFill);
 }
 
 .#{$mi-css-prefix}-MailForward:before {
-     content: mi-get-icon($mi-var-MailForward);
+  content: mi-get-icon($mi-var-MailForward);
 }
 
 .#{$mi-css-prefix}-MailForwardMirrored:before {
-     content: mi-get-icon($mi-var-MailForwardMirrored);
+  content: mi-get-icon($mi-var-MailForwardMirrored);
 }
 
 .#{$mi-css-prefix}-MailReply:before {
-     content: mi-get-icon($mi-var-MailReply);
+  content: mi-get-icon($mi-var-MailReply);
 }
 
 .#{$mi-css-prefix}-MailReplyAll:before {
-     content: mi-get-icon($mi-var-MailReplyAll);
+  content: mi-get-icon($mi-var-MailReplyAll);
 }
 
 .#{$mi-css-prefix}-MailReplyAllMirrored:before {
-     content: mi-get-icon($mi-var-MailReplyAllMirrored);
+  content: mi-get-icon($mi-var-MailReplyAllMirrored);
 }
 
 .#{$mi-css-prefix}-MailReplyMirrored:before {
-     content: mi-get-icon($mi-var-MailReplyMirrored);
+  content: mi-get-icon($mi-var-MailReplyMirrored);
 }
 
 .#{$mi-css-prefix}-Manage:before {
-     content: mi-get-icon($mi-var-Manage);
+  content: mi-get-icon($mi-var-Manage);
 }
 
 .#{$mi-css-prefix}-MapCompassBottom:before {
-     content: mi-get-icon($mi-var-MapCompassBottom);
+  content: mi-get-icon($mi-var-MapCompassBottom);
 }
 
 .#{$mi-css-prefix}-MapCompassTop:before {
-     content: mi-get-icon($mi-var-MapCompassTop);
+  content: mi-get-icon($mi-var-MapCompassTop);
 }
 
 .#{$mi-css-prefix}-MapDirections:before {
-     content: mi-get-icon($mi-var-MapDirections);
+  content: mi-get-icon($mi-var-MapDirections);
 }
 
 .#{$mi-css-prefix}-MapDrive:before {
-     content: mi-get-icon($mi-var-MapDrive);
+  content: mi-get-icon($mi-var-MapDrive);
 }
 
 .#{$mi-css-prefix}-MapLayers:before {
-     content: mi-get-icon($mi-var-MapLayers);
+  content: mi-get-icon($mi-var-MapLayers);
 }
 
 .#{$mi-css-prefix}-MapPin:before {
-     content: mi-get-icon($mi-var-MapPin);
+  content: mi-get-icon($mi-var-MapPin);
 }
 
 .#{$mi-css-prefix}-MapPin2:before {
-     content: mi-get-icon($mi-var-MapPin2);
+  content: mi-get-icon($mi-var-MapPin2);
 }
 
 .#{$mi-css-prefix}-Marker:before {
-     content: mi-get-icon($mi-var-Marker);
+  content: mi-get-icon($mi-var-Marker);
 }
 
 .#{$mi-css-prefix}-Marquee:before {
-     content: mi-get-icon($mi-var-Marquee);
+  content: mi-get-icon($mi-var-Marquee);
 }
 
 .#{$mi-css-prefix}-Media:before {
-     content: mi-get-icon($mi-var-Media);
+  content: mi-get-icon($mi-var-Media);
 }
 
 .#{$mi-css-prefix}-MediaStorageTower:before {
-     content: mi-get-icon($mi-var-MediaStorageTower);
+  content: mi-get-icon($mi-var-MediaStorageTower);
 }
 
 .#{$mi-css-prefix}-Megaphone:before {
-     content: mi-get-icon($mi-var-Megaphone);
+  content: mi-get-icon($mi-var-Megaphone);
 }
 
 .#{$mi-css-prefix}-Memo:before {
-     content: mi-get-icon($mi-var-Memo);
+  content: mi-get-icon($mi-var-Memo);
 }
 
 .#{$mi-css-prefix}-Message:before {
-     content: mi-get-icon($mi-var-Message);
+  content: mi-get-icon($mi-var-Message);
 }
 
 .#{$mi-css-prefix}-MicClipping:before {
-     content: mi-get-icon($mi-var-MicClipping);
+  content: mi-get-icon($mi-var-MicClipping);
 }
 
 .#{$mi-css-prefix}-MicError:before {
-     content: mi-get-icon($mi-var-MicError);
+  content: mi-get-icon($mi-var-MicError);
 }
 
 .#{$mi-css-prefix}-MicOff:before {
-     content: mi-get-icon($mi-var-MicOff);
+  content: mi-get-icon($mi-var-MicOff);
 }
 
 .#{$mi-css-prefix}-MicOn:before {
-     content: mi-get-icon($mi-var-MicOn);
+  content: mi-get-icon($mi-var-MicOn);
 }
 
 .#{$mi-css-prefix}-MicSleep:before {
-     content: mi-get-icon($mi-var-MicSleep);
+  content: mi-get-icon($mi-var-MicSleep);
 }
 
 .#{$mi-css-prefix}-Microphone:before {
-     content: mi-get-icon($mi-var-Microphone);
+  content: mi-get-icon($mi-var-Microphone);
 }
 
 .#{$mi-css-prefix}-MiracastLogoSmall:before {
-     content: mi-get-icon($mi-var-MiracastLogoSmall);
+  content: mi-get-icon($mi-var-MiracastLogoSmall);
 }
 
 .#{$mi-css-prefix}-MobActionCenter:before {
-     content: mi-get-icon($mi-var-MobActionCenter);
+  content: mi-get-icon($mi-var-MobActionCenter);
 }
 
 .#{$mi-css-prefix}-MobAirplane:before {
-     content: mi-get-icon($mi-var-MobAirplane);
+  content: mi-get-icon($mi-var-MobAirplane);
 }
 
 .#{$mi-css-prefix}-MobBattery0:before {
-     content: mi-get-icon($mi-var-MobBattery0);
+  content: mi-get-icon($mi-var-MobBattery0);
 }
 
 .#{$mi-css-prefix}-MobBattery1:before {
-     content: mi-get-icon($mi-var-MobBattery1);
+  content: mi-get-icon($mi-var-MobBattery1);
 }
 
 .#{$mi-css-prefix}-MobBattery10:before {
-     content: mi-get-icon($mi-var-MobBattery10);
+  content: mi-get-icon($mi-var-MobBattery10);
 }
 
 .#{$mi-css-prefix}-MobBattery2:before {
-     content: mi-get-icon($mi-var-MobBattery2);
+  content: mi-get-icon($mi-var-MobBattery2);
 }
 
 .#{$mi-css-prefix}-MobBattery3:before {
-     content: mi-get-icon($mi-var-MobBattery3);
+  content: mi-get-icon($mi-var-MobBattery3);
 }
 
 .#{$mi-css-prefix}-MobBattery4:before {
-     content: mi-get-icon($mi-var-MobBattery4);
+  content: mi-get-icon($mi-var-MobBattery4);
 }
 
 .#{$mi-css-prefix}-MobBattery5:before {
-     content: mi-get-icon($mi-var-MobBattery5);
+  content: mi-get-icon($mi-var-MobBattery5);
 }
 
 .#{$mi-css-prefix}-MobBattery6:before {
-     content: mi-get-icon($mi-var-MobBattery6);
+  content: mi-get-icon($mi-var-MobBattery6);
 }
 
 .#{$mi-css-prefix}-MobBattery7:before {
-     content: mi-get-icon($mi-var-MobBattery7);
+  content: mi-get-icon($mi-var-MobBattery7);
 }
 
 .#{$mi-css-prefix}-MobBattery8:before {
-     content: mi-get-icon($mi-var-MobBattery8);
+  content: mi-get-icon($mi-var-MobBattery8);
 }
 
 .#{$mi-css-prefix}-MobBattery9:before {
-     content: mi-get-icon($mi-var-MobBattery9);
+  content: mi-get-icon($mi-var-MobBattery9);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging0:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging0);
+  content: mi-get-icon($mi-var-MobBatteryCharging0);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging1:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging1);
+  content: mi-get-icon($mi-var-MobBatteryCharging1);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging10:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging10);
+  content: mi-get-icon($mi-var-MobBatteryCharging10);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging2:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging2);
+  content: mi-get-icon($mi-var-MobBatteryCharging2);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging3:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging3);
+  content: mi-get-icon($mi-var-MobBatteryCharging3);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging4:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging4);
+  content: mi-get-icon($mi-var-MobBatteryCharging4);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging5:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging5);
+  content: mi-get-icon($mi-var-MobBatteryCharging5);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging6:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging6);
+  content: mi-get-icon($mi-var-MobBatteryCharging6);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging7:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging7);
+  content: mi-get-icon($mi-var-MobBatteryCharging7);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging8:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging8);
+  content: mi-get-icon($mi-var-MobBatteryCharging8);
 }
 
 .#{$mi-css-prefix}-MobBatteryCharging9:before {
-     content: mi-get-icon($mi-var-MobBatteryCharging9);
+  content: mi-get-icon($mi-var-MobBatteryCharging9);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver0:before {
-     content: mi-get-icon($mi-var-MobBatterySaver0);
+  content: mi-get-icon($mi-var-MobBatterySaver0);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver1:before {
-     content: mi-get-icon($mi-var-MobBatterySaver1);
+  content: mi-get-icon($mi-var-MobBatterySaver1);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver10:before {
-     content: mi-get-icon($mi-var-MobBatterySaver10);
+  content: mi-get-icon($mi-var-MobBatterySaver10);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver2:before {
-     content: mi-get-icon($mi-var-MobBatterySaver2);
+  content: mi-get-icon($mi-var-MobBatterySaver2);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver3:before {
-     content: mi-get-icon($mi-var-MobBatterySaver3);
+  content: mi-get-icon($mi-var-MobBatterySaver3);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver4:before {
-     content: mi-get-icon($mi-var-MobBatterySaver4);
+  content: mi-get-icon($mi-var-MobBatterySaver4);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver5:before {
-     content: mi-get-icon($mi-var-MobBatterySaver5);
+  content: mi-get-icon($mi-var-MobBatterySaver5);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver6:before {
-     content: mi-get-icon($mi-var-MobBatterySaver6);
+  content: mi-get-icon($mi-var-MobBatterySaver6);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver7:before {
-     content: mi-get-icon($mi-var-MobBatterySaver7);
+  content: mi-get-icon($mi-var-MobBatterySaver7);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver8:before {
-     content: mi-get-icon($mi-var-MobBatterySaver8);
+  content: mi-get-icon($mi-var-MobBatterySaver8);
 }
 
 .#{$mi-css-prefix}-MobBatterySaver9:before {
-     content: mi-get-icon($mi-var-MobBatterySaver9);
+  content: mi-get-icon($mi-var-MobBatterySaver9);
 }
 
 .#{$mi-css-prefix}-MobBatteryUnknown:before {
-     content: mi-get-icon($mi-var-MobBatteryUnknown);
+  content: mi-get-icon($mi-var-MobBatteryUnknown);
 }
 
 .#{$mi-css-prefix}-MobBluetooth:before {
-     content: mi-get-icon($mi-var-MobBluetooth);
+  content: mi-get-icon($mi-var-MobBluetooth);
 }
 
 .#{$mi-css-prefix}-MobCallForwarding:before {
-     content: mi-get-icon($mi-var-MobCallForwarding);
+  content: mi-get-icon($mi-var-MobCallForwarding);
 }
 
 .#{$mi-css-prefix}-MobCallForwardingMirrored:before {
-     content: mi-get-icon($mi-var-MobCallForwardingMirrored);
+  content: mi-get-icon($mi-var-MobCallForwardingMirrored);
 }
 
 .#{$mi-css-prefix}-MobDrivingMode:before {
-     content: mi-get-icon($mi-var-MobDrivingMode);
+  content: mi-get-icon($mi-var-MobDrivingMode);
 }
 
 .#{$mi-css-prefix}-MobLocation:before {
-     content: mi-get-icon($mi-var-MobLocation);
+  content: mi-get-icon($mi-var-MobLocation);
 }
 
 .#{$mi-css-prefix}-MobQuietHours:before {
-     content: mi-get-icon($mi-var-MobQuietHours);
+  content: mi-get-icon($mi-var-MobQuietHours);
 }
 
 .#{$mi-css-prefix}-MobSignal1:before {
-     content: mi-get-icon($mi-var-MobSignal1);
+  content: mi-get-icon($mi-var-MobSignal1);
 }
 
 .#{$mi-css-prefix}-MobSignal2:before {
-     content: mi-get-icon($mi-var-MobSignal2);
+  content: mi-get-icon($mi-var-MobSignal2);
 }
 
 .#{$mi-css-prefix}-MobSignal3:before {
-     content: mi-get-icon($mi-var-MobSignal3);
+  content: mi-get-icon($mi-var-MobSignal3);
 }
 
 .#{$mi-css-prefix}-MobSignal4:before {
-     content: mi-get-icon($mi-var-MobSignal4);
+  content: mi-get-icon($mi-var-MobSignal4);
 }
 
 .#{$mi-css-prefix}-MobSignal5:before {
-     content: mi-get-icon($mi-var-MobSignal5);
+  content: mi-get-icon($mi-var-MobSignal5);
 }
 
 .#{$mi-css-prefix}-MobWifi1:before {
-     content: mi-get-icon($mi-var-MobWifi1);
+  content: mi-get-icon($mi-var-MobWifi1);
 }
 
 .#{$mi-css-prefix}-MobWifi2:before {
-     content: mi-get-icon($mi-var-MobWifi2);
+  content: mi-get-icon($mi-var-MobWifi2);
 }
 
 .#{$mi-css-prefix}-MobWifi3:before {
-     content: mi-get-icon($mi-var-MobWifi3);
+  content: mi-get-icon($mi-var-MobWifi3);
 }
 
 .#{$mi-css-prefix}-MobWifi4:before {
-     content: mi-get-icon($mi-var-MobWifi4);
+  content: mi-get-icon($mi-var-MobWifi4);
 }
 
 .#{$mi-css-prefix}-MobWifiHotspot:before {
-     content: mi-get-icon($mi-var-MobWifiHotspot);
+  content: mi-get-icon($mi-var-MobWifiHotspot);
 }
 
 .#{$mi-css-prefix}-MobileLocked:before {
-     content: mi-get-icon($mi-var-MobileLocked);
+  content: mi-get-icon($mi-var-MobileLocked);
 }
 
 .#{$mi-css-prefix}-MobileSelected:before {
-     content: mi-get-icon($mi-var-MobileSelected);
+  content: mi-get-icon($mi-var-MobileSelected);
 }
 
 .#{$mi-css-prefix}-MobileTablet:before {
-     content: mi-get-icon($mi-var-MobileTablet);
+  content: mi-get-icon($mi-var-MobileTablet);
 }
 
 .#{$mi-css-prefix}-More:before {
-     content: mi-get-icon($mi-var-More);
+  content: mi-get-icon($mi-var-More);
 }
 
 .#{$mi-css-prefix}-Mouse:before {
-     content: mi-get-icon($mi-var-Mouse);
+  content: mi-get-icon($mi-var-Mouse);
 }
 
 .#{$mi-css-prefix}-MoveToFolder:before {
-     content: mi-get-icon($mi-var-MoveToFolder);
+  content: mi-get-icon($mi-var-MoveToFolder);
 }
 
 .#{$mi-css-prefix}-Movies:before {
-     content: mi-get-icon($mi-var-Movies);
+  content: mi-get-icon($mi-var-Movies);
 }
 
 .#{$mi-css-prefix}-MultiSelect:before {
-     content: mi-get-icon($mi-var-MultiSelect);
+  content: mi-get-icon($mi-var-MultiSelect);
 }
 
 .#{$mi-css-prefix}-MultiSelectMirrored:before {
-     content: mi-get-icon($mi-var-MultiSelectMirrored);
+  content: mi-get-icon($mi-var-MultiSelectMirrored);
 }
 
 .#{$mi-css-prefix}-MultimediaDMP:before {
-     content: mi-get-icon($mi-var-MultimediaDMP);
+  content: mi-get-icon($mi-var-MultimediaDMP);
 }
 
 .#{$mi-css-prefix}-MultimediaDMS:before {
-     content: mi-get-icon($mi-var-MultimediaDMS);
+  content: mi-get-icon($mi-var-MultimediaDMS);
 }
 
 .#{$mi-css-prefix}-MultimediaDVR:before {
-     content: mi-get-icon($mi-var-MultimediaDVR);
+  content: mi-get-icon($mi-var-MultimediaDVR);
 }
 
 .#{$mi-css-prefix}-MultimediaPMP:before {
-     content: mi-get-icon($mi-var-MultimediaPMP);
+  content: mi-get-icon($mi-var-MultimediaPMP);
 }
 
 .#{$mi-css-prefix}-Multitask:before {
-     content: mi-get-icon($mi-var-Multitask);
+  content: mi-get-icon($mi-var-Multitask);
 }
 
 .#{$mi-css-prefix}-Multitask16:before {
-     content: mi-get-icon($mi-var-Multitask16);
+  content: mi-get-icon($mi-var-Multitask16);
 }
 
 .#{$mi-css-prefix}-MultitaskExpanded:before {
-     content: mi-get-icon($mi-var-MultitaskExpanded);
+  content: mi-get-icon($mi-var-MultitaskExpanded);
 }
 
 .#{$mi-css-prefix}-MusicAlbum:before {
-     content: mi-get-icon($mi-var-MusicAlbum);
+  content: mi-get-icon($mi-var-MusicAlbum);
 }
 
 .#{$mi-css-prefix}-MusicInfo:before {
-     content: mi-get-icon($mi-var-MusicInfo);
+  content: mi-get-icon($mi-var-MusicInfo);
 }
 
 .#{$mi-css-prefix}-MusicNote:before {
-     content: mi-get-icon($mi-var-MusicNote);
+  content: mi-get-icon($mi-var-MusicNote);
 }
 
 .#{$mi-css-prefix}-Mute:before {
-     content: mi-get-icon($mi-var-Mute);
+  content: mi-get-icon($mi-var-Mute);
 }
 
 .#{$mi-css-prefix}-MyNetwork:before {
-     content: mi-get-icon($mi-var-MyNetwork);
+  content: mi-get-icon($mi-var-MyNetwork);
 }
 
 .#{$mi-css-prefix}-NUIFPContinueSlideAction:before {
-     content: mi-get-icon($mi-var-NUIFPContinueSlideAction);
+  content: mi-get-icon($mi-var-NUIFPContinueSlideAction);
 }
 
 .#{$mi-css-prefix}-NUIFPContinueSlideHand:before {
-     content: mi-get-icon($mi-var-NUIFPContinueSlideHand);
+  content: mi-get-icon($mi-var-NUIFPContinueSlideHand);
 }
 
 .#{$mi-css-prefix}-NUIFPPressAction:before {
-     content: mi-get-icon($mi-var-NUIFPPressAction);
+  content: mi-get-icon($mi-var-NUIFPPressAction);
 }
 
 .#{$mi-css-prefix}-NUIFPPressHand:before {
-     content: mi-get-icon($mi-var-NUIFPPressHand);
+  content: mi-get-icon($mi-var-NUIFPPressHand);
 }
 
 .#{$mi-css-prefix}-NUIFPPressRepeatAction:before {
-     content: mi-get-icon($mi-var-NUIFPPressRepeatAction);
+  content: mi-get-icon($mi-var-NUIFPPressRepeatAction);
 }
 
 .#{$mi-css-prefix}-NUIFPRollLeftAction:before {
-     content: mi-get-icon($mi-var-NUIFPRollLeftAction);
+  content: mi-get-icon($mi-var-NUIFPRollLeftAction);
 }
 
 .#{$mi-css-prefix}-NUIFPRollLeftHand:before {
-     content: mi-get-icon($mi-var-NUIFPRollLeftHand);
+  content: mi-get-icon($mi-var-NUIFPRollLeftHand);
 }
 
 .#{$mi-css-prefix}-NUIFPRollRightHand:before {
-     content: mi-get-icon($mi-var-NUIFPRollRightHand);
+  content: mi-get-icon($mi-var-NUIFPRollRightHand);
 }
 
 .#{$mi-css-prefix}-NUIFPRollRightHandAction:before {
-     content: mi-get-icon($mi-var-NUIFPRollRightHandAction);
+  content: mi-get-icon($mi-var-NUIFPRollRightHandAction);
 }
 
 .#{$mi-css-prefix}-NUIFPStartSlideAction:before {
-     content: mi-get-icon($mi-var-NUIFPStartSlideAction);
+  content: mi-get-icon($mi-var-NUIFPStartSlideAction);
 }
 
 .#{$mi-css-prefix}-NUIFPStartSlideHand:before {
-     content: mi-get-icon($mi-var-NUIFPStartSlideHand);
+  content: mi-get-icon($mi-var-NUIFPStartSlideHand);
 }
 
 .#{$mi-css-prefix}-NUIFace:before {
-     content: mi-get-icon($mi-var-NUIFace);
+  content: mi-get-icon($mi-var-NUIFace);
 }
 
 .#{$mi-css-prefix}-NUIIris:before {
-     content: mi-get-icon($mi-var-NUIIris);
+  content: mi-get-icon($mi-var-NUIIris);
 }
 
 .#{$mi-css-prefix}-Narrator:before {
-     content: mi-get-icon($mi-var-Narrator);
+  content: mi-get-icon($mi-var-Narrator);
 }
 
 .#{$mi-css-prefix}-NarratorForward:before {
-     content: mi-get-icon($mi-var-NarratorForward);
+  content: mi-get-icon($mi-var-NarratorForward);
 }
 
 .#{$mi-css-prefix}-NarratorForwardMirrored:before {
-     content: mi-get-icon($mi-var-NarratorForwardMirrored);
+  content: mi-get-icon($mi-var-NarratorForwardMirrored);
 }
 
 .#{$mi-css-prefix}-Network:before {
-     content: mi-get-icon($mi-var-Network);
+  content: mi-get-icon($mi-var-Network);
 }
 
 .#{$mi-css-prefix}-NetworkAdapter:before {
-     content: mi-get-icon($mi-var-NetworkAdapter);
+  content: mi-get-icon($mi-var-NetworkAdapter);
 }
 
 .#{$mi-css-prefix}-NetworkPrinter:before {
-     content: mi-get-icon($mi-var-NetworkPrinter);
+  content: mi-get-icon($mi-var-NetworkPrinter);
 }
 
 .#{$mi-css-prefix}-NetworkTower:before {
-     content: mi-get-icon($mi-var-NetworkTower);
+  content: mi-get-icon($mi-var-NetworkTower);
 }
 
 .#{$mi-css-prefix}-NewFolder:before {
-     content: mi-get-icon($mi-var-NewFolder);
+  content: mi-get-icon($mi-var-NewFolder);
 }
 
 .#{$mi-css-prefix}-NewWindow:before {
-     content: mi-get-icon($mi-var-NewWindow);
+  content: mi-get-icon($mi-var-NewWindow);
 }
 
 .#{$mi-css-prefix}-Next:before {
-     content: mi-get-icon($mi-var-Next);
+  content: mi-get-icon($mi-var-Next);
 }
 
 .#{$mi-css-prefix}-OEM:before {
-     content: mi-get-icon($mi-var-OEM);
+  content: mi-get-icon($mi-var-OEM);
 }
 
 .#{$mi-css-prefix}-OneBar:before {
-     content: mi-get-icon($mi-var-OneBar);
+  content: mi-get-icon($mi-var-OneBar);
 }
 
 .#{$mi-css-prefix}-OpenFile:before {
-     content: mi-get-icon($mi-var-OpenFile);
+  content: mi-get-icon($mi-var-OpenFile);
 }
 
 .#{$mi-css-prefix}-OpenInNewWindow:before {
-     content: mi-get-icon($mi-var-OpenInNewWindow);
+  content: mi-get-icon($mi-var-OpenInNewWindow);
 }
 
 .#{$mi-css-prefix}-OpenLocal:before {
-     content: mi-get-icon($mi-var-OpenLocal);
+  content: mi-get-icon($mi-var-OpenLocal);
 }
 
 .#{$mi-css-prefix}-OpenPane:before {
-     content: mi-get-icon($mi-var-OpenPane);
+  content: mi-get-icon($mi-var-OpenPane);
 }
 
 .#{$mi-css-prefix}-OpenPaneMirrored:before {
-     content: mi-get-icon($mi-var-OpenPaneMirrored);
+  content: mi-get-icon($mi-var-OpenPaneMirrored);
 }
 
 .#{$mi-css-prefix}-OpenWith:before {
-     content: mi-get-icon($mi-var-OpenWith);
+  content: mi-get-icon($mi-var-OpenWith);
 }
 
 .#{$mi-css-prefix}-OpenWithMirrored:before {
-     content: mi-get-icon($mi-var-OpenWithMirrored);
+  content: mi-get-icon($mi-var-OpenWithMirrored);
 }
 
 .#{$mi-css-prefix}-Orientation:before {
-     content: mi-get-icon($mi-var-Orientation);
+  content: mi-get-icon($mi-var-Orientation);
 }
 
 .#{$mi-css-prefix}-OtherUser:before {
-     content: mi-get-icon($mi-var-OtherUser);
+  content: mi-get-icon($mi-var-OtherUser);
 }
 
 .#{$mi-css-prefix}-PC1:before {
-     content: mi-get-icon($mi-var-PC1);
+  content: mi-get-icon($mi-var-PC1);
 }
 
 .#{$mi-css-prefix}-PLAP:before {
-     content: mi-get-icon($mi-var-PLAP);
+  content: mi-get-icon($mi-var-PLAP);
 }
 
 .#{$mi-css-prefix}-Package:before {
-     content: mi-get-icon($mi-var-Package);
+  content: mi-get-icon($mi-var-Package);
 }
 
 .#{$mi-css-prefix}-Page:before {
-     content: mi-get-icon($mi-var-Page);
+  content: mi-get-icon($mi-var-Page);
 }
 
 .#{$mi-css-prefix}-PageLeft:before {
-     content: mi-get-icon($mi-var-PageLeft);
+  content: mi-get-icon($mi-var-PageLeft);
 }
 
 .#{$mi-css-prefix}-PageRight:before {
-     content: mi-get-icon($mi-var-PageRight);
+  content: mi-get-icon($mi-var-PageRight);
 }
 
 .#{$mi-css-prefix}-PageSolid:before {
-     content: mi-get-icon($mi-var-PageSolid);
+  content: mi-get-icon($mi-var-PageSolid);
 }
 
 .#{$mi-css-prefix}-PanMode:before {
-     content: mi-get-icon($mi-var-PanMode);
+  content: mi-get-icon($mi-var-PanMode);
 }
 
 .#{$mi-css-prefix}-ParkingLocation:before {
-     content: mi-get-icon($mi-var-ParkingLocation);
+  content: mi-get-icon($mi-var-ParkingLocation);
 }
 
 .#{$mi-css-prefix}-ParkingLocationMirrored:before {
-     content: mi-get-icon($mi-var-ParkingLocationMirrored);
+  content: mi-get-icon($mi-var-ParkingLocationMirrored);
 }
 
 .#{$mi-css-prefix}-ParkingLocationSolid:before {
-     content: mi-get-icon($mi-var-ParkingLocationSolid);
+  content: mi-get-icon($mi-var-ParkingLocationSolid);
 }
 
 .#{$mi-css-prefix}-PartyLeader:before {
-     content: mi-get-icon($mi-var-PartyLeader);
+  content: mi-get-icon($mi-var-PartyLeader);
 }
 
 .#{$mi-css-prefix}-PasswordKeyHide:before {
-     content: mi-get-icon($mi-var-PasswordKeyHide);
+  content: mi-get-icon($mi-var-PasswordKeyHide);
 }
 
 .#{$mi-css-prefix}-PasswordKeyShow:before {
-     content: mi-get-icon($mi-var-PasswordKeyShow);
+  content: mi-get-icon($mi-var-PasswordKeyShow);
 }
 
 .#{$mi-css-prefix}-Paste:before {
-     content: mi-get-icon($mi-var-Paste);
+  content: mi-get-icon($mi-var-Paste);
 }
 
 .#{$mi-css-prefix}-Pause:before {
-     content: mi-get-icon($mi-var-Pause);
+  content: mi-get-icon($mi-var-Pause);
 }
 
 .#{$mi-css-prefix}-PauseBadge12:before {
-     content: mi-get-icon($mi-var-PauseBadge12);
+  content: mi-get-icon($mi-var-PauseBadge12);
 }
 
 .#{$mi-css-prefix}-PenPalette:before {
-     content: mi-get-icon($mi-var-PenPalette);
+  content: mi-get-icon($mi-var-PenPalette);
 }
 
 .#{$mi-css-prefix}-PenPaletteMirrored:before {
-     content: mi-get-icon($mi-var-PenPaletteMirrored);
+  content: mi-get-icon($mi-var-PenPaletteMirrored);
 }
 
 .#{$mi-css-prefix}-PenWorkspace:before {
-     content: mi-get-icon($mi-var-PenWorkspace);
+  content: mi-get-icon($mi-var-PenWorkspace);
 }
 
 .#{$mi-css-prefix}-PenWorkspaceMirrored:before {
-     content: mi-get-icon($mi-var-PenWorkspaceMirrored);
+  content: mi-get-icon($mi-var-PenWorkspaceMirrored);
 }
 
 .#{$mi-css-prefix}-Pencil:before {
-     content: mi-get-icon($mi-var-Pencil);
+  content: mi-get-icon($mi-var-Pencil);
 }
 
 .#{$mi-css-prefix}-People:before {
-     content: mi-get-icon($mi-var-People);
+  content: mi-get-icon($mi-var-People);
 }
 
 .#{$mi-css-prefix}-PeriodKey:before {
-     content: mi-get-icon($mi-var-PeriodKey);
+  content: mi-get-icon($mi-var-PeriodKey);
 }
 
 .#{$mi-css-prefix}-Permissions:before {
-     content: mi-get-icon($mi-var-Permissions);
+  content: mi-get-icon($mi-var-Permissions);
 }
 
 .#{$mi-css-prefix}-PersonalFolder:before {
-     content: mi-get-icon($mi-var-PersonalFolder);
+  content: mi-get-icon($mi-var-PersonalFolder);
 }
 
 .#{$mi-css-prefix}-Personalize:before {
-     content: mi-get-icon($mi-var-Personalize);
+  content: mi-get-icon($mi-var-Personalize);
 }
 
 .#{$mi-css-prefix}-Phone:before {
-     content: mi-get-icon($mi-var-Phone);
+  content: mi-get-icon($mi-var-Phone);
 }
 
 .#{$mi-css-prefix}-PhoneBook:before {
-     content: mi-get-icon($mi-var-PhoneBook);
+  content: mi-get-icon($mi-var-PhoneBook);
 }
 
 .#{$mi-css-prefix}-Photo:before {
-     content: mi-get-icon($mi-var-Photo);
+  content: mi-get-icon($mi-var-Photo);
 }
 
 .#{$mi-css-prefix}-Photo2:before {
-     content: mi-get-icon($mi-var-Photo2);
+  content: mi-get-icon($mi-var-Photo2);
 }
 
 .#{$mi-css-prefix}-Picture:before {
-     content: mi-get-icon($mi-var-Picture);
+  content: mi-get-icon($mi-var-Picture);
 }
 
 .#{$mi-css-prefix}-PieSingle:before {
-     content: mi-get-icon($mi-var-PieSingle);
+  content: mi-get-icon($mi-var-PieSingle);
 }
 
 .#{$mi-css-prefix}-Pin:before {
-     content: mi-get-icon($mi-var-Pin);
+  content: mi-get-icon($mi-var-Pin);
 }
 
 .#{$mi-css-prefix}-PinFill:before {
-     content: mi-get-icon($mi-var-PinFill);
+  content: mi-get-icon($mi-var-PinFill);
 }
 
 .#{$mi-css-prefix}-Pinned:before {
-     content: mi-get-icon($mi-var-Pinned);
+  content: mi-get-icon($mi-var-Pinned);
 }
 
 .#{$mi-css-prefix}-PinnedFill:before {
-     content: mi-get-icon($mi-var-PinnedFill);
+  content: mi-get-icon($mi-var-PinnedFill);
 }
 
 .#{$mi-css-prefix}-PlaceFolder:before {
-     content: mi-get-icon($mi-var-PlaceFolder);
+  content: mi-get-icon($mi-var-PlaceFolder);
 }
 
 .#{$mi-css-prefix}-Play:before {
-     content: mi-get-icon($mi-var-Play);
+  content: mi-get-icon($mi-var-Play);
 }
 
 .#{$mi-css-prefix}-Play36:before {
-     content: mi-get-icon($mi-var-Play36);
+  content: mi-get-icon($mi-var-Play36);
 }
 
 .#{$mi-css-prefix}-PlayBadge12:before {
-     content: mi-get-icon($mi-var-PlayBadge12);
+  content: mi-get-icon($mi-var-PlayBadge12);
 }
 
 .#{$mi-css-prefix}-PlayOn:before {
-     content: mi-get-icon($mi-var-PlayOn);
+  content: mi-get-icon($mi-var-PlayOn);
 }
 
 .#{$mi-css-prefix}-PlaybackRate1x:before {
-     content: mi-get-icon($mi-var-PlaybackRate1x);
+  content: mi-get-icon($mi-var-PlaybackRate1x);
 }
 
 .#{$mi-css-prefix}-PlaybackRateOther:before {
-     content: mi-get-icon($mi-var-PlaybackRateOther);
+  content: mi-get-icon($mi-var-PlaybackRateOther);
 }
 
 .#{$mi-css-prefix}-PointErase:before {
-     content: mi-get-icon($mi-var-PointErase);
+  content: mi-get-icon($mi-var-PointErase);
 }
 
 .#{$mi-css-prefix}-PointEraseMirrored:before {
-     content: mi-get-icon($mi-var-PointEraseMirrored);
+  content: mi-get-icon($mi-var-PointEraseMirrored);
 }
 
 .#{$mi-css-prefix}-PoliceCar:before {
-     content: mi-get-icon($mi-var-PoliceCar);
+  content: mi-get-icon($mi-var-PoliceCar);
 }
 
 .#{$mi-css-prefix}-PostUpdate:before {
-     content: mi-get-icon($mi-var-PostUpdate);
+  content: mi-get-icon($mi-var-PostUpdate);
 }
 
 .#{$mi-css-prefix}-PowerButton:before {
-     content: mi-get-icon($mi-var-PowerButton);
+  content: mi-get-icon($mi-var-PowerButton);
 }
 
 .#{$mi-css-prefix}-PresenceChickletVideo:before {
-     content: mi-get-icon($mi-var-PresenceChickletVideo);
+  content: mi-get-icon($mi-var-PresenceChickletVideo);
 }
 
 .#{$mi-css-prefix}-Preview:before {
-     content: mi-get-icon($mi-var-Preview);
+  content: mi-get-icon($mi-var-Preview);
 }
 
 .#{$mi-css-prefix}-PreviewLink:before {
-     content: mi-get-icon($mi-var-PreviewLink);
+  content: mi-get-icon($mi-var-PreviewLink);
 }
 
 .#{$mi-css-prefix}-Previous:before {
-     content: mi-get-icon($mi-var-Previous);
+  content: mi-get-icon($mi-var-Previous);
 }
 
 .#{$mi-css-prefix}-Print:before {
-     content: mi-get-icon($mi-var-Print);
+  content: mi-get-icon($mi-var-Print);
 }
 
 .#{$mi-css-prefix}-Printer3D:before {
-     content: mi-get-icon($mi-var-Printer3D);
+  content: mi-get-icon($mi-var-Printer3D);
 }
 
 .#{$mi-css-prefix}-Printer3D2:before {
-     content: mi-get-icon($mi-var-Printer3D2);
+  content: mi-get-icon($mi-var-Printer3D2);
 }
 
 .#{$mi-css-prefix}-PrintfaxPrinterFile:before {
-     content: mi-get-icon($mi-var-PrintfaxPrinterFile);
+  content: mi-get-icon($mi-var-PrintfaxPrinterFile);
 }
 
 .#{$mi-css-prefix}-Priority:before {
-     content: mi-get-icon($mi-var-Priority);
+  content: mi-get-icon($mi-var-Priority);
 }
 
 .#{$mi-css-prefix}-Process:before {
-     content: mi-get-icon($mi-var-Process);
+  content: mi-get-icon($mi-var-Process);
 }
 
 .#{$mi-css-prefix}-Project:before {
-     content: mi-get-icon($mi-var-Project);
+  content: mi-get-icon($mi-var-Project);
 }
 
 .#{$mi-css-prefix}-Projector:before {
-     content: mi-get-icon($mi-var-Projector);
+  content: mi-get-icon($mi-var-Projector);
 }
 
 .#{$mi-css-prefix}-ProtectedDocument:before {
-     content: mi-get-icon($mi-var-ProtectedDocument);
+  content: mi-get-icon($mi-var-ProtectedDocument);
 }
 
 .#{$mi-css-prefix}-ProvisioningPackage:before {
-     content: mi-get-icon($mi-var-ProvisioningPackage);
+  content: mi-get-icon($mi-var-ProvisioningPackage);
 }
 
 .#{$mi-css-prefix}-PuncKey:before {
-     content: mi-get-icon($mi-var-PuncKey);
+  content: mi-get-icon($mi-var-PuncKey);
 }
 
 .#{$mi-css-prefix}-PuncKey0:before {
-     content: mi-get-icon($mi-var-PuncKey0);
+  content: mi-get-icon($mi-var-PuncKey0);
 }
 
 .#{$mi-css-prefix}-PuncKey1:before {
-     content: mi-get-icon($mi-var-PuncKey1);
+  content: mi-get-icon($mi-var-PuncKey1);
 }
 
 .#{$mi-css-prefix}-PuncKey2:before {
-     content: mi-get-icon($mi-var-PuncKey2);
+  content: mi-get-icon($mi-var-PuncKey2);
 }
 
 .#{$mi-css-prefix}-PuncKey3:before {
-     content: mi-get-icon($mi-var-PuncKey3);
+  content: mi-get-icon($mi-var-PuncKey3);
 }
 
 .#{$mi-css-prefix}-PuncKey4:before {
-     content: mi-get-icon($mi-var-PuncKey4);
+  content: mi-get-icon($mi-var-PuncKey4);
 }
 
 .#{$mi-css-prefix}-PuncKey5:before {
-     content: mi-get-icon($mi-var-PuncKey5);
+  content: mi-get-icon($mi-var-PuncKey5);
 }
 
 .#{$mi-css-prefix}-PuncKey6:before {
-     content: mi-get-icon($mi-var-PuncKey6);
+  content: mi-get-icon($mi-var-PuncKey6);
 }
 
 .#{$mi-css-prefix}-PuncKey7:before {
-     content: mi-get-icon($mi-var-PuncKey7);
+  content: mi-get-icon($mi-var-PuncKey7);
 }
 
 .#{$mi-css-prefix}-PuncKey8:before {
-     content: mi-get-icon($mi-var-PuncKey8);
+  content: mi-get-icon($mi-var-PuncKey8);
 }
 
 .#{$mi-css-prefix}-PuncKey9:before {
-     content: mi-get-icon($mi-var-PuncKey9);
+  content: mi-get-icon($mi-var-PuncKey9);
 }
 
 .#{$mi-css-prefix}-PuncKeyLeftBottom:before {
-     content: mi-get-icon($mi-var-PuncKeyLeftBottom);
+  content: mi-get-icon($mi-var-PuncKeyLeftBottom);
 }
 
 .#{$mi-css-prefix}-PuncKeyRightBottom:before {
-     content: mi-get-icon($mi-var-PuncKeyRightBottom);
+  content: mi-get-icon($mi-var-PuncKeyRightBottom);
 }
 
 .#{$mi-css-prefix}-Puzzle:before {
-     content: mi-get-icon($mi-var-Puzzle);
+  content: mi-get-icon($mi-var-Puzzle);
 }
 
 .#{$mi-css-prefix}-QWERTYOff:before {
-     content: mi-get-icon($mi-var-QWERTYOff);
+  content: mi-get-icon($mi-var-QWERTYOff);
 }
 
 .#{$mi-css-prefix}-QWERTYOn:before {
-     content: mi-get-icon($mi-var-QWERTYOn);
+  content: mi-get-icon($mi-var-QWERTYOn);
 }
 
 .#{$mi-css-prefix}-QuickNote:before {
-     content: mi-get-icon($mi-var-QuickNote);
+  content: mi-get-icon($mi-var-QuickNote);
 }
 
 .#{$mi-css-prefix}-QuietHours:before {
-     content: mi-get-icon($mi-var-QuietHours);
+  content: mi-get-icon($mi-var-QuietHours);
 }
 
 .#{$mi-css-prefix}-RadioBtnOff:before {
-     content: mi-get-icon($mi-var-RadioBtnOff);
+  content: mi-get-icon($mi-var-RadioBtnOff);
 }
 
 .#{$mi-css-prefix}-RadioBtnOn:before {
-     content: mi-get-icon($mi-var-RadioBtnOn);
+  content: mi-get-icon($mi-var-RadioBtnOn);
 }
 
 .#{$mi-css-prefix}-RadioBullet:before {
-     content: mi-get-icon($mi-var-RadioBullet);
+  content: mi-get-icon($mi-var-RadioBullet);
 }
 
 .#{$mi-css-prefix}-RadioBullet2:before {
-     content: mi-get-icon($mi-var-RadioBullet2);
+  content: mi-get-icon($mi-var-RadioBullet2);
 }
 
 .#{$mi-css-prefix}-Read:before {
-     content: mi-get-icon($mi-var-Read);
+  content: mi-get-icon($mi-var-Read);
 }
 
 .#{$mi-css-prefix}-ReadingList:before {
-     content: mi-get-icon($mi-var-ReadingList);
+  content: mi-get-icon($mi-var-ReadingList);
 }
 
 .#{$mi-css-prefix}-ReceiptPrinter:before {
-     content: mi-get-icon($mi-var-ReceiptPrinter);
+  content: mi-get-icon($mi-var-ReceiptPrinter);
 }
 
 .#{$mi-css-prefix}-Recent:before {
-     content: mi-get-icon($mi-var-Recent);
+  content: mi-get-icon($mi-var-Recent);
 }
 
 .#{$mi-css-prefix}-Record:before {
-     content: mi-get-icon($mi-var-Record);
+  content: mi-get-icon($mi-var-Record);
 }
 
 .#{$mi-css-prefix}-Redo:before {
-     content: mi-get-icon($mi-var-Redo);
+  content: mi-get-icon($mi-var-Redo);
 }
 
 .#{$mi-css-prefix}-ReduceTile:before {
-     content: mi-get-icon($mi-var-ReduceTile);
+  content: mi-get-icon($mi-var-ReduceTile);
 }
 
 .#{$mi-css-prefix}-ReduceTileMirrored:before {
-     content: mi-get-icon($mi-var-ReduceTileMirrored);
+  content: mi-get-icon($mi-var-ReduceTileMirrored);
 }
 
 .#{$mi-css-prefix}-Refresh:before {
-     content: mi-get-icon($mi-var-Refresh);
+  content: mi-get-icon($mi-var-Refresh);
 }
 
 .#{$mi-css-prefix}-RememberedDevice:before {
-     content: mi-get-icon($mi-var-RememberedDevice);
+  content: mi-get-icon($mi-var-RememberedDevice);
 }
 
 .#{$mi-css-prefix}-Reminder:before {
-     content: mi-get-icon($mi-var-Reminder);
+  content: mi-get-icon($mi-var-Reminder);
 }
 
 .#{$mi-css-prefix}-ReminderFill:before {
-     content: mi-get-icon($mi-var-ReminderFill);
+  content: mi-get-icon($mi-var-ReminderFill);
 }
 
 .#{$mi-css-prefix}-Remote:before {
-     content: mi-get-icon($mi-var-Remote);
+  content: mi-get-icon($mi-var-Remote);
 }
 
 .#{$mi-css-prefix}-Remove:before {
-     content: mi-get-icon($mi-var-Remove);
+  content: mi-get-icon($mi-var-Remove);
 }
 
 .#{$mi-css-prefix}-RemoveFrom:before {
-     content: mi-get-icon($mi-var-RemoveFrom);
+  content: mi-get-icon($mi-var-RemoveFrom);
 }
 
 .#{$mi-css-prefix}-Rename:before {
-     content: mi-get-icon($mi-var-Rename);
+  content: mi-get-icon($mi-var-Rename);
 }
 
 .#{$mi-css-prefix}-Repair:before {
-     content: mi-get-icon($mi-var-Repair);
+  content: mi-get-icon($mi-var-Repair);
 }
 
 .#{$mi-css-prefix}-RepeatOne:before {
-     content: mi-get-icon($mi-var-RepeatOne);
+  content: mi-get-icon($mi-var-RepeatOne);
 }
 
 .#{$mi-css-prefix}-Reply:before {
-     content: mi-get-icon($mi-var-Reply);
+  content: mi-get-icon($mi-var-Reply);
 }
 
 .#{$mi-css-prefix}-ReplyMirrored:before {
-     content: mi-get-icon($mi-var-ReplyMirrored);
+  content: mi-get-icon($mi-var-ReplyMirrored);
 }
 
 .#{$mi-css-prefix}-ReportHacked:before {
-     content: mi-get-icon($mi-var-ReportHacked);
+  content: mi-get-icon($mi-var-ReportHacked);
 }
 
 .#{$mi-css-prefix}-ResetDevice:before {
-     content: mi-get-icon($mi-var-ResetDevice);
+  content: mi-get-icon($mi-var-ResetDevice);
 }
 
 .#{$mi-css-prefix}-ResetDrive:before {
-     content: mi-get-icon($mi-var-ResetDrive);
+  content: mi-get-icon($mi-var-ResetDrive);
 }
 
 .#{$mi-css-prefix}-Reshare:before {
-     content: mi-get-icon($mi-var-Reshare);
+  content: mi-get-icon($mi-var-Reshare);
 }
 
 .#{$mi-css-prefix}-ResizeMouseMedium:before {
-     content: mi-get-icon($mi-var-ResizeMouseMedium);
+  content: mi-get-icon($mi-var-ResizeMouseMedium);
 }
 
 .#{$mi-css-prefix}-ResizeMouseMediumMirrored:before {
-     content: mi-get-icon($mi-var-ResizeMouseMediumMirrored);
+  content: mi-get-icon($mi-var-ResizeMouseMediumMirrored);
 }
 
 .#{$mi-css-prefix}-ResizeMouseSmall:before {
-     content: mi-get-icon($mi-var-ResizeMouseSmall);
+  content: mi-get-icon($mi-var-ResizeMouseSmall);
 }
 
 .#{$mi-css-prefix}-ResizeMouseSmallMirrored:before {
-     content: mi-get-icon($mi-var-ResizeMouseSmallMirrored);
+  content: mi-get-icon($mi-var-ResizeMouseSmallMirrored);
 }
 
 .#{$mi-css-prefix}-ResizeMouseTall:before {
-     content: mi-get-icon($mi-var-ResizeMouseTall);
+  content: mi-get-icon($mi-var-ResizeMouseTall);
 }
 
 .#{$mi-css-prefix}-ResizeMouseTallMirrored:before {
-     content: mi-get-icon($mi-var-ResizeMouseTallMirrored);
+  content: mi-get-icon($mi-var-ResizeMouseTallMirrored);
 }
 
 .#{$mi-css-prefix}-ResizeMouseWide:before {
-     content: mi-get-icon($mi-var-ResizeMouseWide);
+  content: mi-get-icon($mi-var-ResizeMouseWide);
 }
 
 .#{$mi-css-prefix}-ResizeTouchLarger:before {
-     content: mi-get-icon($mi-var-ResizeTouchLarger);
+  content: mi-get-icon($mi-var-ResizeTouchLarger);
 }
 
 .#{$mi-css-prefix}-ResizeTouchNarrower:before {
-     content: mi-get-icon($mi-var-ResizeTouchNarrower);
+  content: mi-get-icon($mi-var-ResizeTouchNarrower);
 }
 
 .#{$mi-css-prefix}-ResizeTouchNarrowerMirrored:before {
-     content: mi-get-icon($mi-var-ResizeTouchNarrowerMirrored);
+  content: mi-get-icon($mi-var-ResizeTouchNarrowerMirrored);
 }
 
 .#{$mi-css-prefix}-ResizeTouchShorter:before {
-     content: mi-get-icon($mi-var-ResizeTouchShorter);
+  content: mi-get-icon($mi-var-ResizeTouchShorter);
 }
 
 .#{$mi-css-prefix}-ResizeTouchSmaller:before {
-     content: mi-get-icon($mi-var-ResizeTouchSmaller);
+  content: mi-get-icon($mi-var-ResizeTouchSmaller);
 }
 
 .#{$mi-css-prefix}-Resolution:before {
-     content: mi-get-icon($mi-var-Resolution);
+  content: mi-get-icon($mi-var-Resolution);
 }
 
 .#{$mi-css-prefix}-ReturnKey:before {
-     content: mi-get-icon($mi-var-ReturnKey);
+  content: mi-get-icon($mi-var-ReturnKey);
 }
 
 .#{$mi-css-prefix}-ReturnKeyLg:before {
-     content: mi-get-icon($mi-var-ReturnKeyLg);
+  content: mi-get-icon($mi-var-ReturnKeyLg);
 }
 
 .#{$mi-css-prefix}-ReturnKeySm:before {
-     content: mi-get-icon($mi-var-ReturnKeySm);
+  content: mi-get-icon($mi-var-ReturnKeySm);
 }
 
 .#{$mi-css-prefix}-ReturnToWindow:before {
-     content: mi-get-icon($mi-var-ReturnToWindow);
+  content: mi-get-icon($mi-var-ReturnToWindow);
 }
 
 .#{$mi-css-prefix}-RevToggleKey:before {
-     content: mi-get-icon($mi-var-RevToggleKey);
+  content: mi-get-icon($mi-var-RevToggleKey);
 }
 
 .#{$mi-css-prefix}-Rewind:before {
-     content: mi-get-icon($mi-var-Rewind);
+  content: mi-get-icon($mi-var-Rewind);
 }
 
 .#{$mi-css-prefix}-RightArrowKeyTime0:before {
-     content: mi-get-icon($mi-var-RightArrowKeyTime0);
+  content: mi-get-icon($mi-var-RightArrowKeyTime0);
 }
 
 .#{$mi-css-prefix}-RightArrowKeyTime1:before {
-     content: mi-get-icon($mi-var-RightArrowKeyTime1);
+  content: mi-get-icon($mi-var-RightArrowKeyTime1);
 }
 
 .#{$mi-css-prefix}-RightArrowKeyTime2:before {
-     content: mi-get-icon($mi-var-RightArrowKeyTime2);
+  content: mi-get-icon($mi-var-RightArrowKeyTime2);
 }
 
 .#{$mi-css-prefix}-RightArrowKeyTime3:before {
-     content: mi-get-icon($mi-var-RightArrowKeyTime3);
+  content: mi-get-icon($mi-var-RightArrowKeyTime3);
 }
 
 .#{$mi-css-prefix}-RightArrowKeyTime4:before {
-     content: mi-get-icon($mi-var-RightArrowKeyTime4);
+  content: mi-get-icon($mi-var-RightArrowKeyTime4);
 }
 
 .#{$mi-css-prefix}-RightDoubleQuote:before {
-     content: mi-get-icon($mi-var-RightDoubleQuote);
+  content: mi-get-icon($mi-var-RightDoubleQuote);
 }
 
 .#{$mi-css-prefix}-RightQuote:before {
-     content: mi-get-icon($mi-var-RightQuote);
+  content: mi-get-icon($mi-var-RightQuote);
 }
 
 .#{$mi-css-prefix}-Ringer:before {
-     content: mi-get-icon($mi-var-Ringer);
+  content: mi-get-icon($mi-var-Ringer);
 }
 
 .#{$mi-css-prefix}-RingerBadge12:before {
-     content: mi-get-icon($mi-var-RingerBadge12);
+  content: mi-get-icon($mi-var-RingerBadge12);
 }
 
 .#{$mi-css-prefix}-RingerSilent:before {
-     content: mi-get-icon($mi-var-RingerSilent);
+  content: mi-get-icon($mi-var-RingerSilent);
 }
 
 .#{$mi-css-prefix}-RoamingDomestic:before {
-     content: mi-get-icon($mi-var-RoamingDomestic);
+  content: mi-get-icon($mi-var-RoamingDomestic);
 }
 
 .#{$mi-css-prefix}-RoamingInternational:before {
-     content: mi-get-icon($mi-var-RoamingInternational);
+  content: mi-get-icon($mi-var-RoamingInternational);
 }
 
 .#{$mi-css-prefix}-Robot:before {
-     content: mi-get-icon($mi-var-Robot);
+  content: mi-get-icon($mi-var-Robot);
 }
 
 .#{$mi-css-prefix}-Rotate:before {
-     content: mi-get-icon($mi-var-Rotate);
+  content: mi-get-icon($mi-var-Rotate);
 }
 
 .#{$mi-css-prefix}-RotateCamera:before {
-     content: mi-get-icon($mi-var-RotateCamera);
+  content: mi-get-icon($mi-var-RotateCamera);
 }
 
 .#{$mi-css-prefix}-Rotate:before {
-     content: mi-get-icon($mi-var-Rotate);
+  content: mi-get-icon($mi-var-Rotate);
 }
 
 .#{$mi-css-prefix}-RotateMapLeft:before {
-     content: mi-get-icon($mi-var-RotateMapLeft);
+  content: mi-get-icon($mi-var-RotateMapLeft);
 }
 
 .#{$mi-css-prefix}-RotateMapRight:before {
-     content: mi-get-icon($mi-var-RotateMapRight);
+  content: mi-get-icon($mi-var-RotateMapRight);
 }
 
 .#{$mi-css-prefix}-RotationLock:before {
-     content: mi-get-icon($mi-var-RotationLock);
+  content: mi-get-icon($mi-var-RotationLock);
 }
 
 .#{$mi-css-prefix}-Ruler:before {
-     content: mi-get-icon($mi-var-Ruler);
+  content: mi-get-icon($mi-var-Ruler);
 }
 
 .#{$mi-css-prefix}-SDCard:before {
-     content: mi-get-icon($mi-var-SDCard);
+  content: mi-get-icon($mi-var-SDCard);
 }
 
 .#{$mi-css-prefix}-SIMLock:before {
-     content: mi-get-icon($mi-var-SIMLock);
+  content: mi-get-icon($mi-var-SIMLock);
 }
 
 .#{$mi-css-prefix}-SIMMissing:before {
-     content: mi-get-icon($mi-var-SIMMissing);
+  content: mi-get-icon($mi-var-SIMMissing);
 }
 
 .#{$mi-css-prefix}-SIPMove:before {
-     content: mi-get-icon($mi-var-SIPMove);
+  content: mi-get-icon($mi-var-SIPMove);
 }
 
 .#{$mi-css-prefix}-SIPRedock:before {
-     content: mi-get-icon($mi-var-SIPRedock);
+  content: mi-get-icon($mi-var-SIPRedock);
 }
 
 .#{$mi-css-prefix}-SIPUndock:before {
-     content: mi-get-icon($mi-var-SIPUndock);
+  content: mi-get-icon($mi-var-SIPUndock);
 }
 
 .#{$mi-css-prefix}-Save:before {
-     content: mi-get-icon($mi-var-Save);
+  content: mi-get-icon($mi-var-Save);
 }
 
 .#{$mi-css-prefix}-SaveAs:before {
-     content: mi-get-icon($mi-var-SaveAs);
+  content: mi-get-icon($mi-var-SaveAs);
 }
 
 .#{$mi-css-prefix}-SaveCopy:before {
-     content: mi-get-icon($mi-var-SaveCopy);
+  content: mi-get-icon($mi-var-SaveCopy);
 }
 
 .#{$mi-css-prefix}-SaveLocal:before {
-     content: mi-get-icon($mi-var-SaveLocal);
+  content: mi-get-icon($mi-var-SaveLocal);
 }
 
 .#{$mi-css-prefix}-Scan:before {
-     content: mi-get-icon($mi-var-Scan);
+  content: mi-get-icon($mi-var-Scan);
 }
 
 .#{$mi-css-prefix}-ScrollMode:before {
-     content: mi-get-icon($mi-var-ScrollMode);
+  content: mi-get-icon($mi-var-ScrollMode);
 }
 
 .#{$mi-css-prefix}-ScrollUpDown:before {
-     content: mi-get-icon($mi-var-ScrollUpDown);
+  content: mi-get-icon($mi-var-ScrollUpDown);
 }
 
 .#{$mi-css-prefix}-Search:before {
-     content: mi-get-icon($mi-var-Search);
+  content: mi-get-icon($mi-var-Search);
 }
 
 .#{$mi-css-prefix}-SearchAndApps:before {
-     content: mi-get-icon($mi-var-SearchAndApps);
+  content: mi-get-icon($mi-var-SearchAndApps);
 }
 
 .#{$mi-css-prefix}-SelectAll:before {
-     content: mi-get-icon($mi-var-SelectAll);
+  content: mi-get-icon($mi-var-SelectAll);
 }
 
 .#{$mi-css-prefix}-SemanticZoom:before {
-     content: mi-get-icon($mi-var-SemanticZoom);
+  content: mi-get-icon($mi-var-SemanticZoom);
 }
 
 .#{$mi-css-prefix}-Send:before {
-     content: mi-get-icon($mi-var-Send);
+  content: mi-get-icon($mi-var-Send);
 }
 
 .#{$mi-css-prefix}-SendFill:before {
-     content: mi-get-icon($mi-var-SendFill);
+  content: mi-get-icon($mi-var-SendFill);
 }
 
 .#{$mi-css-prefix}-SendFillMirrored:before {
-     content: mi-get-icon($mi-var-SendFillMirrored);
+  content: mi-get-icon($mi-var-SendFillMirrored);
 }
 
 .#{$mi-css-prefix}-SendMirrored:before {
-     content: mi-get-icon($mi-var-SendMirrored);
+  content: mi-get-icon($mi-var-SendMirrored);
 }
 
 .#{$mi-css-prefix}-Sensor:before {
-     content: mi-get-icon($mi-var-Sensor);
+  content: mi-get-icon($mi-var-Sensor);
 }
 
 .#{$mi-css-prefix}-SetTile:before {
-     content: mi-get-icon($mi-var-SetTile);
+  content: mi-get-icon($mi-var-SetTile);
 }
 
 .#{$mi-css-prefix}-SetlockScreen:before {
-     content: mi-get-icon($mi-var-SetlockScreen);
+  content: mi-get-icon($mi-var-SetlockScreen);
 }
 
 .#{$mi-css-prefix}-Settings:before {
-     content: mi-get-icon($mi-var-Settings);
+  content: mi-get-icon($mi-var-Settings);
 }
 
 .#{$mi-css-prefix}-SettingsBattery:before {
-     content: mi-get-icon($mi-var-SettingsBattery);
+  content: mi-get-icon($mi-var-SettingsBattery);
 }
 
 .#{$mi-css-prefix}-SettingsDisplaySound:before {
-     content: mi-get-icon($mi-var-SettingsDisplaySound);
+  content: mi-get-icon($mi-var-SettingsDisplaySound);
 }
 
 .#{$mi-css-prefix}-Share:before {
-     content: mi-get-icon($mi-var-Share);
+  content: mi-get-icon($mi-var-Share);
 }
 
 .#{$mi-css-prefix}-ShareBroadband:before {
-     content: mi-get-icon($mi-var-ShareBroadband);
+  content: mi-get-icon($mi-var-ShareBroadband);
 }
 
 .#{$mi-css-prefix}-Shop:before {
-     content: mi-get-icon($mi-var-Shop);
+  content: mi-get-icon($mi-var-Shop);
 }
 
 .#{$mi-css-prefix}-ShoppingCart:before {
-     content: mi-get-icon($mi-var-ShoppingCart);
+  content: mi-get-icon($mi-var-ShoppingCart);
 }
 
 .#{$mi-css-prefix}-ShowAllFiles1:before {
-     content: mi-get-icon($mi-var-ShowAllFiles1);
+  content: mi-get-icon($mi-var-ShowAllFiles1);
 }
 
 .#{$mi-css-prefix}-ShowAllFiles3:before {
-     content: mi-get-icon($mi-var-ShowAllFiles3);
+  content: mi-get-icon($mi-var-ShowAllFiles3);
 }
 
 .#{$mi-css-prefix}-ShowBcc:before {
-     content: mi-get-icon($mi-var-ShowBcc);
+  content: mi-get-icon($mi-var-ShowBcc);
 }
 
 .#{$mi-css-prefix}-ShowResults:before {
-     content: mi-get-icon($mi-var-ShowResults);
+  content: mi-get-icon($mi-var-ShowResults);
 }
 
 .#{$mi-css-prefix}-ShowResultsMirrored:before {
-     content: mi-get-icon($mi-var-ShowResultsMirrored);
+  content: mi-get-icon($mi-var-ShowResultsMirrored);
 }
 
 .#{$mi-css-prefix}-Shuffle:before {
-     content: mi-get-icon($mi-var-Shuffle);
+  content: mi-get-icon($mi-var-Shuffle);
 }
 
 .#{$mi-css-prefix}-SignalBars1:before {
-     content: mi-get-icon($mi-var-SignalBars1);
+  content: mi-get-icon($mi-var-SignalBars1);
 }
 
 .#{$mi-css-prefix}-SignalBars2:before {
-     content: mi-get-icon($mi-var-SignalBars2);
+  content: mi-get-icon($mi-var-SignalBars2);
 }
 
 .#{$mi-css-prefix}-SignalBars3:before {
-     content: mi-get-icon($mi-var-SignalBars3);
+  content: mi-get-icon($mi-var-SignalBars3);
 }
 
 .#{$mi-css-prefix}-SignalBars4:before {
-     content: mi-get-icon($mi-var-SignalBars4);
+  content: mi-get-icon($mi-var-SignalBars4);
 }
 
 .#{$mi-css-prefix}-SignalBars5:before {
-     content: mi-get-icon($mi-var-SignalBars5);
+  content: mi-get-icon($mi-var-SignalBars5);
 }
 
 .#{$mi-css-prefix}-SignalError:before {
-     content: mi-get-icon($mi-var-SignalError);
+  content: mi-get-icon($mi-var-SignalError);
 }
 
 .#{$mi-css-prefix}-SignalNotConnected:before {
-     content: mi-get-icon($mi-var-SignalNotConnected);
+  content: mi-get-icon($mi-var-SignalNotConnected);
 }
 
 .#{$mi-css-prefix}-SignalRoaming:before {
-     content: mi-get-icon($mi-var-SignalRoaming);
+  content: mi-get-icon($mi-var-SignalRoaming);
 }
 
 .#{$mi-css-prefix}-Size:before {
-     content: mi-get-icon($mi-var-Size);
+  content: mi-get-icon($mi-var-Size);
 }
 
 .#{$mi-css-prefix}-SkipBack10:before {
-     content: mi-get-icon($mi-var-SkipBack10);
+  content: mi-get-icon($mi-var-SkipBack10);
 }
 
 .#{$mi-css-prefix}-SkipForward30:before {
-     content: mi-get-icon($mi-var-SkipForward30);
+  content: mi-get-icon($mi-var-SkipForward30);
 }
 
 .#{$mi-css-prefix}-SliderThumb:before {
-     content: mi-get-icon($mi-var-SliderThumb);
+  content: mi-get-icon($mi-var-SliderThumb);
 }
 
 .#{$mi-css-prefix}-Slideshow:before {
-     content: mi-get-icon($mi-var-Slideshow);
+  content: mi-get-icon($mi-var-Slideshow);
 }
 
 .#{$mi-css-prefix}-Smartcard:before {
-     content: mi-get-icon($mi-var-Smartcard);
+  content: mi-get-icon($mi-var-Smartcard);
 }
 
 .#{$mi-css-prefix}-SmartcardVirtual:before {
-     content: mi-get-icon($mi-var-SmartcardVirtual);
+  content: mi-get-icon($mi-var-SmartcardVirtual);
 }
 
 .#{$mi-css-prefix}-Sort:before {
-     content: mi-get-icon($mi-var-Sort);
+  content: mi-get-icon($mi-var-Sort);
 }
 
 .#{$mi-css-prefix}-Speakers:before {
-     content: mi-get-icon($mi-var-Speakers);
+  content: mi-get-icon($mi-var-Speakers);
 }
 
 .#{$mi-css-prefix}-SpeedHigh:before {
-     content: mi-get-icon($mi-var-SpeedHigh);
+  content: mi-get-icon($mi-var-SpeedHigh);
 }
 
 .#{$mi-css-prefix}-SpeedMedium:before {
-     content: mi-get-icon($mi-var-SpeedMedium);
+  content: mi-get-icon($mi-var-SpeedMedium);
 }
 
 .#{$mi-css-prefix}-SpeedOff:before {
-     content: mi-get-icon($mi-var-SpeedOff);
+  content: mi-get-icon($mi-var-SpeedOff);
 }
 
 .#{$mi-css-prefix}-StartPoint:before {
-     content: mi-get-icon($mi-var-StartPoint);
+  content: mi-get-icon($mi-var-StartPoint);
 }
 
 .#{$mi-css-prefix}-StartPointSolid:before {
-     content: mi-get-icon($mi-var-StartPointSolid);
+  content: mi-get-icon($mi-var-StartPointSolid);
 }
 
 .#{$mi-css-prefix}-StatusCircle:before {
-     content: mi-get-icon($mi-var-StatusCircle);
+  content: mi-get-icon($mi-var-StatusCircle);
 }
 
 .#{$mi-css-prefix}-StatusCircleLeft:before {
-     content: mi-get-icon($mi-var-StatusCircleLeft);
+  content: mi-get-icon($mi-var-StatusCircleLeft);
 }
 
 .#{$mi-css-prefix}-StatusConnecting1:before {
-     content: mi-get-icon($mi-var-StatusConnecting1);
+  content: mi-get-icon($mi-var-StatusConnecting1);
 }
 
 .#{$mi-css-prefix}-StatusConnecting2:before {
-     content: mi-get-icon($mi-var-StatusConnecting2);
+  content: mi-get-icon($mi-var-StatusConnecting2);
 }
 
 .#{$mi-css-prefix}-StatusDataTransfer:before {
-     content: mi-get-icon($mi-var-StatusDataTransfer);
+  content: mi-get-icon($mi-var-StatusDataTransfer);
 }
 
 .#{$mi-css-prefix}-StatusDataTransferVPN:before {
-     content: mi-get-icon($mi-var-StatusDataTransferVPN);
+  content: mi-get-icon($mi-var-StatusDataTransferVPN);
 }
 
 .#{$mi-css-prefix}-StatusDualSIM1:before {
-     content: mi-get-icon($mi-var-StatusDualSIM1);
+  content: mi-get-icon($mi-var-StatusDualSIM1);
 }
 
 .#{$mi-css-prefix}-StatusDualSIM1VPN:before {
-     content: mi-get-icon($mi-var-StatusDualSIM1VPN);
+  content: mi-get-icon($mi-var-StatusDualSIM1VPN);
 }
 
 .#{$mi-css-prefix}-StatusDualSIM2:before {
-     content: mi-get-icon($mi-var-StatusDualSIM2);
+  content: mi-get-icon($mi-var-StatusDualSIM2);
 }
 
 .#{$mi-css-prefix}-StatusDualSIM2VPN:before {
-     content: mi-get-icon($mi-var-StatusDualSIM2VPN);
+  content: mi-get-icon($mi-var-StatusDualSIM2VPN);
 }
 
 .#{$mi-css-prefix}-StatusError:before {
-     content: mi-get-icon($mi-var-StatusError);
+  content: mi-get-icon($mi-var-StatusError);
 }
 
 .#{$mi-css-prefix}-StatusErrorFull:before {
-     content: mi-get-icon($mi-var-StatusErrorFull);
+  content: mi-get-icon($mi-var-StatusErrorFull);
 }
 
 .#{$mi-css-prefix}-StatusErrorLeft:before {
-     content: mi-get-icon($mi-var-StatusErrorLeft);
+  content: mi-get-icon($mi-var-StatusErrorLeft);
 }
 
 .#{$mi-css-prefix}-StatusSGLTE:before {
-     content: mi-get-icon($mi-var-StatusSGLTE);
+  content: mi-get-icon($mi-var-StatusSGLTE);
 }
 
 .#{$mi-css-prefix}-StatusSGLTECell:before {
-     content: mi-get-icon($mi-var-StatusSGLTECell);
+  content: mi-get-icon($mi-var-StatusSGLTECell);
 }
 
 .#{$mi-css-prefix}-StatusSGLTEDataVPN:before {
-     content: mi-get-icon($mi-var-StatusSGLTEDataVPN);
+  content: mi-get-icon($mi-var-StatusSGLTEDataVPN);
 }
 
 .#{$mi-css-prefix}-StatusTriangle:before {
-     content: mi-get-icon($mi-var-StatusTriangle);
+  content: mi-get-icon($mi-var-StatusTriangle);
 }
 
 .#{$mi-css-prefix}-StatusTriangleLeft:before {
-     content: mi-get-icon($mi-var-StatusTriangleLeft);
+  content: mi-get-icon($mi-var-StatusTriangleLeft);
 }
 
 .#{$mi-css-prefix}-StatusUnsecure:before {
-     content: mi-get-icon($mi-var-StatusUnsecure);
+  content: mi-get-icon($mi-var-StatusUnsecure);
 }
 
 .#{$mi-css-prefix}-StatusVPN:before {
-     content: mi-get-icon($mi-var-StatusVPN);
+  content: mi-get-icon($mi-var-StatusVPN);
 }
 
 .#{$mi-css-prefix}-StatusWarning:before {
-     content: mi-get-icon($mi-var-StatusWarning);
+  content: mi-get-icon($mi-var-StatusWarning);
 }
 
 .#{$mi-css-prefix}-StatusWarningLeft:before {
-     content: mi-get-icon($mi-var-StatusWarningLeft);
+  content: mi-get-icon($mi-var-StatusWarningLeft);
 }
 
 .#{$mi-css-prefix}-StockDown:before {
-     content: mi-get-icon($mi-var-StockDown);
+  content: mi-get-icon($mi-var-StockDown);
 }
 
 .#{$mi-css-prefix}-StockUp:before {
-     content: mi-get-icon($mi-var-StockUp);
+  content: mi-get-icon($mi-var-StockUp);
 }
 
 .#{$mi-css-prefix}-Stop:before {
-     content: mi-get-icon($mi-var-Stop);
+  content: mi-get-icon($mi-var-Stop);
 }
 
 .#{$mi-css-prefix}-StopPoint:before {
-     content: mi-get-icon($mi-var-StopPoint);
+  content: mi-get-icon($mi-var-StopPoint);
 }
 
 .#{$mi-css-prefix}-StopPointSolid:before {
-     content: mi-get-icon($mi-var-StopPointSolid);
+  content: mi-get-icon($mi-var-StopPointSolid);
 }
 
 .#{$mi-css-prefix}-StopSlideshow:before {
-     content: mi-get-icon($mi-var-StopSlideshow);
+  content: mi-get-icon($mi-var-StopSlideshow);
 }
 
 .#{$mi-css-prefix}-Stopwatch:before {
-     content: mi-get-icon($mi-var-Stopwatch);
+  content: mi-get-icon($mi-var-Stopwatch);
 }
 
 .#{$mi-css-prefix}-StorageNetworkWireless:before {
-     content: mi-get-icon($mi-var-StorageNetworkWireless);
+  content: mi-get-icon($mi-var-StorageNetworkWireless);
 }
 
 .#{$mi-css-prefix}-StorageOptical:before {
-     content: mi-get-icon($mi-var-StorageOptical);
+  content: mi-get-icon($mi-var-StorageOptical);
 }
 
 .#{$mi-css-prefix}-StorageTape:before {
-     content: mi-get-icon($mi-var-StorageTape);
+  content: mi-get-icon($mi-var-StorageTape);
 }
 
 .#{$mi-css-prefix}-Streaming:before {
-     content: mi-get-icon($mi-var-Streaming);
+  content: mi-get-icon($mi-var-Streaming);
 }
 
 .#{$mi-css-prefix}-StreamingEnterprise:before {
-     content: mi-get-icon($mi-var-StreamingEnterprise);
+  content: mi-get-icon($mi-var-StreamingEnterprise);
 }
 
 .#{$mi-css-prefix}-Street:before {
-     content: mi-get-icon($mi-var-Street);
+  content: mi-get-icon($mi-var-Street);
 }
 
 .#{$mi-css-prefix}-StreetsideSplitExpand:before {
-     content: mi-get-icon($mi-var-StreetsideSplitExpand);
+  content: mi-get-icon($mi-var-StreetsideSplitExpand);
 }
 
 .#{$mi-css-prefix}-StreetsideSplitMinimize:before {
-     content: mi-get-icon($mi-var-StreetsideSplitMinimize);
+  content: mi-get-icon($mi-var-StreetsideSplitMinimize);
 }
 
 .#{$mi-css-prefix}-StrokeErase:before {
-     content: mi-get-icon($mi-var-StrokeErase);
+  content: mi-get-icon($mi-var-StrokeErase);
 }
 
 .#{$mi-css-prefix}-StrokeEraseMirrored:before {
-     content: mi-get-icon($mi-var-StrokeEraseMirrored);
+  content: mi-get-icon($mi-var-StrokeEraseMirrored);
 }
 
 .#{$mi-css-prefix}-Subtitles:before {
-     content: mi-get-icon($mi-var-Subtitles);
+  content: mi-get-icon($mi-var-Subtitles);
 }
 
 .#{$mi-css-prefix}-SubtitlesAudio:before {
-     content: mi-get-icon($mi-var-SubtitlesAudio);
+  content: mi-get-icon($mi-var-SubtitlesAudio);
 }
 
 .#{$mi-css-prefix}-SurfaceHub:before {
-     content: mi-get-icon($mi-var-SurfaceHub);
+  content: mi-get-icon($mi-var-SurfaceHub);
 }
 
 .#{$mi-css-prefix}-Sustainable:before {
-     content: mi-get-icon($mi-var-Sustainable);
+  content: mi-get-icon($mi-var-Sustainable);
 }
 
 .#{$mi-css-prefix}-Swipe:before {
-     content: mi-get-icon($mi-var-Swipe);
+  content: mi-get-icon($mi-var-Swipe);
 }
 
 .#{$mi-css-prefix}-SwipeRevealArt:before {
-     content: mi-get-icon($mi-var-SwipeRevealArt);
+  content: mi-get-icon($mi-var-SwipeRevealArt);
 }
 
 .#{$mi-css-prefix}-Switch:before {
-     content: mi-get-icon($mi-var-Switch);
+  content: mi-get-icon($mi-var-Switch);
 }
 
 .#{$mi-css-prefix}-SwitchApps:before {
-     content: mi-get-icon($mi-var-SwitchApps);
+  content: mi-get-icon($mi-var-SwitchApps);
 }
 
 .#{$mi-css-prefix}-SwitchUser:before {
-     content: mi-get-icon($mi-var-SwitchUser);
+  content: mi-get-icon($mi-var-SwitchUser);
 }
 
 .#{$mi-css-prefix}-Sync:before {
-     content: mi-get-icon($mi-var-Sync);
+  content: mi-get-icon($mi-var-Sync);
 }
 
 .#{$mi-css-prefix}-SyncBadge12:before {
-     content: mi-get-icon($mi-var-SyncBadge12);
+  content: mi-get-icon($mi-var-SyncBadge12);
 }
 
 .#{$mi-css-prefix}-SyncError:before {
-     content: mi-get-icon($mi-var-SyncError);
+  content: mi-get-icon($mi-var-SyncError);
 }
 
 .#{$mi-css-prefix}-SyncFolder:before {
-     content: mi-get-icon($mi-var-SyncFolder);
+  content: mi-get-icon($mi-var-SyncFolder);
 }
 
 .#{$mi-css-prefix}-System:before {
-     content: mi-get-icon($mi-var-System);
+  content: mi-get-icon($mi-var-System);
 }
 
 .#{$mi-css-prefix}-TVMonitor:before {
-     content: mi-get-icon($mi-var-TVMonitor);
+  content: mi-get-icon($mi-var-TVMonitor);
 }
 
 .#{$mi-css-prefix}-TVMonitorSelected:before {
-     content: mi-get-icon($mi-var-TVMonitorSelected);
+  content: mi-get-icon($mi-var-TVMonitorSelected);
 }
 
 .#{$mi-css-prefix}-Tablet:before {
-     content: mi-get-icon($mi-var-Tablet);
+  content: mi-get-icon($mi-var-Tablet);
 }
 
 .#{$mi-css-prefix}-TabletMode:before {
-     content: mi-get-icon($mi-var-TabletMode);
+  content: mi-get-icon($mi-var-TabletMode);
 }
 
 .#{$mi-css-prefix}-TabletSelected:before {
-     content: mi-get-icon($mi-var-TabletSelected);
+  content: mi-get-icon($mi-var-TabletSelected);
 }
 
 .#{$mi-css-prefix}-Tag:before {
-     content: mi-get-icon($mi-var-Tag);
+  content: mi-get-icon($mi-var-Tag);
 }
 
 .#{$mi-css-prefix}-TapAndSend:before {
-     content: mi-get-icon($mi-var-TapAndSend);
+  content: mi-get-icon($mi-var-TapAndSend);
 }
 
 .#{$mi-css-prefix}-TaskbarPhone:before {
-     content: mi-get-icon($mi-var-TaskbarPhone);
+  content: mi-get-icon($mi-var-TaskbarPhone);
 }
 
 .#{$mi-css-prefix}-ThisPC:before {
-     content: mi-get-icon($mi-var-ThisPC);
+  content: mi-get-icon($mi-var-ThisPC);
 }
 
 .#{$mi-css-prefix}-ThoughtBubble:before {
-     content: mi-get-icon($mi-var-ThoughtBubble);
+  content: mi-get-icon($mi-var-ThoughtBubble);
 }
 
 .#{$mi-css-prefix}-ThreeBars:before {
-     content: mi-get-icon($mi-var-ThreeBars);
+  content: mi-get-icon($mi-var-ThreeBars);
 }
 
 .#{$mi-css-prefix}-Tiles:before {
-     content: mi-get-icon($mi-var-Tiles);
+  content: mi-get-icon($mi-var-Tiles);
 }
 
 .#{$mi-css-prefix}-TiltDown:before {
-     content: mi-get-icon($mi-var-TiltDown);
+  content: mi-get-icon($mi-var-TiltDown);
 }
 
 .#{$mi-css-prefix}-TiltUp:before {
-     content: mi-get-icon($mi-var-TiltUp);
+  content: mi-get-icon($mi-var-TiltUp);
 }
 
 .#{$mi-css-prefix}-TimeLanguage:before {
-     content: mi-get-icon($mi-var-TimeLanguage);
+  content: mi-get-icon($mi-var-TimeLanguage);
 }
 
 .#{$mi-css-prefix}-ToggleBorder:before {
-     content: mi-get-icon($mi-var-ToggleBorder);
+  content: mi-get-icon($mi-var-ToggleBorder);
 }
 
 .#{$mi-css-prefix}-ToggleFilled:before {
-     content: mi-get-icon($mi-var-ToggleFilled);
+  content: mi-get-icon($mi-var-ToggleFilled);
 }
 
 .#{$mi-css-prefix}-ToggleThumb:before {
-     content: mi-get-icon($mi-var-ToggleThumb);
+  content: mi-get-icon($mi-var-ToggleThumb);
 }
 
 .#{$mi-css-prefix}-Touch:before {
-     content: mi-get-icon($mi-var-Touch);
+  content: mi-get-icon($mi-var-Touch);
 }
 
 .#{$mi-css-prefix}-TouchPointer:before {
-     content: mi-get-icon($mi-var-TouchPointer);
+  content: mi-get-icon($mi-var-TouchPointer);
 }
 
 .#{$mi-css-prefix}-Touchscreen:before {
-     content: mi-get-icon($mi-var-Touchscreen);
+  content: mi-get-icon($mi-var-Touchscreen);
 }
 
 .#{$mi-css-prefix}-Trackers:before {
-     content: mi-get-icon($mi-var-Trackers);
+  content: mi-get-icon($mi-var-Trackers);
 }
 
 .#{$mi-css-prefix}-TrackersMirrored:before {
-     content: mi-get-icon($mi-var-TrackersMirrored);
+  content: mi-get-icon($mi-var-TrackersMirrored);
 }
 
 .#{$mi-css-prefix}-Train:before {
-     content: mi-get-icon($mi-var-Train);
+  content: mi-get-icon($mi-var-Train);
 }
 
 .#{$mi-css-prefix}-TrainSolid:before {
-     content: mi-get-icon($mi-var-TrainSolid);
+  content: mi-get-icon($mi-var-TrainSolid);
 }
 
 .#{$mi-css-prefix}-TreeFolderFolder:before {
-     content: mi-get-icon($mi-var-TreeFolderFolder);
+  content: mi-get-icon($mi-var-TreeFolderFolder);
 }
 
 .#{$mi-css-prefix}-TreeFolderFolderFill:before {
-     content: mi-get-icon($mi-var-TreeFolderFolderFill);
+  content: mi-get-icon($mi-var-TreeFolderFolderFill);
 }
 
 .#{$mi-css-prefix}-TreeFolderFolderOpen:before {
-     content: mi-get-icon($mi-var-TreeFolderFolderOpen);
+  content: mi-get-icon($mi-var-TreeFolderFolderOpen);
 }
 
 .#{$mi-css-prefix}-TreeFolderFolderOpenFill:before {
-     content: mi-get-icon($mi-var-TreeFolderFolderOpenFill);
+  content: mi-get-icon($mi-var-TreeFolderFolderOpenFill);
 }
 
 .#{$mi-css-prefix}-Trim:before {
-     content: mi-get-icon($mi-var-Trim);
+  content: mi-get-icon($mi-var-Trim);
 }
 
 .#{$mi-css-prefix}-TwoBars:before {
-     content: mi-get-icon($mi-var-TwoBars);
+  content: mi-get-icon($mi-var-TwoBars);
 }
 
 .#{$mi-css-prefix}-TwoPage:before {
-     content: mi-get-icon($mi-var-TwoPage);
+  content: mi-get-icon($mi-var-TwoPage);
 }
 
 .#{$mi-css-prefix}-Type:before {
-     content: mi-get-icon($mi-var-Type);
+  content: mi-get-icon($mi-var-Type);
 }
 
 .#{$mi-css-prefix}-TypingIndicator:before {
-     content: mi-get-icon($mi-var-TypingIndicator);
+  content: mi-get-icon($mi-var-TypingIndicator);
 }
 
 .#{$mi-css-prefix}-USB:before {
-     content: mi-get-icon($mi-var-USB);
+  content: mi-get-icon($mi-var-USB);
 }
 
 .#{$mi-css-prefix}-USBSafeConnect:before {
-     content: mi-get-icon($mi-var-USBSafeConnect);
+  content: mi-get-icon($mi-var-USBSafeConnect);
 }
 
 .#{$mi-css-prefix}-Underline:before {
-     content: mi-get-icon($mi-var-Underline);
+  content: mi-get-icon($mi-var-Underline);
 }
 
 .#{$mi-css-prefix}-UnderlineLKorean:before {
-     content: mi-get-icon($mi-var-UnderlineLKorean);
+  content: mi-get-icon($mi-var-UnderlineLKorean);
 }
 
 .#{$mi-css-prefix}-UnderlineRussian:before {
-     content: mi-get-icon($mi-var-UnderlineRussian);
+  content: mi-get-icon($mi-var-UnderlineRussian);
 }
 
 .#{$mi-css-prefix}-UnderlineS:before {
-     content: mi-get-icon($mi-var-UnderlineS);
+  content: mi-get-icon($mi-var-UnderlineS);
 }
 
 .#{$mi-css-prefix}-UnderlineU:before {
-     content: mi-get-icon($mi-var-UnderlineU);
+  content: mi-get-icon($mi-var-UnderlineU);
 }
 
 .#{$mi-css-prefix}-UnderscoreSpace:before {
-     content: mi-get-icon($mi-var-UnderscoreSpace);
+  content: mi-get-icon($mi-var-UnderscoreSpace);
 }
 
 .#{$mi-css-prefix}-Undo:before {
-     content: mi-get-icon($mi-var-Undo);
+  content: mi-get-icon($mi-var-Undo);
 }
 
 .#{$mi-css-prefix}-Unfavorite:before {
-     content: mi-get-icon($mi-var-Unfavorite);
+  content: mi-get-icon($mi-var-Unfavorite);
 }
 
 .#{$mi-css-prefix}-Unit:before {
-     content: mi-get-icon($mi-var-Unit);
+  content: mi-get-icon($mi-var-Unit);
 }
 
 .#{$mi-css-prefix}-Unlock:before {
-     content: mi-get-icon($mi-var-Unlock);
+  content: mi-get-icon($mi-var-Unlock);
 }
 
 .#{$mi-css-prefix}-Unpin:before {
-     content: mi-get-icon($mi-var-Unpin);
+  content: mi-get-icon($mi-var-Unpin);
 }
 
 .#{$mi-css-prefix}-UnsyncFolder:before {
-     content: mi-get-icon($mi-var-UnsyncFolder);
+  content: mi-get-icon($mi-var-UnsyncFolder);
 }
 
 .#{$mi-css-prefix}-Up:before {
-     content: mi-get-icon($mi-var-Up);
+  content: mi-get-icon($mi-var-Up);
 }
 
 .#{$mi-css-prefix}-UpArrowShiftKey:before {
-     content: mi-get-icon($mi-var-UpArrowShiftKey);
+  content: mi-get-icon($mi-var-UpArrowShiftKey);
 }
 
 .#{$mi-css-prefix}-UpShiftKey:before {
-     content: mi-get-icon($mi-var-UpShiftKey);
+  content: mi-get-icon($mi-var-UpShiftKey);
 }
 
 .#{$mi-css-prefix}-UpdateRestore:before {
-     content: mi-get-icon($mi-var-UpdateRestore);
+  content: mi-get-icon($mi-var-UpdateRestore);
 }
 
 .#{$mi-css-prefix}-Upload:before {
-     content: mi-get-icon($mi-var-Upload);
+  content: mi-get-icon($mi-var-Upload);
 }
 
 .#{$mi-css-prefix}-VPN:before {
-     content: mi-get-icon($mi-var-VPN);
+  content: mi-get-icon($mi-var-VPN);
 }
 
 .#{$mi-css-prefix}-Vibrate:before {
-     content: mi-get-icon($mi-var-Vibrate);
+  content: mi-get-icon($mi-var-Vibrate);
 }
 
 .#{$mi-css-prefix}-Video:before {
-     content: mi-get-icon($mi-var-Video);
+  content: mi-get-icon($mi-var-Video);
 }
 
 .#{$mi-css-prefix}-VideoChat:before {
-     content: mi-get-icon($mi-var-VideoChat);
+  content: mi-get-icon($mi-var-VideoChat);
 }
 
 .#{$mi-css-prefix}-View:before {
-     content: mi-get-icon($mi-var-View);
+  content: mi-get-icon($mi-var-View);
 }
 
 .#{$mi-css-prefix}-ViewAll:before {
-     content: mi-get-icon($mi-var-ViewAll);
+  content: mi-get-icon($mi-var-ViewAll);
 }
 
 .#{$mi-css-prefix}-Volume:before {
-     content: mi-get-icon($mi-var-Volume);
+  content: mi-get-icon($mi-var-Volume);
 }
 
 .#{$mi-css-prefix}-Volume0:before {
-     content: mi-get-icon($mi-var-Volume0);
+  content: mi-get-icon($mi-var-Volume0);
 }
 
 .#{$mi-css-prefix}-Volume1:before {
-     content: mi-get-icon($mi-var-Volume1);
+  content: mi-get-icon($mi-var-Volume1);
 }
 
 .#{$mi-css-prefix}-Volume2:before {
-     content: mi-get-icon($mi-var-Volume2);
+  content: mi-get-icon($mi-var-Volume2);
 }
 
 .#{$mi-css-prefix}-Volume3:before {
-     content: mi-get-icon($mi-var-Volume3);
+  content: mi-get-icon($mi-var-Volume3);
 }
 
 .#{$mi-css-prefix}-VolumeBars:before {
-     content: mi-get-icon($mi-var-VolumeBars);
+  content: mi-get-icon($mi-var-VolumeBars);
 }
 
 .#{$mi-css-prefix}-Walk:before {
-     content: mi-get-icon($mi-var-Walk);
+  content: mi-get-icon($mi-var-Walk);
 }
 
 .#{$mi-css-prefix}-WalkSolid:before {
-     content: mi-get-icon($mi-var-WalkSolid);
+  content: mi-get-icon($mi-var-WalkSolid);
 }
 
 .#{$mi-css-prefix}-Warning:before {
-     content: mi-get-icon($mi-var-Warning);
+  content: mi-get-icon($mi-var-Warning);
 }
 
 .#{$mi-css-prefix}-Webcam:before {
-     content: mi-get-icon($mi-var-Webcam);
+  content: mi-get-icon($mi-var-Webcam);
 }
 
 .#{$mi-css-prefix}-Webcam2:before {
-     content: mi-get-icon($mi-var-Webcam2);
+  content: mi-get-icon($mi-var-Webcam2);
 }
 
 .#{$mi-css-prefix}-Wheel:before {
-     content: mi-get-icon($mi-var-Wheel);
+  content: mi-get-icon($mi-var-Wheel);
 }
 
 .#{$mi-css-prefix}-Wifi:before {
-     content: mi-get-icon($mi-var-Wifi);
+  content: mi-get-icon($mi-var-Wifi);
 }
 
 .#{$mi-css-prefix}-Wifi1:before {
-     content: mi-get-icon($mi-var-Wifi1);
+  content: mi-get-icon($mi-var-Wifi1);
 }
 
 .#{$mi-css-prefix}-Wifi2:before {
-     content: mi-get-icon($mi-var-Wifi2);
+  content: mi-get-icon($mi-var-Wifi2);
 }
 
 .#{$mi-css-prefix}-Wifi3:before {
-     content: mi-get-icon($mi-var-Wifi3);
+  content: mi-get-icon($mi-var-Wifi3);
 }
 
 .#{$mi-css-prefix}-WifiAttentionOverlay:before {
-     content: mi-get-icon($mi-var-WifiAttentionOverlay);
+  content: mi-get-icon($mi-var-WifiAttentionOverlay);
 }
 
 .#{$mi-css-prefix}-WifiCall0:before {
-     content: mi-get-icon($mi-var-WifiCall0);
+  content: mi-get-icon($mi-var-WifiCall0);
 }
 
 .#{$mi-css-prefix}-WifiCall1:before {
-     content: mi-get-icon($mi-var-WifiCall1);
+  content: mi-get-icon($mi-var-WifiCall1);
 }
 
 .#{$mi-css-prefix}-WifiCall2:before {
-     content: mi-get-icon($mi-var-WifiCall2);
+  content: mi-get-icon($mi-var-WifiCall2);
 }
 
 .#{$mi-css-prefix}-WifiCall3:before {
-     content: mi-get-icon($mi-var-WifiCall3);
+  content: mi-get-icon($mi-var-WifiCall3);
 }
 
 .#{$mi-css-prefix}-WifiCall4:before {
-     content: mi-get-icon($mi-var-WifiCall4);
+  content: mi-get-icon($mi-var-WifiCall4);
 }
 
 .#{$mi-css-prefix}-WifiCallBars:before {
-     content: mi-get-icon($mi-var-WifiCallBars);
+  content: mi-get-icon($mi-var-WifiCallBars);
 }
 
 .#{$mi-css-prefix}-WifiError0:before {
-     content: mi-get-icon($mi-var-WifiError0);
+  content: mi-get-icon($mi-var-WifiError0);
 }
 
 .#{$mi-css-prefix}-WifiError1:before {
-     content: mi-get-icon($mi-var-WifiError1);
+  content: mi-get-icon($mi-var-WifiError1);
 }
 
 .#{$mi-css-prefix}-WifiError2:before {
-     content: mi-get-icon($mi-var-WifiError2);
+  content: mi-get-icon($mi-var-WifiError2);
 }
 
 .#{$mi-css-prefix}-WifiError3:before {
-     content: mi-get-icon($mi-var-WifiError3);
+  content: mi-get-icon($mi-var-WifiError3);
 }
 
 .#{$mi-css-prefix}-WifiError4:before {
-     content: mi-get-icon($mi-var-WifiError4);
+  content: mi-get-icon($mi-var-WifiError4);
 }
 
 .#{$mi-css-prefix}-WifiEthernet:before {
-     content: mi-get-icon($mi-var-WifiEthernet);
+  content: mi-get-icon($mi-var-WifiEthernet);
 }
 
 .#{$mi-css-prefix}-InternetSharing:before,
 .#{$mi-css-prefix}-WifiHotspot:before {
-     content: mi-get-icon($mi-var-WifiHotspot);
+  content: mi-get-icon($mi-var-WifiHotspot);
 }
 
 .#{$mi-css-prefix}-WifiWarning0:before {
-     content: mi-get-icon($mi-var-WifiWarning0);
+  content: mi-get-icon($mi-var-WifiWarning0);
 }
 
 .#{$mi-css-prefix}-WifiWarning1:before {
-     content: mi-get-icon($mi-var-WifiWarning1);
+  content: mi-get-icon($mi-var-WifiWarning1);
 }
 
 .#{$mi-css-prefix}-WifiWarning2:before {
-     content: mi-get-icon($mi-var-WifiWarning2);
+  content: mi-get-icon($mi-var-WifiWarning2);
 }
 
 .#{$mi-css-prefix}-WifiWarning3:before {
-     content: mi-get-icon($mi-var-WifiWarning3);
+  content: mi-get-icon($mi-var-WifiWarning3);
 }
 
 .#{$mi-css-prefix}-WifiWarning4:before {
-     content: mi-get-icon($mi-var-WifiWarning4);
+  content: mi-get-icon($mi-var-WifiWarning4);
 }
 
 .#{$mi-css-prefix}-WindDirection:before {
-     content: mi-get-icon($mi-var-WindDirection);
+  content: mi-get-icon($mi-var-WindDirection);
 }
 
 .#{$mi-css-prefix}-WiredUSB:before {
-     content: mi-get-icon($mi-var-WiredUSB);
+  content: mi-get-icon($mi-var-WiredUSB);
 }
 
 .#{$mi-css-prefix}-WirelessUSB:before {
-     content: mi-get-icon($mi-var-WirelessUSB);
+  content: mi-get-icon($mi-var-WirelessUSB);
 }
 
 .#{$mi-css-prefix}-Work:before {
-     content: mi-get-icon($mi-var-Work);
+  content: mi-get-icon($mi-var-Work);
 }
 
 .#{$mi-css-prefix}-WorkSolid:before {
-     content: mi-get-icon($mi-var-WorkSolid);
+  content: mi-get-icon($mi-var-WorkSolid);
 }
 
 .#{$mi-css-prefix}-World:before {
-     content: mi-get-icon($mi-var-World);
+  content: mi-get-icon($mi-var-World);
 }
 
 .#{$mi-css-prefix}-XboxOneConsole:before {
-     content: mi-get-icon($mi-var-XboxOneConsole);
+  content: mi-get-icon($mi-var-XboxOneConsole);
 }
 
 .#{$mi-css-prefix}-ZeroBars:before {
-     content: mi-get-icon($mi-var-ZeroBars);
+  content: mi-get-icon($mi-var-ZeroBars);
 }
 
 .#{$mi-css-prefix}-Zoom:before {
-     content: mi-get-icon($mi-var-Zoom);
+  content: mi-get-icon($mi-var-Zoom);
 }
 
 .#{$mi-css-prefix}-ZoomIn:before {
-     content: mi-get-icon($mi-var-ZoomIn);
+  content: mi-get-icon($mi-var-ZoomIn);
 }
 
 .#{$mi-css-prefix}-ZoomMode:before {
-     content: mi-get-icon($mi-var-ZoomMode);
+  content: mi-get-icon($mi-var-ZoomMode);
 }
 
 .#{$mi-css-prefix}-ZoomOut:before {
-     content: mi-get-icon($mi-var-ZoomOut);
+  content: mi-get-icon($mi-var-ZoomOut);
 }
 
 .#{$mi-css-prefix}-eSIM:before {
-     content: mi-get-icon($mi-var-eSIM);
+  content: mi-get-icon($mi-var-eSIM);
 }
 
 .#{$mi-css-prefix}-eSIMBusy:before {
-     content: mi-get-icon($mi-var-eSIMBusy);
+  content: mi-get-icon($mi-var-eSIMBusy);
 }
 
 .#{$mi-css-prefix}-eSIMLocked:before {
-     content: mi-get-icon($mi-var-eSIMLocked);
+  content: mi-get-icon($mi-var-eSIMLocked);
 }
 
 .#{$mi-css-prefix}-eSIMNoProfile:before {
-     content: mi-get-icon($mi-var-eSIMNoProfile);
+  content: mi-get-icon($mi-var-eSIMNoProfile);
 }
 
 .#{$mi-css-prefix}-500px:before {
-     content: mi-get-icon($mi-var-500px);
+  content: mi-get-icon($mi-var-500px);
 }
 
 .#{$mi-css-prefix}-adn:before {
-     content: mi-get-icon($mi-var-adn);
+  content: mi-get-icon($mi-var-adn);
 }
 
 .#{$mi-css-prefix}-amazon:before {
-     content: mi-get-icon($mi-var-amazon);
+  content: mi-get-icon($mi-var-amazon);
 }
 
 .#{$mi-css-prefix}-android:before {
-     content: mi-get-icon($mi-var-android);
+  content: mi-get-icon($mi-var-android);
 }
 
 .#{$mi-css-prefix}-angellist:before {
-     content: mi-get-icon($mi-var-angellist);
+  content: mi-get-icon($mi-var-angellist);
 }
 
 .#{$mi-css-prefix}-apple:before {
-     content: mi-get-icon($mi-var-apple);
+  content: mi-get-icon($mi-var-apple);
 }
 
 .#{$mi-css-prefix}-bandcamp:before {
-     content: mi-get-icon($mi-var-bandcamp);
+  content: mi-get-icon($mi-var-bandcamp);
 }
 
 .#{$mi-css-prefix}-behance-square:before {
-     content: mi-get-icon($mi-var-behance-square);
+  content: mi-get-icon($mi-var-behance-square);
 }
 
 .#{$mi-css-prefix}-behance:before {
-     content: mi-get-icon($mi-var-behance);
+  content: mi-get-icon($mi-var-behance);
 }
 
 .#{$mi-css-prefix}-bitbucket:before {
-     content: mi-get-icon($mi-var-bitbucket);
+  content: mi-get-icon($mi-var-bitbucket);
 }
 
 .#{$mi-css-prefix}-black-tie:before {
-     content: mi-get-icon($mi-var-black-tie);
+  content: mi-get-icon($mi-var-black-tie);
 }
 
 .#{$mi-css-prefix}-bluetooth-b:before {
-     content: mi-get-icon($mi-var-bluetooth-b);
+  content: mi-get-icon($mi-var-bluetooth-b);
 }
 
 .#{$mi-css-prefix}-bluetooth:before {
-     content: mi-get-icon($mi-var-bluetooth);
+  content: mi-get-icon($mi-var-bluetooth);
 }
 
 .#{$mi-css-prefix}-btc:before,
 .#{$mi-css-prefix}-bitcoin:before {
-     content: mi-get-icon($mi-var-btc);
+  content: mi-get-icon($mi-var-btc);
 }
 
 .#{$mi-css-prefix}-buysellads:before {
-     content: mi-get-icon($mi-var-buysellads);
+  content: mi-get-icon($mi-var-buysellads);
 }
 
 .#{$mi-css-prefix}-cc-amex:before {
-     content: mi-get-icon($mi-var-cc-amex);
+  content: mi-get-icon($mi-var-cc-amex);
 }
 
 .#{$mi-css-prefix}-cc-diners-club:before {
-     content: mi-get-icon($mi-var-cc-diners-club);
+  content: mi-get-icon($mi-var-cc-diners-club);
 }
 
 .#{$mi-css-prefix}-cc-discover:before {
-     content: mi-get-icon($mi-var-cc-discover);
+  content: mi-get-icon($mi-var-cc-discover);
 }
 
 .#{$mi-css-prefix}-cc-jcb:before {
-     content: mi-get-icon($mi-var-cc-jcb);
+  content: mi-get-icon($mi-var-cc-jcb);
 }
 
 .#{$mi-css-prefix}-cc-mastercard:before {
-     content: mi-get-icon($mi-var-cc-mastercard);
+  content: mi-get-icon($mi-var-cc-mastercard);
 }
 
 .#{$mi-css-prefix}-cc-paypal:before {
-     content: mi-get-icon($mi-var-cc-paypal);
+  content: mi-get-icon($mi-var-cc-paypal);
 }
 
 .#{$mi-css-prefix}-cc-stripe:before {
-     content: mi-get-icon($mi-var-cc-stripe);
+  content: mi-get-icon($mi-var-cc-stripe);
 }
 
 .#{$mi-css-prefix}-cc-visa:before {
-     content: mi-get-icon($mi-var-cc-visa);
+  content: mi-get-icon($mi-var-cc-visa);
 }
 
 .#{$mi-css-prefix}-chrome:before {
-     content: mi-get-icon($mi-var-chrome);
+  content: mi-get-icon($mi-var-chrome);
 }
 
 .#{$mi-css-prefix}-codepen:before {
-     content: mi-get-icon($mi-var-codepen);
+  content: mi-get-icon($mi-var-codepen);
 }
 
 .#{$mi-css-prefix}-codiepie:before {
-     content: mi-get-icon($mi-var-codiepie);
+  content: mi-get-icon($mi-var-codiepie);
 }
 
 .#{$mi-css-prefix}-connectdevelop:before {
-     content: mi-get-icon($mi-var-connectdevelop);
+  content: mi-get-icon($mi-var-connectdevelop);
 }
 
 .#{$mi-css-prefix}-contao:before {
-     content: mi-get-icon($mi-var-contao);
+  content: mi-get-icon($mi-var-contao);
 }
 
 .#{$mi-css-prefix}-css3:before {
-     content: mi-get-icon($mi-var-css3);
+  content: mi-get-icon($mi-var-css3);
 }
 
 .#{$mi-css-prefix}-dashcube:before {
-     content: mi-get-icon($mi-var-dashcube);
+  content: mi-get-icon($mi-var-dashcube);
 }
 
 .#{$mi-css-prefix}-delicious:before {
-     content: mi-get-icon($mi-var-delicious);
+  content: mi-get-icon($mi-var-delicious);
 }
 
 .#{$mi-css-prefix}-deviantart:before {
-     content: mi-get-icon($mi-var-deviantart);
+  content: mi-get-icon($mi-var-deviantart);
 }
 
 .#{$mi-css-prefix}-digg:before {
-     content: mi-get-icon($mi-var-digg);
+  content: mi-get-icon($mi-var-digg);
 }
 
 .#{$mi-css-prefix}-dribbble:before {
-     content: mi-get-icon($mi-var-dribbble);
+  content: mi-get-icon($mi-var-dribbble);
 }
 
 .#{$mi-css-prefix}-dropbox:before {
-     content: mi-get-icon($mi-var-dropbox);
+  content: mi-get-icon($mi-var-dropbox);
 }
 
 .#{$mi-css-prefix}-drupal:before {
-     content: mi-get-icon($mi-var-drupal);
+  content: mi-get-icon($mi-var-drupal);
 }
 
 .#{$mi-css-prefix}-edge:before {
-     content: mi-get-icon($mi-var-edge);
+  content: mi-get-icon($mi-var-edge);
 }
 
 .#{$mi-css-prefix}-eercast:before {
-     content: mi-get-icon($mi-var-eercast);
+  content: mi-get-icon($mi-var-eercast);
 }
 
 .#{$mi-css-prefix}-empire:before,
 .#{$mi-css-prefix}-ge:before {
-     content: mi-get-icon($mi-var-empire);
+  content: mi-get-icon($mi-var-empire);
 }
 
 .#{$mi-css-prefix}-envira:before {
-     content: mi-get-icon($mi-var-envira);
+  content: mi-get-icon($mi-var-envira);
 }
 
 .#{$mi-css-prefix}-expeditedssl:before {
-     content: mi-get-icon($mi-var-expeditedssl);
+  content: mi-get-icon($mi-var-expeditedssl);
 }
 
 .#{$mi-css-prefix}-facebook-official:before {
-     content: mi-get-icon($mi-var-facebook-official);
+  content: mi-get-icon($mi-var-facebook-official);
 }
 
 .#{$mi-css-prefix}-facebook:before,
 .#{$mi-css-prefix}-facebook-f:before {
-     content: mi-get-icon($mi-var-facebook);
+  content: mi-get-icon($mi-var-facebook);
 }
 
 .#{$mi-css-prefix}-firefox:before {
-     content: mi-get-icon($mi-var-firefox);
+  content: mi-get-icon($mi-var-firefox);
 }
 
 .#{$mi-css-prefix}-first-order:before {
-     content: mi-get-icon($mi-var-first-order);
+  content: mi-get-icon($mi-var-first-order);
 }
 
 .#{$mi-css-prefix}-flickr:before {
-     content: mi-get-icon($mi-var-flickr);
+  content: mi-get-icon($mi-var-flickr);
 }
 
 .#{$mi-css-prefix}-forumbee:before {
-     content: mi-get-icon($mi-var-forumbee);
+  content: mi-get-icon($mi-var-forumbee);
 }
 
 .#{$mi-css-prefix}-foursquare:before {
-     content: mi-get-icon($mi-var-foursquare);
+  content: mi-get-icon($mi-var-foursquare);
 }
 
 .#{$mi-css-prefix}-free-code-camp:before {
-     content: mi-get-icon($mi-var-free-code-camp);
+  content: mi-get-icon($mi-var-free-code-camp);
 }
 
 .#{$mi-css-prefix}-get-pocket:before {
-     content: mi-get-icon($mi-var-get-pocket);
+  content: mi-get-icon($mi-var-get-pocket);
 }
 
 .#{$mi-css-prefix}-gg:before {
-     content: mi-get-icon($mi-var-gg);
+  content: mi-get-icon($mi-var-gg);
 }
 
 .#{$mi-css-prefix}-git:before {
-     content: mi-get-icon($mi-var-git);
+  content: mi-get-icon($mi-var-git);
 }
 
 .#{$mi-css-prefix}-github-alt:before {
-     content: mi-get-icon($mi-var-github-alt);
+  content: mi-get-icon($mi-var-github-alt);
 }
 
 .#{$mi-css-prefix}-github:before {
-     content: mi-get-icon($mi-var-github);
+  content: mi-get-icon($mi-var-github);
 }
 
 .#{$mi-css-prefix}-gitlab:before {
-     content: mi-get-icon($mi-var-gitlab);
+  content: mi-get-icon($mi-var-gitlab);
 }
 
 .#{$mi-css-prefix}-glide-g:before {
-     content: mi-get-icon($mi-var-glide-g);
+  content: mi-get-icon($mi-var-glide-g);
 }
 
 .#{$mi-css-prefix}-google-plus:before {
-     content: mi-get-icon($mi-var-google-plus);
+  content: mi-get-icon($mi-var-google-plus);
 }
 
 .#{$mi-css-prefix}-google-wallet:before {
-     content: mi-get-icon($mi-var-google-wallet);
+  content: mi-get-icon($mi-var-google-wallet);
 }
 
 .#{$mi-css-prefix}-google:before {
-     content: mi-get-icon($mi-var-google);
+  content: mi-get-icon($mi-var-google);
 }
 
 .#{$mi-css-prefix}-gratipay:before,
 .#{$mi-css-prefix}-gittip:before {
-     content: mi-get-icon($mi-var-gratipay);
+  content: mi-get-icon($mi-var-gratipay);
 }
 
 .#{$mi-css-prefix}-hacker-news:before {
-     content: mi-get-icon($mi-var-hacker-news);
+  content: mi-get-icon($mi-var-hacker-news);
 }
 
 .#{$mi-css-prefix}-houzz:before {
-     content: mi-get-icon($mi-var-houzz);
+  content: mi-get-icon($mi-var-houzz);
 }
 
 .#{$mi-css-prefix}-html5:before {
-     content: mi-get-icon($mi-var-html5);
+  content: mi-get-icon($mi-var-html5);
 }
 
 .#{$mi-css-prefix}-instagram:before {
-     content: mi-get-icon($mi-var-instagram);
+  content: mi-get-icon($mi-var-instagram);
 }
 
 .#{$mi-css-prefix}-internet-explorer:before {
-     content: mi-get-icon($mi-var-internet-explorer);
+  content: mi-get-icon($mi-var-internet-explorer);
 }
 
 .#{$mi-css-prefix}-ioxhost:before {
-     content: mi-get-icon($mi-var-ioxhost);
+  content: mi-get-icon($mi-var-ioxhost);
 }
 
 .#{$mi-css-prefix}-joomla:before {
-     content: mi-get-icon($mi-var-joomla);
+  content: mi-get-icon($mi-var-joomla);
 }
 
 .#{$mi-css-prefix}-jsfiddle:before {
-     content: mi-get-icon($mi-var-jsfiddle);
+  content: mi-get-icon($mi-var-jsfiddle);
 }
 
 .#{$mi-css-prefix}-lastfm:before {
-     content: mi-get-icon($mi-var-lastfm);
+  content: mi-get-icon($mi-var-lastfm);
 }
 
 .#{$mi-css-prefix}-leanpub:before {
-     content: mi-get-icon($mi-var-leanpub);
+  content: mi-get-icon($mi-var-leanpub);
 }
 
 .#{$mi-css-prefix}-linkedin:before {
-     content: mi-get-icon($mi-var-linkedin);
+  content: mi-get-icon($mi-var-linkedin);
 }
 
 .#{$mi-css-prefix}-linode:before {
-     content: mi-get-icon($mi-var-linode);
+  content: mi-get-icon($mi-var-linode);
 }
 
 .#{$mi-css-prefix}-linux:before {
-     content: mi-get-icon($mi-var-linux);
+  content: mi-get-icon($mi-var-linux);
 }
 
 .#{$mi-css-prefix}-maxcdn:before {
-     content: mi-get-icon($mi-var-maxcdn);
+  content: mi-get-icon($mi-var-maxcdn);
 }
 
 .#{$mi-css-prefix}-meanpath:before {
-     content: mi-get-icon($mi-var-meanpath);
+  content: mi-get-icon($mi-var-meanpath);
 }
 
 .#{$mi-css-prefix}-medium:before {
-     content: mi-get-icon($mi-var-medium);
+  content: mi-get-icon($mi-var-medium);
 }
 
 .#{$mi-css-prefix}-meetup:before {
-     content: mi-get-icon($mi-var-meetup);
+  content: mi-get-icon($mi-var-meetup);
 }
 
 .#{$mi-css-prefix}-mixcloud:before {
-     content: mi-get-icon($mi-var-mixcloud);
+  content: mi-get-icon($mi-var-mixcloud);
 }
 
 .#{$mi-css-prefix}-modx:before {
-     content: mi-get-icon($mi-var-modx);
+  content: mi-get-icon($mi-var-modx);
 }
 
 .#{$mi-css-prefix}-odnoklassniki:before {
-     content: mi-get-icon($mi-var-odnoklassniki);
+  content: mi-get-icon($mi-var-odnoklassniki);
 }
 
 .#{$mi-css-prefix}-opencart:before {
-     content: mi-get-icon($mi-var-opencart);
+  content: mi-get-icon($mi-var-opencart);
 }
 
 .#{$mi-css-prefix}-openid:before {
-     content: mi-get-icon($mi-var-openid);
+  content: mi-get-icon($mi-var-openid);
 }
 
 .#{$mi-css-prefix}-opera:before {
-     content: mi-get-icon($mi-var-opera);
+  content: mi-get-icon($mi-var-opera);
 }
 
 .#{$mi-css-prefix}-optin-monster:before {
-     content: mi-get-icon($mi-var-optin-monster);
+  content: mi-get-icon($mi-var-optin-monster);
 }
 
 .#{$mi-css-prefix}-pagelines:before {
-     content: mi-get-icon($mi-var-pagelines);
+  content: mi-get-icon($mi-var-pagelines);
 }
 
 .#{$mi-css-prefix}-paypal:before {
-     content: mi-get-icon($mi-var-paypal);
+  content: mi-get-icon($mi-var-paypal);
 }
 
 .#{$mi-css-prefix}-pied-piper-alt:before {
-     content: mi-get-icon($mi-var-pied-piper-alt);
+  content: mi-get-icon($mi-var-pied-piper-alt);
 }
 
 .#{$mi-css-prefix}-pied-piper:before {
-     content: mi-get-icon($mi-var-pied-piper);
+  content: mi-get-icon($mi-var-pied-piper);
 }
 
 .#{$mi-css-prefix}-pinterest-p:before {
-     content: mi-get-icon($mi-var-pinterest-p);
+  content: mi-get-icon($mi-var-pinterest-p);
 }
 
 .#{$mi-css-prefix}-product-hunt:before {
-     content: mi-get-icon($mi-var-product-hunt);
+  content: mi-get-icon($mi-var-product-hunt);
 }
 
 .#{$mi-css-prefix}-qq:before {
-     content: mi-get-icon($mi-var-qq);
+  content: mi-get-icon($mi-var-qq);
 }
 
 .#{$mi-css-prefix}-quora:before {
-     content: mi-get-icon($mi-var-quora);
+  content: mi-get-icon($mi-var-quora);
 }
 
 .#{$mi-css-prefix}-ravelry:before {
-     content: mi-get-icon($mi-var-ravelry);
+  content: mi-get-icon($mi-var-ravelry);
 }
 
 .#{$mi-css-prefix}-rebel:before,
 .#{$mi-css-prefix}-ra:before,
 .#{$mi-css-prefix}-resistance:before {
-     content: mi-get-icon($mi-var-rebel);
+  content: mi-get-icon($mi-var-rebel);
 }
 
 .#{$mi-css-prefix}-reddit-alien:before {
-     content: mi-get-icon($mi-var-reddit-alien);
+  content: mi-get-icon($mi-var-reddit-alien);
 }
 
 .#{$mi-css-prefix}-renren:before {
-     content: mi-get-icon($mi-var-renren);
+  content: mi-get-icon($mi-var-renren);
 }
 
 .#{$mi-css-prefix}-safari:before {
-     content: mi-get-icon($mi-var-safari);
+  content: mi-get-icon($mi-var-safari);
 }
 
 .#{$mi-css-prefix}-scribd:before {
-     content: mi-get-icon($mi-var-scribd);
+  content: mi-get-icon($mi-var-scribd);
 }
 
 .#{$mi-css-prefix}-sellsy:before {
-     content: mi-get-icon($mi-var-sellsy);
+  content: mi-get-icon($mi-var-sellsy);
 }
 
 .#{$mi-css-prefix}-shirtsinbulk:before {
-     content: mi-get-icon($mi-var-shirtsinbulk);
+  content: mi-get-icon($mi-var-shirtsinbulk);
 }
 
 .#{$mi-css-prefix}-simplybuilt:before {
-     content: mi-get-icon($mi-var-simplybuilt);
+  content: mi-get-icon($mi-var-simplybuilt);
 }
 
 .#{$mi-css-prefix}-skyatlas:before {
-     content: mi-get-icon($mi-var-skyatlas);
+  content: mi-get-icon($mi-var-skyatlas);
 }
 
 .#{$mi-css-prefix}-skype:before {
-     content: mi-get-icon($mi-var-skype);
+  content: mi-get-icon($mi-var-skype);
 }
 
 .#{$mi-css-prefix}-slack:before {
-     content: mi-get-icon($mi-var-slack);
+  content: mi-get-icon($mi-var-slack);
 }
 
 .#{$mi-css-prefix}-slideshare:before {
-     content: mi-get-icon($mi-var-slideshare);
+  content: mi-get-icon($mi-var-slideshare);
 }
 
 .#{$mi-css-prefix}-snapchat-ghost:before {
-     content: mi-get-icon($mi-var-snapchat-ghost);
+  content: mi-get-icon($mi-var-snapchat-ghost);
 }
 
 .#{$mi-css-prefix}-soundcloud:before {
-     content: mi-get-icon($mi-var-soundcloud);
+  content: mi-get-icon($mi-var-soundcloud);
 }
 
 .#{$mi-css-prefix}-spotify:before {
-     content: mi-get-icon($mi-var-spotify);
+  content: mi-get-icon($mi-var-spotify);
 }
 
 .#{$mi-css-prefix}-stack-exchange:before {
-     content: mi-get-icon($mi-var-stack-exchange);
+  content: mi-get-icon($mi-var-stack-exchange);
 }
 
 .#{$mi-css-prefix}-stack-overflow:before {
-     content: mi-get-icon($mi-var-stack-overflow);
+  content: mi-get-icon($mi-var-stack-overflow);
 }
 
 .#{$mi-css-prefix}-steam:before {
-     content: mi-get-icon($mi-var-steam);
+  content: mi-get-icon($mi-var-steam);
 }
 
 .#{$mi-css-prefix}-stumbleupon:before {
-     content: mi-get-icon($mi-var-stumbleupon);
+  content: mi-get-icon($mi-var-stumbleupon);
 }
 
 .#{$mi-css-prefix}-superpowers:before {
-     content: mi-get-icon($mi-var-superpowers);
+  content: mi-get-icon($mi-var-superpowers);
 }
 
 .#{$mi-css-prefix}-telegram:before {
-     content: mi-get-icon($mi-var-telegram);
+  content: mi-get-icon($mi-var-telegram);
 }
 
 .#{$mi-css-prefix}-tencent-weibo:before {
-     content: mi-get-icon($mi-var-tencent-weibo);
+  content: mi-get-icon($mi-var-tencent-weibo);
 }
 
 .#{$mi-css-prefix}-themeisle:before {
-     content: mi-get-icon($mi-var-themeisle);
+  content: mi-get-icon($mi-var-themeisle);
 }
 
 .#{$mi-css-prefix}-trello:before {
-     content: mi-get-icon($mi-var-trello);
+  content: mi-get-icon($mi-var-trello);
 }
 
 .#{$mi-css-prefix}-tripadvisor:before {
-     content: mi-get-icon($mi-var-tripadvisor);
+  content: mi-get-icon($mi-var-tripadvisor);
 }
 
 .#{$mi-css-prefix}-tumblr:before {
-     content: mi-get-icon($mi-var-tumblr);
+  content: mi-get-icon($mi-var-tumblr);
 }
 
 .#{$mi-css-prefix}-twitch:before {
-     content: mi-get-icon($mi-var-twitch);
+  content: mi-get-icon($mi-var-twitch);
 }
 
 .#{$mi-css-prefix}-twitter:before {
-     content: mi-get-icon($mi-var-twitter);
+  content: mi-get-icon($mi-var-twitter);
 }
 
 .#{$mi-css-prefix}-viacoin:before {
-     content: mi-get-icon($mi-var-viacoin);
+  content: mi-get-icon($mi-var-viacoin);
 }
 
 .#{$mi-css-prefix}-viadeo:before {
-     content: mi-get-icon($mi-var-viadeo);
+  content: mi-get-icon($mi-var-viadeo);
 }
 
 .#{$mi-css-prefix}-vimeo:before {
-     content: mi-get-icon($mi-var-vimeo);
+  content: mi-get-icon($mi-var-vimeo);
 }
 
 .#{$mi-css-prefix}-vine:before {
-     content: mi-get-icon($mi-var-vine);
+  content: mi-get-icon($mi-var-vine);
 }
 
 .#{$mi-css-prefix}-vk:before {
-     content: mi-get-icon($mi-var-vk);
+  content: mi-get-icon($mi-var-vk);
 }
 
 .#{$mi-css-prefix}-weibo:before {
-     content: mi-get-icon($mi-var-weibo);
+  content: mi-get-icon($mi-var-weibo);
 }
 
 .#{$mi-css-prefix}-weixin:before,
 .#{$mi-css-prefix}-wechat:before {
-     content: mi-get-icon($mi-var-weixin);
+  content: mi-get-icon($mi-var-weixin);
 }
 
 .#{$mi-css-prefix}-whatsapp:before {
-     content: mi-get-icon($mi-var-whatsapp);
+  content: mi-get-icon($mi-var-whatsapp);
 }
 
 .#{$mi-css-prefix}-wikipedia-w:before {
-     content: mi-get-icon($mi-var-wikipedia-w);
+  content: mi-get-icon($mi-var-wikipedia-w);
 }
 
 .#{$mi-css-prefix}-windows:before {
-     content: mi-get-icon($mi-var-windows);
+  content: mi-get-icon($mi-var-windows);
 }
 
 .#{$mi-css-prefix}-wordpress:before {
-     content: mi-get-icon($mi-var-wordpress);
+  content: mi-get-icon($mi-var-wordpress);
 }
 
 .#{$mi-css-prefix}-wpbeginner:before {
-     content: mi-get-icon($mi-var-wpbeginner);
+  content: mi-get-icon($mi-var-wpbeginner);
 }
 
 .#{$mi-css-prefix}-wpexplorer:before {
-     content: mi-get-icon($mi-var-wpexplorer);
+  content: mi-get-icon($mi-var-wpexplorer);
 }
 
 .#{$mi-css-prefix}-wpform:before {
-     content: mi-get-icon($mi-var-wpform);
+  content: mi-get-icon($mi-var-wpform);
 }
 
 .#{$mi-css-prefix}-xing:before {
-     content: mi-get-icon($mi-var-xing);
+  content: mi-get-icon($mi-var-xing);
 }
 
 .#{$mi-css-prefix}-yahoo:before {
-     content: mi-get-icon($mi-var-yahoo);
+  content: mi-get-icon($mi-var-yahoo);
 }
 
 .#{$mi-css-prefix}-yelp:before {
-     content: mi-get-icon($mi-var-yelp);
+  content: mi-get-icon($mi-var-yelp);
 }
 
 .#{$mi-css-prefix}-yoast:before {
-     content: mi-get-icon($mi-var-yoast);
+  content: mi-get-icon($mi-var-yoast);
 }
 
 .#{$mi-css-prefix}-youtube-play:before {
-     content: mi-get-icon($mi-var-youtube-play);
+  content: mi-get-icon($mi-var-youtube-play);
 }
 
 .#{$mi-css-prefix}-youtube:before {
-     content: mi-get-icon($mi-var-youtube);
+  content: mi-get-icon($mi-var-youtube);
 }
 
