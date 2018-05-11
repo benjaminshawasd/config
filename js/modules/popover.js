@@ -3,11 +3,11 @@
 	// INIT
 	$(function () {
 		$('[data-toggle="popover"]').popover({
-            container: 'body'
-        });
+      container: 'body'
+    });
 	});
 
-	// DISMISS BUTTON 
+	// DISMISS BUTTON
 	$('body').on("click", "[data-dismiss='popover']", function(ev) {
 		$(this).closest(".popover").popover("hide");
 	})

@@ -1,81 +1,81 @@
 %-menu-item {
-    background: transparent;
-    outline: 0;
-    border: 1px solid transparent;
-    position: relative;
-    z-index: 1200;
-    box-shadow: none;
-    cursor: pointer;
-    padding: 0 1rem;
-    text-align: left;
-    margin: 0;
+  background: transparent;
+  outline: 0;
+  border: 1px solid transparent;
+  position: relative;
+  z-index: 1200;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 0 1rem;
+  text-align: left;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
-    %-menu-item {
-        min-width: 4rem;
-        padding: .2rem .8rem;
-        line-height: 1.125rem;
-    }
+  %-menu-item {
+    min-width: 4rem;
+    padding: .2rem .8rem;
+    line-height: 1.125rem;
+  }
 }
 
 @media (min-width: 992px) {
-    %-menu-item {
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-        min-width: 6rem;
-        padding: .3rem 1.2rem;
-        line-height: 1.6875rem;
-    }
+  %-menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-width: 6rem;
+    padding: .3rem 1.2rem;
+    line-height: 1.6875rem;
+  }
 }
 
 @media (min-width: 1200px) {
-    %-menu-item {
-        min-width: 10rem;
-        padding: .5rem 2rem;
-        line-height: 2.8125rem;
-    }
+  %-menu-item {
+    min-width: 10rem;
+    padding: .5rem 2rem;
+    line-height: 2.8125rem;
+  }
 }
 
 .navbar-dark .navbar-toggler::before {
-    color: #fff;
+  color: #fff;
 }
 .navbar-light .navbar-toggler::before {
-    color: rgba(0,0,0,.9);
+  color: rgba(0,0,0,.9);
 }
 
 nav.navbar {
 
-    .navbar-toggler {
-        margin-top: 0;
-        border: none;
-        outline: none;
-        &::before{ font: normal normal normal 1rem/1 micon; }
-        &[aria-expanded='false']::before { content: $mi-var-GlobalNavButton; };
-        &[aria-expanded='true']::before { content: $mi-var-ChromeClose; };
-    }
+  .navbar-toggler {
+    margin-top: 0;
+    border: none;
+    outline: none;
+    &::before{ font: normal normal normal 1rem/1 micon; }
+    &[aria-expanded='false']::before { content: $mi-var-GlobalNavButton; };
+    &[aria-expanded='true']::before { content: $mi-var-ChromeClose; };
+  }
 
-    .navbar-toggler-icon {
-        display:none;
-    }
+  .navbar-toggler-icon {
+    display:none;
+  }
 
-    ul.navbar-nav { margin-left: 0; };
+  ul.navbar-nav { margin-left: 0; };
 
-    .nav-item {
-        @extend %-menu-item;
-        &.active { text-decoration: underline; };
-        &.icon-only {
-            min-width: 0; 
-            padding-right: 2.8125rem;
-            &:hover { text-decoration: none; };
-        }
+  .nav-item {
+    @extend %-menu-item;
+    &.active { text-decoration: underline; };
+    &.icon-only {
+      min-width: 0;
+      padding-right: 2.8125rem;
+      &:hover { text-decoration: none; };
     }
+  }
 
-    .nav-link {
-        padding-left: 1rem;
-        &.disabled { cursor: not-allowed; }
-        &:focus { outline: 0; };
-    }
+  .nav-link {
+    padding-left: 1rem;
+    &.disabled { cursor: not-allowed; }
+    &:focus { outline: 0; };
+  }
 
 }

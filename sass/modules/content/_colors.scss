@@ -1,16 +1,16 @@
 @each $key, $val in $accent-palette {
-    .bg-#{$key} {
-        background-color: $val !important;
-    }
+  .bg-#{$key} {
+    background-color: $val !important;
+  }
 }
 
 @each $key, $val in $colors-palette {
-    .bg-#{$key} {
-        background-color: map-get($val, "bg")!important;
-        color: map-get($val, "txt");
-        a[href] { color: map-get($val, "link"); }
-    }
-    .text-#{$key} {
-        color: map-get($val, "bg")!important;
-    }
+  .bg-#{$key} {
+    background-color: map-get($val, "bg")!important;
+    color: map-get($val, "txt");
+    a[href] { color: map-get($val, "link"); }
+  }
+  .text-#{$key} {
+    color: map-get($val, "bg")!important;
+  }
 }

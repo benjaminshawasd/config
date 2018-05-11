@@ -1,11 +1,11 @@
 abbr, dfn {
-    border-bottom: 1px dotted map-get($neutral-palette, "8");
-    font-style: normal;
+  border-bottom: 1px dotted map-get($neutral-palette, "8");
+  font-style: normal;
 }
 
 ins, u {
 	text-decoration: none;
-    border-bottom: 1px solid map-get($neutral-palette, "8");
+  border-bottom: 1px solid map-get($neutral-palette, "8");
 }
 
 em, i, q, var {
@@ -13,24 +13,24 @@ em, i, q, var {
 }
 
 kbd, mark, .mark {
-    padding: 1px 4px 2px;
+  padding: 1px 4px 2px;
 }
 
 mark, .mark {
-    background: map-get($neutral-palette, "0")100;
-    color: map-get($neutral-palette, "10");
+  background: map-get($neutral-palette, "0")100;
+  color: map-get($neutral-palette, "10");
 }
 
 code, kbd, pre, samp {
-    font-family: Consolas,"Courier New",Courier,monospace;
-    font-size: 1em;
-    background: transparent;
-    color: map-get($neutral-palette, "10");
+  font-family: Consolas,"Courier New",Courier,monospace;
+  font-size: 1em;
+  background: transparent;
+  color: map-get($neutral-palette, "10");
 }
 
 kbd {
-    background: map-get($neutral-palette, "8");
-    color: map-get($neutral-palette, "0");
+  background: map-get($neutral-palette, "8");
+  color: map-get($neutral-palette, "0");
 }
 
 strong {

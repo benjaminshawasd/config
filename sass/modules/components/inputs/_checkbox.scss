@@ -1,88 +1,88 @@
 input[type="checkbox"] {
-    @extend %hide-radio-checkbox;
-    + label {
-        @extend %base-radio-checkbox-label;
-        &:before, &:after {
-            z-index: 1;
-            transition: border .25s, 
-                        background-color .25s, 
-                        width .20s .1s, 
-                        height .20s .1s, 
-                        top .20s .1s, 
-                        left .20s .1s;
-        }
-        &:after { // color
-            height: 20px;
-            width: 20px; 
-        }
-        &:before { // arrow
-            border-width: 1px;
-            transform: (rotateZ(40deg));
-            transform-origin: (100% 100%);
-        }
-
+  @extend %hide-radio-checkbox;
+  + label {
+    @extend %base-radio-checkbox-label;
+    &:before, &:after {
+      z-index: 1;
+      transition: border .25s,
+            background-color .25s,
+            width .20s .1s,
+            height .20s .1s,
+            top .20s .1s,
+            left .20s .1s;
     }
+    &:after { // color
+      height: 20px;
+      width: 20px;
+    }
+    &:before { // arrow
+      border-width: 1px;
+      transform: (rotateZ(40deg));
+      transform-origin: (100% 100%);
+    }
+
+  }
+
+  &:not(:checked) {
+    + label:before {
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      left: 6px;
+      top: 10px;
+    }
+    + label:after {
+      background-color: transparent;
+      z-index: 0;
+    }
+  }
+
+  &:checked {
+    + label:before {
+      top: 0;
+      width: 8px;
+      height: 16px;
+      border-color: transparent white white transparent;
+    }
+    + label:after {
+      border-color: map-get(map-get($colors-palette, "primary"), "bg");
+      background-color: map-get(map-get($colors-palette, "primary"), "bg");
+      z-index: 0;
+    }
+  }
+
+  &:hover + label:after {
+    border-color: map-get($neutral-palette, "8");
+  }
+  &:focus + label:after {
+    border-style: dashed;
+    border-color: map-get($neutral-palette, "10");
+  }
+
+  &:disabled {
+
+    + label { cursor: not-allowed!important; }
 
     &:not(:checked) {
-        + label:before {
-            width: 0;
-            height: 0;
-            border-color: transparent;
-            left: 6px;
-            top: 10px;
-        }
-        + label:after {
-            background-color: transparent;
-            z-index: 0;
-        }
+      + label:before {
+        background-color: transparent;
+        border-color: map-get($neutral-palette, "6");
+      }
+      + label:after {
+        border-color: transparent;
+        background-color: map-get($neutral-palette, "6");
+      }
     }
-
     &:checked {
-        + label:before {
-            top: 0;
-            width: 8px;
-            height: 16px;
-            border-color: transparent white white transparent;
-        }
-        + label:after {
-            border-color: map-get(map-get($colors-palette, "primary"), "bg");
-            background-color: map-get(map-get($colors-palette, "primary"), "bg");
-            z-index: 0;
-        }
+      + label:before {
+        background-color: transparent;
+      }
+      + label:after {
+        background-color: map-get($neutral-palette, "6");
+        border-color: map-get($neutral-palette, "6");
+      }
     }
 
-    &:hover + label:after {
-        border-color: map-get($neutral-palette, "8");
-    }
-    &:focus + label:after {
-        border-style: dashed;
-        border-color: map-get($neutral-palette, "10");
-    }
-
-    &:disabled {
-
-        + label { cursor: not-allowed!important; }
-
-        &:not(:checked) {
-            + label:before {
-                background-color: transparent;
-                border-color: map-get($neutral-palette, "6");    
-            }
-            + label:after {
-                border-color: transparent;
-                background-color: map-get($neutral-palette, "6");
-            }
-        }
-        &:checked {
-            + label:before {
-                background-color: transparent;
-            }
-            + label:after {
-                background-color: map-get($neutral-palette, "6");
-                border-color: map-get($neutral-palette, "6");
-            }
-        }
-
-    }
+  }
 
 }

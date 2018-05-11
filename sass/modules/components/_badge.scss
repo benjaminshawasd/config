@@ -1,19 +1,19 @@
 .badge {
 
-    padding: 0.3em 0.4em 0.37em 0.4em;
-    line-height: 1.125rem;
-    min-height: 1.125rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 0;
-    box-shadow: none;
+  padding: 0.3em 0.4em 0.37em 0.4em;
+  line-height: 1.125rem;
+  min-height: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: none;
 
-    @each $key, $val in $colors-palette {
-        &.badge-#{$key} {
-            color: map-get($val, "txt")!important;
-            background-color: map-get($val, "bg");
-        }
+  @each $key, $val in $colors-palette {
+    &.badge-#{$key} {
+      color: map-get($val, "txt")!important;
+      background-color: map-get($val, "bg");
     }
+  }
 
 }

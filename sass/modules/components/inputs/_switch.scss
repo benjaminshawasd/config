@@ -1,68 +1,68 @@
 .switch {
 
-    position:relative;
-    display: inline-block;
+  position:relative;
+  display: inline-block;
 
-    input[type='checkbox'] {
-        @extend %hide-radio-checkbox;
+  input[type='checkbox'] {
+    @extend %hide-radio-checkbox;
 
-        + label {
-            position: relative;
-            display: inline-block;
-            vertical-align: middle;
-            margin: 0;
-            width: 44px;
-            height: 20px;
-            transition: background-color .25s ease-in-out;
-            border-width: 1px;
-            border-style: solid;
-            border-color: map-get($neutral-palette, "10");
-            border-radius: 20px;
-            &::after { display: none; }
-            &::before {
-                content: '';
-                transform: none;
-                display: block;
-                position: absolute;
-                left: 2px;
-                top: 0;
-                transition: all .25s ease-in-out;
-                width: 16px;
-                height: 16px;
-                border-radius: 50%;
-                background-color: map-get($neutral-palette, "10");
-            }
-            
-        }
-
-        &:checked + label {
-            background-color: map-get(map-get($colors-palette, "primary"), "bg");
-            border-color: map-get(map-get($colors-palette, "primary"), "bg");
-            &::before {
-                background-color: map-get($neutral-palette, "0");
-                left: 24px;
-            }
-        }
-
-        &:checked:disabled + label {
-            opacity: .6;
-        }
-
-        &:disabled:not(:checked) + label {
-            background-color: map-get($neutral-palette, "6");
-            border-color: map-get($neutral-palette, "6");
-            &::before {
-                background-color: map-get($neutral-palette, "2");;
-                border-color: map-get($neutral-palette, "2");;
-            }
-        }
+    + label {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+      width: 44px;
+      height: 20px;
+      transition: background-color .25s ease-in-out;
+      border-width: 1px;
+      border-style: solid;
+      border-color: map-get($neutral-palette, "10");
+      border-radius: 20px;
+      &::after { display: none; }
+      &::before {
+        content: '';
+        transform: none;
+        display: block;
+        position: absolute;
+        left: 2px;
+        top: 0;
+        transition: all .25s ease-in-out;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: map-get($neutral-palette, "10");
+      }
 
     }
 
-    + span {
-        vertical-align: middle;
-        display: inline-block
+    &:checked + label {
+      background-color: map-get(map-get($colors-palette, "primary"), "bg");
+      border-color: map-get(map-get($colors-palette, "primary"), "bg");
+      &::before {
+        background-color: map-get($neutral-palette, "0");
+        left: 24px;
+      }
     }
+
+    &:checked:disabled + label {
+      opacity: .6;
+    }
+
+    &:disabled:not(:checked) + label {
+      background-color: map-get($neutral-palette, "6");
+      border-color: map-get($neutral-palette, "6");
+      &::before {
+        background-color: map-get($neutral-palette, "2");;
+        border-color: map-get($neutral-palette, "2");;
+      }
+    }
+
+  }
+
+  + span {
+    vertical-align: middle;
+    display: inline-block
+  }
 
 
 
