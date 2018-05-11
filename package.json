@@ -1,6 +1,6 @@
 {
   "name": "fluent-kit",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A library introducing Fluent Design to the Web, built on top of the most popular frameworks to keep the development process as simple as possible.",
   "homepage": "https://nespero.com/fluent/jquery/",
   "keywords": [

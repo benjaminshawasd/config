@@ -5,6 +5,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and, most of the time (but not always, exceptions being: [1.1.0] so far), this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## 1.1.2 - 2018-05-11
+### Added
+- Code standards: _.editorconfig_ file as per Bootstrap
+
+### Changed
+- Indentation to 2 spaces (from 4) as per Bootstrap (@mdo) code guideliness
+
+### Removed
+- Unused gulp dev dependencies: rename, csso and add-src
+
 ## 1.1.1 - 2018-04-29
 ### Added
 - missing perfect-scrollbar js
@@ -43,7 +53,7 @@ and, most of the time (but not always, exceptions being: [1.1.0] so far), this p
 
 ## 1.0.2 - 2018-04-11
 ### Added
-- Fluent modals: moves all the positioning and sizing styles to the `.fluent-modal` CSS class namespace; . 
+- Fluent modals: moves all the positioning and sizing styles to the `.fluent-modal` CSS class namespace; .
 - `@import` Bootstrap functions, variables and mixins when building fluent-kit.min.css
 
 ### Changed
@@ -51,7 +61,7 @@ and, most of the time (but not always, exceptions being: [1.1.0] so far), this p
 
 ## 1.0.1 - 2018-03-25
 ### Added
-- .gitignore 
+- .gitignore
 - Specific nav item size for small devices
 
 ### Changed
