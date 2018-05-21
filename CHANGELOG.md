@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and, most of the time (but not always, exceptions being: [1.1.0] so far), this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## 1.1.3 - 2018-05-21
+### Fixed
+- scss micon variable usage for hamburger icon
+
 ## 1.1.2 - 2018-05-11
 ### Added
 - Code standards: _.editorconfig_ file as per Bootstrap
