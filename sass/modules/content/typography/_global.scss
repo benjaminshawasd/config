@@ -10,11 +10,14 @@ body {
 
 a {
   color: map-get($link-colors, "color");
-  &.cta {
-    letter-spacing: .075em;
-    text-overflow: clip;
-  }
+  &.cta { letter-spacing: .075em; }
   &:active, &:hover { outline: none; };
   &:focus, &:active, &:hover { color: map-get($link-colors, "action");}
   .mi { font-size: .8rem; }
+}
+
+.cta {
+  text-overflow: clip;
+  & > .mi { transition: all .2s ease-in-out; }
+  &:hover .mi { transform: translateX(30%); }
 }
