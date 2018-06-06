@@ -1,46 +1,42 @@
 .btn {
+  height: 2rem;
+  padding: .8125rem .75rem;
   margin-top: .8rem;
-  &:not(.mi) { min-width: 8rem; }
-  max-width: 25rem;
-  display: inline-block;
-  padding: .6rem .8rem .67rem;
   overflow: hidden;
-  line-height: 1;
-  font-size: 1rem;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: bottom;
-  transition: scale .2s ease-in-out, background-color .3s ease-in-out, outline .3s .1s ease-in-out;
-  border-radius: 0;
-  border-style: solid;
-  border-width: 1px;
-  border-color: transparent;
-  cursor: pointer;
+  font-size: .869rem;
+  line-height: 0;
   color: map-get($neutral-palette, "0");
-  box-shadow: none!important;
+  vertical-align: bottom;
+  border-width: 2px;
+  border-radius: 2px;
+  transition: all 0.15s ease-in-out;
 
-  &:active, &:hover, &:focus {
-    color: map-get($neutral-palette, "0");
-    border-color: transparent;
-    box-shadow: none!important;
+  &:focus,
+  &.focus {
+    border-color: map-get($neutral-palette, "10");
+    box-shadow: none;
   }
 
-  &:focus {
-    &:not(.mi) {
-      text-decoration: underline;
-    }
-
-    box-shadow: none!important;
+  &:hover {
+    filter: brightness(125%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
-  &:active {
-    transform: scale(.98);
-  }
+  &:active,
+  &.active { filter: brightness(85%); }
+
+  &:active { transform: scale(.985); }
 
   &:disabled {
-
     cursor: not-allowed;
     border: none;
+    filter: brightness(85%);
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    box-shadow: none;
+    &:focus { box-shadow: none; }
   }
 
   &.btn-block {
@@ -50,41 +46,67 @@
   }
 
   &.btn-sm {
-    min-width: 3rem;
-    max-width: 20rem;
-    display: inline-block;
-    padding: .3rem .4rem .33rem;
+    height: 1.5rem;
+    min-width: 0;
+    padding: .2rem 1rem;
+    font-size: .8rem;
   }
 
-  &.btn-md {
-    min-width: 8rem;
-    max-width: 25rem;
-    display: inline-block;
-    padding: .6rem .8rem .67rem;
-  }
+  &.btn-md { min-width: 7.5rem; }
 
   &.btn-lg {
-    max-width: 35rem;
-    display: inline-block;
-    padding: 1.2rem 1.6rem 1.34rem;
+    height: 3rem;
+    min-width: 9rem;
+    font-size: 1.05rem;
   }
+  & > * { line-height: 0; }
+
+  &[class*='btn-outline-'] { background: transparent; }
+  &.btn-rounded { border-radius: 2em; }
+
+  .mi { font-size: .65rem; }
 
 }
+
+a.btn:hover,
+a.btn:focus { color: inherit; }
 
 @each $name, $value in $colors-palette {
 
   .btn-#{$name} {
     background-color: map-get($value, 'bg');
-    color: map-get($value, 'txt')!important;
+    border-color: map-get($value, 'bg');
+    color: map-get($value, 'txt');
+
     &:hover,
     &:focus {
-      background-color: darken(map-get($value, 'bg'), 5%) !important;
+      background-color: map-get($value, 'bg');
       color: map-get($value, 'txt');
     }
-    &:disabled {
-      background-color: lighten(map-get($value, 'bg'), 5%) !important;
+
+    &:hover { border-color: map-get($value, 'bg'); }
+
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active,
+    .show > &.dropdown-toggle {
+      color: map-get($value, 'txt');
+      background-color: map-get($value, 'bg');
+      border-color: map-get($value, 'bg');
+
+      &:focus { box-shadow: none; }
     }
-    &.active { background-color: darken(map-get($value, 'bg'), 15%) !important; }
+  }
+
+  .btn-outline-#{$name} {
+    color: map-get($value, 'bg');
+    border-color: map-get($value, 'bg');
+
+    &:hover {
+      color: map-get($value, 'txt');
+      background-color: map-get($value, 'bg');
+      border-color: map-get($value, 'bg');
+    }
+
   }
 
 }
