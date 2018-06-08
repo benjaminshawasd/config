@@ -1,0 +1,66 @@
+{
+  "name": "Nespero/fluent-kit",
+  "description": "A library introducing Fluent Design to the Web, built on top of the most popular frameworks to keep the development process as simple as possible.",
+  "keywords": [
+     "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web",
+    "bootstrap",
+    "html kit",
+    "html css template",
+    "web template",
+    "bootstrap",
+    "css3 template",
+    "frontend",
+    "responsive bootstrap template",
+    "bootstrap 4 ui kit",
+    "premium bootstrap kit",
+    "responsive ui kit",
+    "fluent-design",
+    "fluent"
+  ],
+  "homepage": "https://nespero.com/",
+  "authors": [
+    {
+      "name": "Nespero",
+      "email": "nesperoteam@gmail.com",
+      "homepage": "https://nespero.com/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/nespero/fluent-kit/issues",
+    "docs": "https://github.com/nespero/fluent/jquery/docs/",
+    "email": "nesperoteam@gmail.com"
+  },
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Nespero/fluent-kit.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://gitlab.com/Nespero/fluent-kit.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://nespero.git.beanstalkapp.com/fluent-kit.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://nespero@git.code.sf.net/p/fluent-kit/code fluent-kit-code"
+    },
+    {
+      "type": "vcs",
+      "url": "git clone https://nesperoteam@bitbucket.org/nespero/fluent-kit.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://git.launchpad.net/fluent-kit"
+    }
+  ]
+}
