@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and, most of the time (but not always, exceptions being: [1.1.0] so far), this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## 1.2.1 - 2018-06-12
+### Added
+- `./html` directory with all the freebies available for simplicity
+
+### Removed
+- `index.html` from the package root (it is in the `./html/` now)
+
 ## 1.2.0 - 2018-06-06
 ### Changed
 - Whole buttons design, based on Fluent Design examples on the web
@@ -13,7 +20,6 @@ and, most of the time (but not always, exceptions being: [1.1.0] so far), this p
 ### Added
 - On `:hover` translates nested `.mi` in x-asis
 
-## [Unreleased]
 ## 1.1.3 - 2018-05-21
 ### Fixed
 - scss micon variable usage for hamburger icon
