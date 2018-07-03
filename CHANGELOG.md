@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and, most of the time (but not always, exceptions being: [1.1.0] so far), this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-## 1.3.1 - 2018-07-03
+## 1.3.0 - 2018-07-03
 ### Added
 - Basic Fluent Design colors to borders utilities
 
