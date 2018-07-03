@@ -1,0 +1,5 @@
+@each $color, $value in $colors-palette {
+  .border-#{$color} {
+    border-color: map-get($value, "bg") !important;
+  }
+}
